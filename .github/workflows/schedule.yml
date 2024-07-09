@@ -1,4 +1,4 @@
-name: Schedule Scoring V2
+name: Schedule Auction
 
 on:
   workflow_dispatch:
