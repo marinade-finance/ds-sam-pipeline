@@ -17,6 +17,8 @@ jobs:
 #          fetch-depth: 20
       - name: Install pnpm
         uses: pnpm/action-setup@v4
+        with:
+          version: 9
       - name: Check epoch timing
         run: |
           epoch_info=$(curl -sfLS "http://api.mainnet-beta.solana.com" -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","id":1, "method":"getEpochInfo"}')
