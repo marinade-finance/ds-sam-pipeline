@@ -10,7 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
-        uses: actions/checkout
+        uses: actions/checkout@v4
+        with:
+          ref: testing
 #        with:
 #          fetch-depth: 20
       - name: Install pnpm
