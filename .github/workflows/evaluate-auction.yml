@@ -45,6 +45,7 @@ jobs:
           epoch=${{ inputs.epoch }}
           slot=${{ inputs.slot }}
           run_id="$epoch.$slot"
+          pnpm i
           echo "Running auction: $run_id"
-          cd ds-sam
+          cd ds-sam/packages/ds-sam-sdk
           pnpm test
