@@ -48,4 +48,7 @@ jobs:
           pnpm i
           echo "Running auction: $run_id"
           cd ds-sam/packages/ds-sam-sdk
+          ls -lah
           pnpm test
+          cd -
+          ls -lah
