@@ -27,6 +27,7 @@ jobs:
         with:
           repository: marinade-finance/ds-sam
           fetch-depth: 10
+          ref: init
 #          token: ${{ secrets.DS_SAM_ACCESS_TOKEN }}
           path: ds-sam
       - name: Setup NodeJS
@@ -45,4 +46,5 @@ jobs:
           slot=${{ inputs.slot }}
           run_id="$epoch.$slot"
           echo "Running auction: $run_id"
+          cd ds-sam
           pnpm test
