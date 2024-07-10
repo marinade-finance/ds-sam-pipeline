@@ -38,6 +38,8 @@ jobs:
           version: 9
       - name: Run the auction and prepare results
         run: |
+          ls -lah
+          ls -lah ds-sam
           epoch=${{ inputs.epoch }}
           slot=${{ inputs.slot }}
           run_id="$epoch.$slot"
