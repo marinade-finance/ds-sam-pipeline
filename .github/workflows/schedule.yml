@@ -20,6 +20,8 @@ jobs:
         with:
           version: 9
       - name: Check epoch timing
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           epoch_info=$(curl -sfLS "http://api.mainnet-beta.solana.com" -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","id":1, "method":"getEpochInfo"}')
           current_epoch=$(<<<"$epoch_info" jq '.result.epoch' -r)
