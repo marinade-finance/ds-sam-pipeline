@@ -57,5 +57,5 @@ jobs:
           echo "Running auction: $run_id"
           pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" -o "$results_dir" > /dev/null
           cd ..
-          ls -lah
-          ls -lahR "auctions/$run_id"
+          git status
+          git diff
