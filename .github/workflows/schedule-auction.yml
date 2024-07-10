@@ -5,11 +5,11 @@ on:
 #  schedule:
 #    - cron: '50 0/1 * * *'
 jobs:
-  trigger_ds_sam_if_needed:
-    name: Schedule DS SAM
+  trigger_auction_if_needed:
+    name: Check scheduling and trigger auction if needed
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout the repository
+      - name: Checkout this repository
         uses: actions/checkout@v4
         with:
           ref: testing
@@ -52,4 +52,4 @@ jobs:
           fi
 
           echo "Triggering the auction pipeline..."
-          #gh workflow run todo.yml
+          gh workflow run evaluate-auction.yml -f epoch=$current_epoch -f slot=$current_slot

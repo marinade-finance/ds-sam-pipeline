@@ -1,0 +1,45 @@
+name: Evaluate Auction
+
+on:
+  workflow_dispatch:
+    inputs:
+      epoch:
+        description: 'Current epoch'
+        required: true
+        type: number
+      slot:
+        description: 'Current slot in epoch'
+        required: true
+        type: number
+
+jobs:
+  auction:
+    name: Run the auction
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          ref: testing
+      - name: Checkout DS SAM
+        uses: actions/checkout@v4
+        with:
+          repository: marinade-finance/ds-sam
+#          token: ${{ secrets.DS_SAM_ACCESS_TOKEN }}
+          path: ds-sam
+      - name: Setup NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - name: Run the auction and prepare results
+        run: |
+          epoch=${{ inputs.epoch }}
+          slot=${{ inputs.slot }}
+          run_id="$epoch.$slot"
+          echo "Running auction: $run_id"
+          pnpm test
