@@ -22,11 +22,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: testing
-          fetch-depth: 10
       - name: Checkout DS SAM
         uses: actions/checkout@v4
         with:
           repository: marinade-finance/ds-sam
+          fetch-depth: 10
 #          token: ${{ secrets.DS_SAM_ACCESS_TOKEN }}
           path: ds-sam
       - name: Setup NodeJS
