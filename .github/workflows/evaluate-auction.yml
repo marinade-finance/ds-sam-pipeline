@@ -40,16 +40,22 @@ jobs:
           version: 9
       - name: Run the auction and prepare results
         run: |
-          ls -lah
-          ls -lah ds-sam
-          epoch=${{ inputs.epoch }}
-          slot=${{ inputs.slot }}
-          run_id="$epoch.$slot"
+          run_id="${{ inputs.epoch }}.${{ inputs.slot }}"
+          mkdir auctions/$run_id
+
+          inputs_dir="$PWD/auctions/$run_id/inputs"
+          results_dir="$PWD/auctions/$run_id/results"
+          mkdir "$inputs_dir"
+          mkdir "$results_dir"
+          cp auction-config.json "$inputs_dir/config.json"
+
           cd ds-sam
-          pnpm i
+          pnpm i --frozen-lockfile
           cd packages/ds-sam-sdk
-          ls -lah
+          pnpm build
+          cd ../..
           echo "Running auction: $run_id"
-          pnpm test
-          cd ../../..
+          pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" -o "$results_dir" > /dev/null
+          cd ..
           ls -lah
+          ls -lahR "auctions/$run_id"
