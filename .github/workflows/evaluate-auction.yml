@@ -41,6 +41,7 @@ jobs:
       - name: Run the auction and prepare results
         run: |
           run_id="${{ inputs.epoch }}.${{ inputs.slot }}"
+          echo "run_id=$run_id" >> $GITHUB_ENV
           mkdir auctions/$run_id
 
           inputs_dir="$PWD/auctions/$run_id/inputs"
@@ -57,5 +58,23 @@ jobs:
           echo "Running auction: $run_id"
           pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" -o "$results_dir" > /dev/null
           cd ..
+      - name: Create a PR
+        run: |
+          run_id="${{ env.run_id }}"
+          branch_name="auction/$run_id"
+
           git status
           git diff
+          git config --global user.name 'Autonomous Auction Pipeline'
+          git config --global user.email 'bot@noreply.marinade.finance'
+          git checkout -b "$branch_name"
+          git add auctions
+          git status
+          git diff
+
+#          [[ -n "$(git status --porcelain)" ]] && git commit -m "scoring run $scoring_id" && git push -u origin "$scoring_branch" || echo "No changes to be committed"
+#
+#          pr_url=$(gh pr create -B master -H "$scoring_branch" --title "Publish V2 Scoring Results ($scoring_id)" --body-file "${{ env.scoring_path }}/summary.md")
+#          echo "pr_url=$pr_url" >> $GITHUB_ENV
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
