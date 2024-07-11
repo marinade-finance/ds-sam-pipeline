@@ -16,7 +16,6 @@ jobs:
   auction:
     name: Run the auction
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout this repository
         uses: actions/checkout@v4
@@ -28,7 +27,6 @@ jobs:
           repository: marinade-finance/ds-sam
           fetch-depth: 10
           ref: init
-#          token: ${{ secrets.DS_SAM_ACCESS_TOKEN }}
           path: ds-sam
       - name: Setup NodeJS
         uses: actions/setup-node@v4
@@ -70,11 +68,9 @@ jobs:
           git config --global user.email 'bot@noreply.marinade.finance'
           git checkout -b "$branch_name"
           git add auctions
-          echo "Testing exit on error"
-          ((1 == 2))
+          git status
 
           echo "Creating a PR..."
-          git status
           git commit -m "auction run $run_id"
           git push -u origin "$branch_name"
           pr_url=$(gh pr create -B testing -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md")
@@ -82,3 +78,21 @@ jobs:
           echo "pr_url=$pr_url" >> $GITHUB_ENV
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Send Discord notification
+        run: |
+          run_id="${{ env.run_id }}"
+          pr_url="${{ env.pr_url }}"
+
+          echo "Sending Discord notification..."
+          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+            "embeds": [
+              {
+                "title": "[TESTING] Auction PR ('"$run_id"') prepared",
+                "url": "'"$pr_url"'",
+                "color": "5661687"
+              }
+            ]
+          }'
+          echo "Discord notification sent"
+        env:
+          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
