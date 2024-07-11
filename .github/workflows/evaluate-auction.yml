@@ -75,7 +75,7 @@ jobs:
           git status
           git commit -m "auction run $run_id"
           git push -u origin "$branch_name"
-          pr_url=$(gh pr create -B main -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md")
+          pr_url=$(gh pr create -B testing -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md")
           echo "PR created: $pr_url"
           echo "pr_url=$pr_url" >> $GITHUB_ENV
         env:
