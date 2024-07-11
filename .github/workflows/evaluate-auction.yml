@@ -69,14 +69,14 @@ jobs:
           git config --global user.name 'Autonomous Auction Pipeline'
           git config --global user.email 'bot@noreply.marinade.finance'
           git checkout -b "$branch_name"
-          # git add auctions
+          git add auctions
 
           echo "Creating a PR..."
           git status
           git commit -m "auction run $run_id"
-          echo "PR created: TODO"
-#          git push -u origin "$branch_name"
-#          pr_url=$(gh pr create -B main -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md")
-#          echo "pr_url=$pr_url" >> $GITHUB_ENV
+          git push -u origin "$branch_name"
+          pr_url=$(gh pr create -B main -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md")
+          echo "PR created: $pr_url"
+          echo "pr_url=$pr_url" >> $GITHUB_ENV
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
