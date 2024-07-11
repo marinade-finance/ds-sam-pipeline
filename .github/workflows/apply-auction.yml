@@ -20,16 +20,13 @@ jobs:
         run: |
           set -ex
           git fetch --all
-          echo "======= 1"
           git log -1 --name-only
-          echo "======= 2"
-          git log -1 --name-only --pretty=format: --grep 'Publish Auction Results'
-          echo "======= 3"
-          results_path=$(git log -1 --name-only --pretty=format: --grep 'Publish Auction Results' | grep results.json)
+          git log -1 --name-only --pretty=format: --grep 'auction run'
+          results_path=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep results.json)
           echo $results_path
-#          params_json=$(git log -1 --name-only --pretty=format: --grep 'Publish Auction Results' | grep params.json | grep scoring-v2)
+#          params_json=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep params.json | grep scoring-v2)
 #
-#          scoring_run_ui_id=$(git log -1 --name-only --pretty=format: --grep 'Publish Auction Results' | grep scoring-v2 |  head -6 | tail -1 | awk -F / '{print $2}')
+#          scoring_run_ui_id=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep scoring-v2 |  head -6 | tail -1 | awk -F / '{print $2}')
 #          epoch=$(<<<"$scoring_run_ui_id" awk -F . '{print $1}')
 #
 #          weightVoteCredits=$(jq '.weightVoteCredits' $params_json)
