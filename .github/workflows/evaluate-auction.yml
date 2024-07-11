@@ -70,6 +70,8 @@ jobs:
           git config --global user.email 'bot@noreply.marinade.finance'
           git checkout -b "$branch_name"
           git add auctions
+          echo "Testing exit on error"
+          ((1 == 2))
 
           echo "Creating a PR..."
           git status
