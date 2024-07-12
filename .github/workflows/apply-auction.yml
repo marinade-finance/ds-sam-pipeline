@@ -58,6 +58,11 @@ jobs:
           EOF
           echo "$KEYPAIR" > /tmp/id.json
       - name: Update scores - simulation
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: marinade.finance/validator-manager
+          SCORES_FILE: ${{ env.scores_file }}
+          IMAGE_TAG: ${{ env.image_tag }}
         run: |
           docker run --rm --user "$(id -u):$(id -g)" \
             -v /tmp/solana-config.yml:/.config/solana/cli/config.yml \
@@ -65,53 +70,77 @@ jobs:
             -v "$SCORES_FILE:/scores.csv" \
             "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
             ./validator-manager -s --print-only update-scores2 --scores-file /scores.csv
+          false
+      - name: Update scores
+        if: false #todo
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           ECR_REPOSITORY: marinade.finance/validator-manager
-          SCORES_FILE: ${{ env.scores_file }}
+          SCORES_CSV: ${{ env.scores_file }}
           IMAGE_TAG: ${{ env.image_tag }}
-#      - name: Update scores
-#        run: |
-#          set +e
-#          for i in {1..20}
-#          do
-#            docker run --rm --user "$(id -u):$(id -g)" \
-#              -v /tmp/solana-config.yml:/.config/solana/cli/config.yml \
-#              -v /tmp/id.json:/.config/solana/id.json \
-#              -v "$(realpath "$SCORES_CSV"):/scores.csv" \
-#              "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
-#              ./validator-manager update-scores2 --scores-file /scores.csv
-#
-#            status=$?
-#              if [[ $status -eq 0 ]]; then
-#                  break
-#              else
-#                  sleep 15
-#              fi
-#          done
-#          exit $status
-#        env:
-#          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-#          ECR_REPOSITORY: marinade.finance/validator-manager
-#          SCORES_CSV: ${{ env.scores_csv }}
-#          IMAGE_TAG: ${{ env.image_tag }}
-#      - name: Publish scoring results
-#        run: |
-#          curl -sLfS "https://scoring.marinade.finance/api/v1/scores/upload?epoch=${{ env.epoch }}&components=${{ env.components }}&component_weights=${{ env.components_weights }}&ui_id=${{ env.scoring_run_ui_id }}" -X POST \
-#            -H "Authorization: Bearer ${{ secrets.VALIDATORS_API_ADMIN_TOKEN }}" \
-#            -F "scores=@${{ env.scores_csv }}"
-#
-#      - name: Send Discord Notification
-#        run: |
-#          curl "$DISCORD_WEBHOOK" -H "Content-Type: application/json" -d '{
-#              "username": "DS Scoring",
-#              "avatar_url": "https://public.marinade.finance/ds-scoring-bot.png",
-#              "embeds": [
-#                  {
-#                      "title": "Scoring successfully applied.",
-#                      "color": "52224"
-#                  }
-#              ]
-#          }'
-#        env:
-#          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          set +e
+          for i in {1..20}
+          do
+            docker run --rm --user "$(id -u):$(id -g)" \
+              -v /tmp/solana-config.yml:/.config/solana/cli/config.yml \
+              -v /tmp/id.json:/.config/solana/id.json \
+              -v "$SCORES_FILE:/scores.csv" \
+              "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
+              ./validator-manager update-scores2 --scores-file /scores.csv
+
+            status=$?
+              if [[ $status -eq 0 ]]; then
+                  break
+              else
+                  sleep 15
+              fi
+          done
+          exit $status
+      - name: Publish scoring results
+        run: |
+          echo 'TODO: Publish scoring results...'
+      - name: Send Discord Notification
+        run: |
+          curl "$DISCORD_WEBHOOK" -H "Content-Type: application/json" -d '{
+              "username": "DS Scoring",
+              "avatar_url": "https://public.marinade.finance/ds-scoring-bot.png",
+              "embeds": [
+                  {
+                      "title": "Scoring successfully applied.",
+                      "color": "52224"
+                  }
+              ]
+          }'
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      - name: Notify success
+        if: success()
+        env:
+          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
+        run: |
+          echo "Sending Discord success notification..."
+          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+            "embeds": [
+              {
+                "title": "[TESTING] Auction successfully applied",
+                "color": "52224"
+              }
+            ]
+          }'
+          echo "Discord success notification sent"
+      - name: Notify failure
+        if: failure()
+        env:
+          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
+        run: |
+          echo "Sending Discord failure notification..."
+          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+            "embeds": [
+              {
+                "title": "[TESTING] Failed to apply auction",
+                "color": "15539236"
+              }
+            ]
+          }'
+          echo "Discord failure notification sent"
