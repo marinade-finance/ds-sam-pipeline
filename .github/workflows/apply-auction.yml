@@ -24,8 +24,10 @@ jobs:
           results_file=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep results.json)
           echo "Results file path: '$results_file'"
 
-          echo 'vote_account,target_stake' > scores.csv
-          jq -r '.auctionData.validators[] | [.voteAccount, .auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol] | @csv' "$results_file" >> scores.csv
+          scores_file="$PWD/scores.csv"
+          echo "scores_file=$scores_file" >> $GITHUB_ENV
+          echo 'vote_account,target_stake' > "$scores_file"
+          jq -r '.auctionData.validators[] | [.voteAccount, .auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol] | @csv' "$results_file" >> "$scores_file"
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -54,21 +56,20 @@ jobs:
           commitment: confirmed
           EOF
           echo "$KEYPAIR" > /tmp/id.json
-#      - name: Run scoring - simulation
-#        run: |
-#          docker run --rm --user "$(id -u):$(id -g)" \
-#            -v /tmp/solana-config.yml:/.config/solana/cli/config.yml \
-#            -v /tmp/id.json:/.config/solana/id.json \
-#            -v "$(realpath "$SCORES_CSV"):/scores.csv" \
-#            "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
-#            ./validator-manager -s --print-only update-scores2 --scores-file /scores.csv
-#        env:
-#          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-#          ECR_REPOSITORY: marinade.finance/validator-manager
-#          SCORES_CSV: ${{ env.scores_csv }}
-#          IMAGE_TAG: ${{ env.image_tag }}
-#
-#      - name: Run scoring
+      - name: Update scores - simulation
+        run: |
+          docker run --rm --user "$(id -u):$(id -g)" \
+            -v /tmp/solana-config.yml:/.config/solana/cli/config.yml \
+            -v /tmp/id.json:/.config/solana/id.json \
+            -v "$SCORES_FILE:/scores.csv" \
+            "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
+            ./validator-manager -s --print-only update-scores2 --scores-file /scores.csv
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: marinade.finance/validator-manager
+          SCORES_FILE: ${{ env.scores_file }}
+          IMAGE_TAG: ${{ env.image_tag }}
+#      - name: Update scores
 #        run: |
 #          set +e
 #          for i in {1..20}
@@ -93,7 +94,6 @@ jobs:
 #          ECR_REPOSITORY: marinade.finance/validator-manager
 #          SCORES_CSV: ${{ env.scores_csv }}
 #          IMAGE_TAG: ${{ env.image_tag }}
-#
 #      - name: Publish scoring results
 #        run: |
 #          curl -sLfS "https://scoring.marinade.finance/api/v1/scores/upload?epoch=${{ env.epoch }}&components=${{ env.components }}&component_weights=${{ env.components_weights }}&ui_id=${{ env.scoring_run_ui_id }}" -X POST \
