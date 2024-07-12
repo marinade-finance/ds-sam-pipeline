@@ -28,7 +28,7 @@ jobs:
           echo "scores_file=$scores_file" >> $GITHUB_ENV
           # Dummy rank and max_commission columns for validator-manager compatibility
           echo 'vote_account,rank,max_commission,target_stake' > "$scores_file"
-          jq -r '.auctionData.validators[] | [.voteAccount, 0, 0, .auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol] | @csv' "$results_file" >> "$scores_file"
+          jq -r '.auctionData.validators[] | [.voteAccount, 0, 0, (.auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol | round)] | @csv' "$results_file" >> "$scores_file"
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
