@@ -49,4 +49,4 @@ jobs:
           fi
 
           echo "Triggering the auction pipeline..."
-          gh workflow run evaluate-auction-rename.yml -f epoch=$current_epoch -f slot=$current_slot
+          gh workflow run evaluate-auction.yml -f epoch=$current_epoch -f slot=$current_slot
