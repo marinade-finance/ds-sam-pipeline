@@ -79,13 +79,13 @@ jobs:
           echo "PR created: $pr_url"
           echo "pr_url=$pr_url" >> $GITHUB_ENV
       - name: Notify success
-        if: success()
+        if: false #todo success()
         run: |
           run_id="${{ env.run_id }}"
           pr_url="${{ env.pr_url }}"
 
-          echo "Sending Discord failure notification..."
-          false && curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+          echo "Sending Discord success notification..."
+          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
             "embeds": [
               {
                 "title": "[TESTING] Auction PR ('"$run_id"') prepared",
@@ -94,14 +94,14 @@ jobs:
               }
             ]
           }'
-          echo "Discord failure notification sent"
+          echo "Discord success notification sent"
         env:
           DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
       - name: Notify failure
         if: failure()
         run: |
           echo "Sending Discord failure notification..."
-          false && curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
             "embeds": [
               {
                 "title": "[TESTING] Auction PR preparation failed",
