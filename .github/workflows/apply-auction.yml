@@ -35,6 +35,12 @@ jobs:
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
+      - name: Configure image
+        run: |
+          images=$(aws ecr describe-images --repository-name marinade.finance/validator-manager)
+          latest=$(<<<"$images" jq '.imageDetails[] | .imagePushedAt + " " + .imageTags[0]' -r | sort | tail -1 | cut -d' ' -f2)
+          echo "image_tag=$latest" >> $GITHUB_ENV
+          echo "image tag: '$latest'"
       - name: Prepare solana config
         env:
           RPC_URL: ${{ secrets.RPC_URL }}
@@ -49,12 +55,6 @@ jobs:
           commitment: confirmed
           EOF
           echo "$KEYPAIR" > /tmp/id.json
-      - name: Configure image
-        run: |
-          images=$(aws ecr describe-images --repository-name marinade.finance/validator-manager)
-          latest=$(<<<"$images" jq '.imageDetails[] | .imagePushedAt + " " + .imageTags[0]' -r | sort | tail -1 | cut -d' ' -f2)
-          echo "image_tag=$latest" >> $GITHUB_ENV
-          echo "image tag: '$latest'"
 #      - name: Run scoring - simulation
 #        run: |
 #          docker run --rm --user "$(id -u):$(id -g)" \
