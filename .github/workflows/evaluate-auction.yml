@@ -48,7 +48,6 @@ jobs:
           mkdir "$inputs_dir"
           mkdir "$outputs_dir"
           cp auction-config.json "$inputs_dir/config.json"
-          false
 
           cd ds-sam
           pnpm i --frozen-lockfile
@@ -80,6 +79,8 @@ jobs:
           echo "pr_url=$pr_url" >> $GITHUB_ENV
       - name: Notify success
         if: false #todo success()
+        env:
+          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
         run: |
           run_id="${{ env.run_id }}"
           pr_url="${{ env.pr_url }}"
@@ -95,20 +96,18 @@ jobs:
             ]
           }'
           echo "Discord success notification sent"
-        env:
-          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
       - name: Notify failure
         if: failure()
+        env:
+          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
         run: |
           echo "Sending Discord failure notification..."
           curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
             "embeds": [
               {
-                "title": "[TESTING] Auction PR preparation failed",
+                "title": "[TESTING] Auction PR preparation failed!",
                 "color": "15539236"
               }
             ]
           }'
           echo "Discord failure notification sent"
-        env:
-          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}

@@ -21,86 +21,41 @@ jobs:
         run: |
           git status
           git log -1 --name-only --pretty=format: --grep 'auction run'
-          results_path=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep results.json)
-          echo "Results file path: '$results_path'"
+          results_file=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep results.json)
+          echo "Results file path: '$results_file'"
 
           echo 'vote_account,target_stake' > scores.csv
           false
-          jq -r '.auctionData.validators[] | [.voteAccount, .auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol] | @csv' "$results_path" >> scores.csv
-          head -10 scores.csv
-          tail -10 scores.csv
-      - name: Dummy step
+          jq -r '.auctionData.validators[] | [.voteAccount, .auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol] | @csv' "$results_file" >> scores.csv
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v1
+      - name: Prepare solana config
+        env:
+          RPC_URL: ${{ secrets.RPC_URL }}
+          KEYPAIR: ${{ secrets.VALIDATOR_MANAGEMENT_KEYPAIR }}
         run: |
-          echo "Dummy step running"
-#          scoring_run_ui_id=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep scoring-v2 |  head -6 | tail -1 | awk -F / '{print $2}')
-#          epoch=$(<<<"$scoring_run_ui_id" awk -F . '{print $1}')
-#
-#          weightVoteCredits=$(jq '.weightVoteCredits' $params_json)
-#          weightInflationCommission=$(jq '.weightInflationCommission' $params_json)
-#          weightMEVCommission=$(jq '.weightMEVCommission' $params_json)
-#          weightStakeConcentrationCity=$(jq '.weightStakeConcentrationCity' $params_json)
-#          weightStakeConcentrationASO=$(jq '.weightStakeConcentrationASO' $params_json)
-#          weightStakeConcentrationNode=$(jq '.weightStakeConcentrationNode' $params_json)
-#          weightStakeConcentrationCountry=$(jq '.weightStakeConcentrationCountry' $params_json)
-#          weightBlockProduction=$(jq '.weightBlockProduction' $params_json)
-#
-#          if [[ -z $scores_csv ]]
-#          then
-#            echo "Failed to find CSV with scores in the PR!"
-#            exit 1
-#          fi
-#
-#          if [[ -z $scoring_run_ui_id ]]
-#          then
-#            echo "Failed to detect scoring run UI ID from the PR!"
-#            exit 1
-#          fi
-#
-#          if [[ -z $epoch ]]
-#          then
-#            echo "Failed to detect epoch from the UI ID!"
-#            exit 1
-#          fi
-#
-#          echo "scores_csv=$scores_csv" >> $GITHUB_ENV
-#          echo "scoring_run_ui_id=$scoring_run_ui_id" >> $GITHUB_ENV
-#          echo "epoch=$epoch" >> $GITHUB_ENV
-#          echo "components=CREDITS,BLOCK_PRODUCTION,INFLATION_COMMISSION,MEV_COMMISSION,DC_COUNTRY_CONCENTRATION,DC_CITY_CONCENTRATION,DC_ASO_CONCENTRATION,DC_NODE_CONCENTRATION" >> $GITHUB_ENV
-#          echo "components_weights=$weightVoteCredits,$weightBlockProduction,$weightInflationCommission,$weightMEVCommission,$weightStakeConcentrationCountry,$weightStakeConcentrationCity,$weightStakeConcentrationASO,$weightStakeConcentrationNode" >> $GITHUB_ENV
-#
-#      - name: Configure AWS credentials
-#        uses: aws-actions/configure-aws-credentials@v1
-#        with:
-#          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-#          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-#          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
-#
-#      - name: Login to Amazon ECR
-#        id: login-ecr
-#        uses: aws-actions/amazon-ecr-login@v1
-#
-#      - name: Prepare solana config
-#        run: |
-#          cat <<EOF > /tmp/solana-config.yml
-#          json_rpc_url: "$RPC_URL"
-#          websocket_url: ""
-#          keypair_path: /.config/solana/id.json
-#          address_labels:
-#            "11111111111111111111111111111111": System Program
-#          commitment: confirmed
-#          EOF
-#          echo "$KEYPAIR" > /tmp/id.json
-#
-#        env:
-#          RPC_URL: ${{ secrets.RPC_URL }}
-#          KEYPAIR: ${{ secrets.VALIDATOR_MANAGEMENT_KEYPAIR }}
-#
-#      - name: Configure image
-#        run: |
-#          images=$(aws ecr describe-images --repository-name marinade.finance/validator-manager)
-#          latest=$(<<<"$images" jq '.imageDetails[] | .imagePushedAt + " " + .imageTags[0]' -r | sort | tail -1 | cut -d' ' -f2)
-#          echo "latest=$latest" >> $GITHUB_ENV
-#
+          cat <<EOF > /tmp/solana-config.yml
+          json_rpc_url: "$RPC_URL"
+          websocket_url: ""
+          keypair_path: /.config/solana/id.json
+          address_labels:
+            "11111111111111111111111111111111": System Program
+          commitment: confirmed
+          EOF
+          echo "$KEYPAIR" > /tmp/id.json
+      - name: Configure image
+        run: |
+          images=$(aws ecr describe-images --repository-name marinade.finance/validator-manager)
+          latest=$(<<<"$images" jq '.imageDetails[] | .imagePushedAt + " " + .imageTags[0]' -r | sort | tail -1 | cut -d' ' -f2)
+          echo "image_tag=$latest" >> $GITHUB_ENV
+          echo "image tag: '$latest'"
 #      - name: Run scoring - simulation
 #        run: |
 #          docker run --rm --user "$(id -u):$(id -g)" \
@@ -113,7 +68,7 @@ jobs:
 #          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
 #          ECR_REPOSITORY: marinade.finance/validator-manager
 #          SCORES_CSV: ${{ env.scores_csv }}
-#          IMAGE_TAG: ${{ env.latest }}
+#          IMAGE_TAG: ${{ env.image_tag }}
 #
 #      - name: Run scoring
 #        run: |
@@ -139,7 +94,7 @@ jobs:
 #          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
 #          ECR_REPOSITORY: marinade.finance/validator-manager
 #          SCORES_CSV: ${{ env.scores_csv }}
-#          IMAGE_TAG: ${{ env.latest }}
+#          IMAGE_TAG: ${{ env.image_tag }}
 #
 #      - name: Publish scoring results
 #        run: |
@@ -161,107 +116,3 @@ jobs:
 #          }'
 #        env:
 #          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-  # Temporary disable and apply them manually
-  # early_unstake:
-  #   needs: apply_scoring_v2
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout the repository
-  #       uses: actions/checkout@master
-  #       with:
-  #         fetch-depth: 20
-
-  #     - name: Load scoring details
-  #       run: |
-  #         set -ex
-  #         unstake_hints_json=$(git log -1 --name-only --pretty=format: --grep 'scoring run' | grep unstake-hints.json)
-  #         scoring_run_ui_id=$(git log -1 --name-only --pretty=format: --grep 'scoring run' | grep scoring-v2 | head -6 | tail -1 | awk -F / '{print $2}')
-  #         epoch=$(<<<"$scoring_run_ui_id" awk -F . '{print $1}')
-
-  #         if [[ -z $unstake_hints_json ]]
-  #         then
-  #           echo "Failed to find JSON with unstake hints in the PR!"
-  #           exit 1
-  #         fi
-
-  #         if [[ -z $epoch ]]
-  #         then
-  #           echo "Failed to detect epoch from the UI ID!"
-  #           exit 1
-  #         fi
-
-  #         echo "unstake_hints_json=$unstake_hints_json" >> $GITHUB_ENV
-  #         echo "epoch=$epoch" >> $GITHUB_ENV
-
-  #     - name: Configure AWS credentials
-  #       uses: aws-actions/configure-aws-credentials@v1
-  #       with:
-  #         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  #         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  #         aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
-
-  #     - name: Login to Amazon ECR
-  #       id: login-ecr
-  #       uses: aws-actions/amazon-ecr-login@v1
-
-  #     - name: Prepare solana config
-  #       run: |
-  #         cat <<EOF > /tmp/solana-config.yml
-  #         json_rpc_url: "$RPC_URL"
-  #         websocket_url: ""
-  #         keypair_path: /.config/solana/id.json
-  #         address_labels:
-  #           "11111111111111111111111111111111": System Program
-  #         commitment: confirmed
-  #         EOF
-  #         echo "$KEYPAIR" > /tmp/id.json
-
-  #       env:
-  #         RPC_URL: ${{ secrets.RPC_URL }}
-  #         KEYPAIR: ${{ secrets.VALIDATOR_MANAGEMENT_KEYPAIR }}
-
-  #     - name: Configure image
-  #       run: |
-  #         images=$(aws ecr describe-images --repository-name marinade.finance/validator-manager)
-  #         latest=$(<<<"$images" jq '.imageDetails[] | .imagePushedAt + " " + .imageTags[0]' -r | sort | tail -1 | cut -d' ' -f2)
-  #         echo "latest=$latest" >> $GITHUB_ENV
-
-  #     - name: Early unstake V2 - simulation
-  #       run: |
-  #         <"$UNSTAKE_HINTS_JSON" jq '.unstake_hints[].vote_account' -r | xargs -I{} \
-  #           docker run --rm --user "$(id -u):$(id -g)" \
-  #             -v /tmp/solana-config.yml:/.config/solana/cli/config.yml \
-  #             -v /tmp/id.json:/.config/solana/id.json \
-  #             "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
-  #             ./validator-manager -s --print-only emergency-unstake {}
-  #       env:
-  #         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-  #         ECR_REPOSITORY: marinade.finance/validator-manager
-  #         UNSTAKE_HINTS_JSON: ${{ env.unstake_hints_json }}
-  #         IMAGE_TAG: ${{ env.latest }}
-
-  #     - name: Send Discord Notification
-  #       run: |
-  #         validators_count=$(<"$UNSTAKE_HINTS_JSON" jq '[.unstake_hints[].marinade_stake] | length' -r)
-  #         unstaked_sol=$(<"$UNSTAKE_HINTS_JSON" jq '[.unstake_hints[].marinade_stake] | add' -r)
-
-  #         message="Early unstake successfully applied. ($validators_count validators, $unstaked_sol SOL)"
-
-  #         if (( $validators_count == 0 ))
-  #         then
-  #           message="No emergency unstakes needed this time."
-  #         fi
-
-  #         curl "$DISCORD_WEBHOOK" -H "Content-Type: application/json" -d '{
-  #             "username": "Delegation Strategy - Early Unstake V2",
-  #             "avatar_url": "https://public.marinade.finance/ds-emergency-bot.png",
-  #             "embeds": [
-  #                 {
-  #                     "title": "'"$message"'",
-  #                     "color": "52224"
-  #                 }
-  #             ]
-  #         }'
-  #       env:
-  #         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-  #         UNSTAKE_HINTS_JSON: ${{ env.unstake_hints_json }}
