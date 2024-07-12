@@ -1,0 +1,21 @@
+{
+  "validatorsApiBaseUrl": "https://validators-api.marinade.finance",
+  "mevInfoApiBaseUrl": "https://kobe.mainnet.jito.network",
+  "bondsApiBaseUrl": "https://validator-bonds-api.marinade.finance",
+  "tvlInfoApiBaseUrl": "https://api.marinade.finance",
+  "blacklistApiBaseUrl": "https://raw.githubusercontent.com/marinade-finance/delegation-strategy-2/master",
+  "snapshotsApiBaseUrl": "https://snapshots-api.marinade.finance",
+
+  "rewardsEpochsCount": 10,
+  "validatorsUptimeEpochsCount": 3,
+  "validatorsUptimeThresholdDec": 0.8,
+  "validatorsClientVersionSemverExpr": "*",
+  "validatorsMaxEffectiveCommissionDec": 0.07,
+
+  "mndeDirectedStakeShareDec": 0.1,
+  "maxMarinadeStakeConcentrationPerCountryDec": 0.3,
+  "maxMarinadeStakeConcentrationPerAsoDec": 0.2,
+  "maxNetworkStakeConcentrationPerCountryDec": 0.3,
+  "maxNetworkStakeConcentrationPerAsoDec": 0.2,
+  "maxMarinadeTvlSharePerValidatorDec": 0.02
+}
