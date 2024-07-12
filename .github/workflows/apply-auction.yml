@@ -71,7 +71,7 @@ jobs:
             "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
             ./validator-manager -s --print-only update-scores2 --scores-file /scores.csv
       - name: Update scores
-        if: false #todo
+        if: false #todo remove to enable non-simulated update-scores2
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           ECR_REPOSITORY: marinade.finance/validator-manager

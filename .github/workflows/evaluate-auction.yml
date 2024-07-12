@@ -78,7 +78,7 @@ jobs:
           echo "PR created: $pr_url"
           echo "pr_url=$pr_url" >> $GITHUB_ENV
       - name: Notify success
-        if: false #todo success()
+        if: success()
         env:
           DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
         run: |
