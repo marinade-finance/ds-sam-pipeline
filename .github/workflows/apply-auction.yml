@@ -17,6 +17,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Load scoring details
         run: |
+          git --version
           echo "Status 1"
           git status
           git pull
@@ -27,6 +28,7 @@ jobs:
           results_path=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep results.json)
           echo "Results file path: $results_path"
 
+          git log -5
           echo 'vote_account, target_stake' > scores.csv
           jq -r '.auctionData.validators[] | [.voteAccount, .auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol] | @csv' "$results_path" >> scores.csv
           head -50 scores.csv
