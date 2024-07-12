@@ -12,11 +12,7 @@ jobs:
       - name: Checkout this repository
         uses: actions/checkout@v4
         with:
-          ref: testing
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
+          ref: testing #todo
       - name: Check scheduling and trigger auction if needed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

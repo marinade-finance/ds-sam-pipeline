@@ -8,14 +8,15 @@ on:
       - testing #todo
 
 jobs:
-  apply_scoring_v2:
+  apply_auction:
+    name: Apply auction results
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'auction/'))
     steps:
       - name: Checkout this repository
         uses: actions/checkout@v4
         with:
-          ref: testing
+          ref: testing #todo
       - name: Load scoring details
         run: |
           set -ex
@@ -24,6 +25,10 @@ jobs:
           git log -1 --name-only --pretty=format: --grep 'auction run'
           results_path=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep results.json)
           echo $results_path
+
+          echo 'vote_account, target_stake' > scores.csv
+          jq -r '.auctionData.validators[] | [.voteAccount, .auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol] | @csv' >> scores.csv
+          head -50 scores.csv
 #          params_json=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep params.json | grep scoring-v2)
 #
 #          scoring_run_ui_id=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep scoring-v2 |  head -6 | tail -1 | awk -F / '{print $2}')
