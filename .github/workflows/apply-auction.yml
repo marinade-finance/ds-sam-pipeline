@@ -25,7 +25,6 @@ jobs:
           echo "Results file path: '$results_file'"
 
           echo 'vote_account,target_stake' > scores.csv
-          false
           jq -r '.auctionData.validators[] | [.voteAccount, .auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol] | @csv' "$results_file" >> scores.csv
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
