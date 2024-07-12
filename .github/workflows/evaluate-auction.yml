@@ -83,15 +83,15 @@ jobs:
           pr_url="${{ env.pr_url }}"
 
           echo "Sending Discord notification..."
-#          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
-#            "embeds": [
-#              {
-#                "title": "[TESTING] Auction PR ('"$run_id"') prepared",
-#                "url": "'"$pr_url"'",
-#                "color": "5661687"
-#              }
-#            ]
-#          }'
+          false && curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+            "embeds": [
+              {
+                "title": "[TESTING] Auction PR ('"$run_id"') prepared",
+                "url": "'"$pr_url"'",
+                "color": "5661687"
+              }
+            ]
+          }'
           echo "Discord notification sent"
         env:
           DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
