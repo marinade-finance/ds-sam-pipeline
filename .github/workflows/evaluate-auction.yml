@@ -48,6 +48,7 @@ jobs:
           mkdir "$inputs_dir"
           mkdir "$outputs_dir"
           cp auction-config.json "$inputs_dir/config.json"
+          false
 
           cd ds-sam
           pnpm i --frozen-lockfile
@@ -77,12 +78,13 @@ jobs:
           pr_url=$(gh pr create -B testing -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md") #todo testing branch
           echo "PR created: $pr_url"
           echo "pr_url=$pr_url" >> $GITHUB_ENV
-      - name: Send Discord notification
+      - name: Notify success
+        if: success()
         run: |
           run_id="${{ env.run_id }}"
           pr_url="${{ env.pr_url }}"
 
-          echo "Sending Discord notification..."
+          echo "Sending Discord failure notification..."
           false && curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
             "embeds": [
               {
@@ -92,6 +94,22 @@ jobs:
               }
             ]
           }'
-          echo "Discord notification sent"
+          echo "Discord failure notification sent"
+        env:
+          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
+      - name: Notify failure
+        if: failure()
+        run: |
+          echo "Sending Discord failure notification..."
+          false && curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+            "embeds": [
+              {
+                "title": "[TESTING] Auction PR preparation failed",
+                "url": "'"$pr_url"'",
+                "color": "15539236"
+              }
+            ]
+          }'
+          echo "Discord failure notification sent"
         env:
           DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
