@@ -20,7 +20,7 @@ jobs:
       - name: Checkout this repository
         uses: actions/checkout@v4
         with:
-          ref: testing
+          ref: testing #todo
       - name: Checkout DS SAM
         uses: actions/checkout@v4
         with:
@@ -73,6 +73,7 @@ jobs:
           echo "Creating a PR..."
           git commit -m "auction run $run_id"
           git push -u origin "$branch_name"
+#todo testing branch
           pr_url=$(gh pr create -B testing -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md")
           echo "PR created: $pr_url"
           echo "pr_url=$pr_url" >> $GITHUB_ENV
@@ -84,15 +85,15 @@ jobs:
           pr_url="${{ env.pr_url }}"
 
           echo "Sending Discord notification..."
-          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
-            "embeds": [
-              {
-                "title": "[TESTING] Auction PR ('"$run_id"') prepared",
-                "url": "'"$pr_url"'",
-                "color": "5661687"
-              }
-            ]
-          }'
+#          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+#            "embeds": [
+#              {
+#                "title": "[TESTING] Auction PR ('"$run_id"') prepared",
+#                "url": "'"$pr_url"'",
+#                "color": "5661687"
+#              }
+#            ]
+#          }'
           echo "Discord notification sent"
         env:
           DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
