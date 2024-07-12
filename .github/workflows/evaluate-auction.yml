@@ -105,7 +105,6 @@ jobs:
             "embeds": [
               {
                 "title": "[TESTING] Auction PR preparation failed",
-                "url": "'"$pr_url"'",
                 "color": "15539236"
               }
             ]
