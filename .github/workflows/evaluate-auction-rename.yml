@@ -58,6 +58,8 @@ jobs:
           pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" -o "$outputs_dir" > /dev/null
           cd ..
       - name: Create a PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           run_id="${{ env.run_id }}"
           branch_name="auction/$run_id"
@@ -75,8 +77,6 @@ jobs:
           pr_url=$(gh pr create -B testing -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md") #todo testing branch
           echo "PR created: $pr_url"
           echo "pr_url=$pr_url" >> $GITHUB_ENV
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Send Discord notification
         run: |
           run_id="${{ env.run_id }}"
