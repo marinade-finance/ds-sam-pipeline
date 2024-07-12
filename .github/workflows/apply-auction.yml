@@ -25,6 +25,7 @@ jobs:
           echo "Results file path: '$results_path'"
 
           echo 'vote_account,target_stake' > scores.csv
+          false
           jq -r '.auctionData.validators[] | [.voteAccount, .auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol] | @csv' "$results_path" >> scores.csv
           head -10 scores.csv
           tail -10 scores.csv
