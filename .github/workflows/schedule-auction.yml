@@ -14,6 +14,7 @@ jobs:
         with:
           ref: testing #todo
       - name: Check scheduling and trigger auction if needed
+        if: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
