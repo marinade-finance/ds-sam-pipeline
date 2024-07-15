@@ -1,6 +1,5 @@
 {
   "validatorsApiBaseUrl": "https://validators-api.marinade.finance",
-  "mevInfoApiBaseUrl": "https://kobe.mainnet.jito.network",
   "bondsApiBaseUrl": "https://validator-bonds-api.marinade.finance",
   "tvlInfoApiBaseUrl": "https://api.marinade.finance",
   "blacklistApiBaseUrl": "https://raw.githubusercontent.com/marinade-finance/delegation-strategy-2/master",
