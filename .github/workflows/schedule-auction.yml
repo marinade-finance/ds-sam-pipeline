@@ -1,0 +1,53 @@
+name: Schedule Auction
+
+on:
+  workflow_dispatch:
+#todo
+#  schedule:
+#    - cron: '50 0/1 * * *'
+jobs:
+  trigger_auction_if_needed:
+    name: Check scheduling and trigger auction if needed
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          ref: testing #todo
+      - name: Check scheduling and trigger auction if needed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ls -lah
+          epoch_info=$(curl -sfLS "http://api.mainnet-beta.solana.com" -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","id":1, "method":"getEpochInfo"}')
+          current_epoch=$(<<<"$epoch_info" jq '.result.epoch' -r)
+          current_slot=$(<<<"$epoch_info" jq '.result.slotIndex' -r)
+
+          last_epoch_repo=$(find results -type d | sort -n | tail -1 | cut -d/ -f2 | cut -d. -f1)
+          last_epoch_pr=$(gh pr list --state open --json headRefName,isCrossRepository --jq '.[] | select(.isCrossRepository == false) | .headRefName' | grep auction/ | sort -n | tail -1 | cut -d/ -f2| cut -d. -f1)
+
+          echo "Epoch of the last auction in repo: $last_epoch_repo"
+          echo "Epoch of the last auction in PR: $last_epoch_pr"
+          echo "Current epoch: $current_epoch"
+          echo "Current slot: $current_slot"
+
+          if (( current_slot < 10000 ))
+          then
+            echo "Too early in the epoch!"
+            exit 0
+          fi
+
+          if [[ -n $last_epoch_repo ]] && [[ $last_epoch_repo == "$current_epoch" ]]
+          then
+            echo "Auction already run and merged!"
+            exit 0
+          fi
+
+          if [[ -n $last_epoch_pr ]] && [[ $last_epoch_pr == "$current_epoch" ]]
+          then
+            echo "Auction already in PR!"
+            exit 0
+          fi
+
+          echo "Triggering the auction pipeline..."
+          gh workflow run evaluate-auction.yml -f epoch=$current_epoch -f slot=$current_slot

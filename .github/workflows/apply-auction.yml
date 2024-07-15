@@ -1,0 +1,131 @@
+name: Apply Auction
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [closed]
+    branches:
+      - testing #todo
+
+jobs:
+  apply_auction:
+    name: Apply auction results
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'auction/'))
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 10
+      - name: Prepare data
+        run: |
+          git status
+          git log -1 --name-only --pretty=format: --grep 'auction run'
+          results_file=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep results.json)
+          echo "Results file path: '$results_file'"
+
+          scores_file="$PWD/scores.csv"
+          echo "scores_file=$scores_file" >> $GITHUB_ENV
+          # Dummy rank and max_commission columns (and stake rounding) for validator-manager compatibility
+          echo 'vote_account,rank,max_commission,target_stake' > "$scores_file"
+          jq -r '.auctionData.validators[] | [.voteAccount, 0, 0, (.auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol | round)] | @csv' "$results_file" >> "$scores_file"
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Configure image
+        run: |
+          images=$(aws ecr describe-images --repository-name marinade.finance/validator-manager)
+          latest=$(<<<"$images" jq '.imageDetails[] | .imagePushedAt + " " + .imageTags[0]' -r | sort | tail -1 | cut -d' ' -f2)
+          echo "image_tag=$latest" >> $GITHUB_ENV
+      - name: Prepare solana config
+        env:
+          RPC_URL: ${{ secrets.RPC_URL }}
+          KEYPAIR: ${{ secrets.VALIDATOR_MANAGEMENT_KEYPAIR }}
+        run: |
+          cat <<EOF > /tmp/solana-config.yml
+          json_rpc_url: "$RPC_URL"
+          websocket_url: ""
+          keypair_path: /.config/solana/id.json
+          address_labels:
+            "11111111111111111111111111111111": System Program
+          commitment: confirmed
+          EOF
+          echo "$KEYPAIR" > /tmp/id.json
+      - name: Update scores - simulation
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: marinade.finance/validator-manager
+          SCORES_FILE: ${{ env.scores_file }}
+          IMAGE_TAG: ${{ env.image_tag }}
+        run: |
+          docker run --rm --user "$(id -u):$(id -g)" \
+            -v /tmp/solana-config.yml:/.config/solana/cli/config.yml \
+            -v /tmp/id.json:/.config/solana/id.json \
+            -v "$SCORES_FILE:/scores.csv" \
+            "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
+            ./validator-manager -s --print-only update-scores2 --scores-file /scores.csv
+      - name: Update scores
+        if: false #todo remove to enable non-simulated update-scores2
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: marinade.finance/validator-manager
+          SCORES_CSV: ${{ env.scores_file }}
+          IMAGE_TAG: ${{ env.image_tag }}
+        run: |
+          set +e
+          for i in {1..20}
+          do
+            docker run --rm --user "$(id -u):$(id -g)" \
+              -v /tmp/solana-config.yml:/.config/solana/cli/config.yml \
+              -v /tmp/id.json:/.config/solana/id.json \
+              -v "$SCORES_FILE:/scores.csv" \
+              "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
+              ./validator-manager update-scores2 --scores-file /scores.csv
+
+            status=$?
+              if [[ $status -eq 0 ]]; then
+                  break
+              else
+                  sleep 15
+              fi
+          done
+          exit $status
+      - name: Publish scoring results
+        run: |
+          echo 'TODO: Publish scoring results...'
+      - name: Notify success
+        if: success()
+        env:
+          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
+        run: |
+          echo "Sending Discord success notification..."
+          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+            "embeds": [
+              {
+                "title": "[TESTING] Auction successfully applied",
+                "color": "52224"
+              }
+            ]
+          }'
+          echo "Discord success notification sent"
+      - name: Notify failure
+        if: failure()
+        env:
+          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
+        run: |
+          echo "Sending Discord failure notification..."
+          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+            "embeds": [
+              {
+                "title": "[TESTING] Failed to apply auction",
+                "color": "15539236"
+              }
+            ]
+          }'
+          echo "Discord failure notification sent"
