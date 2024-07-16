@@ -2,7 +2,7 @@ name: Schedule Auction
 
 on:
   workflow_dispatch:
-#todo
+#todo uncomment to enable scheduling
 #  schedule:
 #    - cron: '50 0/1 * * *'
 jobs:
@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: Checkout this repository
         uses: actions/checkout@v4
-        with:
-          ref: testing #todo
       - name: Check scheduling and trigger auction if needed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -19,13 +19,10 @@ jobs:
     steps:
       - name: Checkout this repository
         uses: actions/checkout@v4
-        with:
-          ref: testing #todo
       - name: Checkout DS SAM
         uses: actions/checkout@v4
         with:
           repository: marinade-finance/ds-sam
-          ref: init #todo
           path: ds-sam
       - name: Setup NodeJS
         uses: actions/setup-node@v4
@@ -74,7 +71,7 @@ jobs:
           echo "Creating a PR..."
           git commit -m "auction run $run_id"
           git push -u origin "$branch_name"
-          pr_url=$(gh pr create -B testing -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md") #todo testing branch
+          pr_url=$(gh pr create -B main -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md")
           echo "PR created: $pr_url"
           echo "pr_url=$pr_url" >> $GITHUB_ENV
       - name: Notify success
@@ -89,7 +86,7 @@ jobs:
           curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
             "embeds": [
               {
-                "title": "[TESTING] Auction PR ('"$run_id"') prepared",
+                "title": "Auction PR ('"$run_id"') prepared",
                 "url": "'"$pr_url"'",
                 "color": "5661687"
               }
@@ -105,7 +102,7 @@ jobs:
           curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
             "embeds": [
               {
-                "title": "[TESTING] Auction PR preparation failed!",
+                "title": "Auction PR preparation failed!",
                 "color": "15539236"
               }
             ]

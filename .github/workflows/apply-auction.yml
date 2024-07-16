@@ -5,7 +5,7 @@ on:
   pull_request:
     types: [closed]
     branches:
-      - testing #todo
+      - main
 
 jobs:
   apply_auction:
@@ -108,7 +108,7 @@ jobs:
           curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
             "embeds": [
               {
-                "title": "[TESTING] Auction successfully applied",
+                "title": "Auction successfully applied",
                 "color": "52224"
               }
             ]
@@ -123,7 +123,7 @@ jobs:
           curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
             "embeds": [
               {
-                "title": "[TESTING] Failed to apply auction",
+                "title": "Failed to apply auction",
                 "color": "15539236"
               }
             ]
