@@ -7,5 +7,5 @@ Automated pipeline to run auctions and apply the results regularly
 3. Prepare an empty local directory for storing the outputs (`{OUTPUTS_DIR}`)
 4. Run `pnpm install` to install dependencies
 5. Run `pnpm -r build` to build the package
-6. Run `pnpm run cli -- auction --inputs-source FILES --cache-dir-path {INPUTS_DIR} -o {OUTPUTS_DIR}` to evaluate the auction
+6. Run `pnpm run cli -- auction -c {INPUTS_DIR}/config.json --inputs-source FILES --cache-dir-path {INPUTS_DIR} -o {OUTPUTS_DIR}` to evaluate the auction
 7. Get the results of the auction from `{OUTPUTS_DIR}`
