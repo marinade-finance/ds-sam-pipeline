@@ -1,0 +1,110 @@
+name: Evaluate Auction
+
+on:
+  workflow_dispatch:
+    inputs:
+      epoch:
+        description: 'Current epoch'
+        required: true
+        type: number
+      slot:
+        description: 'Current slot in epoch'
+        required: true
+        type: number
+
+jobs:
+  auction:
+    name: Run the auction
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+      - name: Checkout DS SAM
+        uses: actions/checkout@v4
+        with:
+          repository: marinade-finance/ds-sam
+          path: ds-sam
+      - name: Setup NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - name: Run the auction
+        run: |
+          run_id="${{ inputs.epoch }}.${{ inputs.slot }}"
+          echo "run_id=$run_id" >> $GITHUB_ENV
+          mkdir auctions/$run_id
+
+          inputs_dir="$PWD/auctions/$run_id/inputs"
+          outputs_dir="$PWD/auctions/$run_id/outputs"
+          echo "inputs_dir=$inputs_dir" >> $GITHUB_ENV
+          echo "outputs_dir=$outputs_dir" >> $GITHUB_ENV
+          mkdir "$inputs_dir"
+          mkdir "$outputs_dir"
+          cp auction-config.json "$inputs_dir/config.json"
+
+          pushd ds-sam
+          pnpm i --frozen-lockfile
+          pushd packages/ds-sam-sdk
+          pnpm build
+          popd
+          echo "Running auction: $run_id"
+          pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" -o "$outputs_dir" > /dev/null
+          popd
+      - name: Create a PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          run_id="${{ env.run_id }}"
+          branch_name="auction/$run_id"
+          outputs_dir="${{ env.outputs_dir }}"
+
+          git config --global user.name 'Autonomous Auction Pipeline'
+          git config --global user.email 'bot@noreply.marinade.finance'
+          git checkout -b "$branch_name"
+          git add auctions
+          git status
+
+          echo "Creating a PR..."
+          git commit -m "auction run $run_id"
+          git push -u origin "$branch_name"
+          pr_url=$(gh pr create -B main -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md")
+          echo "PR created: $pr_url"
+          echo "pr_url=$pr_url" >> $GITHUB_ENV
+      - name: Notify success
+        if: success()
+        env:
+          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
+        run: |
+          run_id="${{ env.run_id }}"
+          pr_url="${{ env.pr_url }}"
+
+          echo "Sending Discord success notification..."
+          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+            "embeds": [
+              {
+                "title": "Auction PR ('"$run_id"') prepared",
+                "url": "'"$pr_url"'",
+                "color": "5661687"
+              }
+            ]
+          }'
+          echo "Discord success notification sent"
+      - name: Notify failure
+        if: failure()
+        env:
+          DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
+        run: |
+          echo "Sending Discord failure notification..."
+          curl "$DISCORD_AUCTION_WEBHOOK_URL" -H "Content-Type: application/json" -d '{
+            "embeds": [
+              {
+                "title": "Auction PR preparation failed!",
+                "color": "15539236"
+              }
+            ]
+          }'
+          echo "Discord failure notification sent"
