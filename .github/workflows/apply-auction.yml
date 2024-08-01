@@ -98,7 +98,16 @@ jobs:
           exit $status
       - name: Publish scoring results
         run: |
-          echo 'TODO: Publish scoring results...'
+          results_file=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep results.json)
+          config_file=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep config.json)
+          mnde_votes_file=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep mnde-votes.json)
+          scoring_run_id=$(git log -1 --name-only --pretty=format: --grep 'auction run' |  head -1 | awk -F / '{print $2}')
+          epoch=$(<<<"$scoring_run_id" awk -F . '{print $1}')
+          curl -v -sLfS "https://scoring.marinade.finance/api/v1/scores/sam/upload?epoch=${{ epoch }}&scoringId=${{ scoring_run_id }}" -X POST \
+                      -H "Authorization: Bearer ${{ secrets.VALIDATORS_API_ADMIN_TOKEN }}" \
+                      -F "scores=@${{ results_file }}" \
+                      -F "config=@${{ config_file }}" \
+                      -F "mndeVotes=@${{ mnde_votes_file }}"
       - name: Notify success
         if: success()
         env:
