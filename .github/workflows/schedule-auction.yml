@@ -2,9 +2,8 @@ name: Schedule Auction
 
 on:
   workflow_dispatch:
-#todo uncomment to enable scheduling
-#  schedule:
-#    - cron: '50 0/1 * * *'
+  schedule:
+    - cron: '50 0/1 * * *'
 jobs:
   trigger_auction_if_needed:
     name: Check scheduling and trigger auction if needed
