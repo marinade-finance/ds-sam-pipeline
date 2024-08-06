@@ -69,7 +69,7 @@ jobs:
             -v /tmp/id.json:/.config/solana/id.json \
             -v "$SCORES_FILE:/scores.csv" \
             "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
-            ./validator-manager -s --print-only update-scores2 --scores-file /scores.csv
+            ./validator-manager -s --print update-scores2 --scores-file /scores.csv
       - name: Update scores
         if: false #todo remove to enable non-simulated update-scores2
         env:
