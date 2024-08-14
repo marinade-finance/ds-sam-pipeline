@@ -74,7 +74,7 @@ jobs:
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           ECR_REPOSITORY: marinade.finance/validator-manager
-          SCORES_CSV: ${{ env.scores_file }}
+          SCORES_FILE: ${{ env.scores_file }}
           IMAGE_TAG: ${{ env.image_tag }}
         run: |
           set +e
