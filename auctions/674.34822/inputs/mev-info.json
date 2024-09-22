@@ -1,0 +1,5619 @@
+{
+  "validators": [
+    {
+      "vote_account": "11BPTRia5mJKh9JfS6fRwL7VKQNViqrbvZ8XrEQsB5n",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "1234LB7uvDC23rdCQoK8C3jNwnovUNyeKxz8wC3dghJ5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "137Hw29uc3HsYkz1YtdG8AheS3a55UKiaAfBWSn28vxA",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "13Yq17i7dGknpzHB4L77QB1AMcfAvkE1c3D1MKJnj8zT",
+      "mev_commission_bps": 1000,
+      "epoch": 670
+    },
+    {
+      "vote_account": "14YCghb1uYPreALx6arirtPAnoGghoPH2Ac6gCmNQdq7",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "1bB6Z9iaL1TM4VTo54B5w1FgCXFDbbtVkVJu4VbiNNc",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "1Dadio3JRvpEjY6iSmXmhbGy9RiU8Nxh2GmoVbNusbE",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "1eufsJbqNgMProke17FLSw7JrD97fYhGggrnH9zyWnG",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "1KXz4xKV2viJCGpxqnQqdf2J45vQr5USdmtcJLTaHkm",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "21wUViiyG1g47VZ39ZZsSkFX9nu6bkyfy6jryHGD2TUB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "23utbQdXgsucDPTVcaRQiTZMrKPhQ1nmg4iRNdHDNwTb",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "25rtQR4h9BQKMcU6a1DxpZjB27dwcRUAdVb9binerD9E",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "26MXTErkUfxTGJ78WKjNtVSTXHBrZEPYFY3oeuGeewz5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "27JusH756d8Wc3shn5rB7PxBW1Xwmi3CA3Qeh3KtXf3z",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "27MtjMSAQ2BGkXNuJEJkxFyCJT8dugGAaHJ9T7Gc6x4x",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "28E8jAYguhHPuuMKxQJpSmU3J75zi6iFmktYbiam8eyS",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2AWVgdBDNhUjkfvueyoL5BPBycJavMwTGC9wEtqh5QwV",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2ayMCC4aizr8RGg5ptXYqu8uoxW1whNek1hE1zaAd58z",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2BGBakG9kjmZAaygVmAuUrBSqBZt8p5FVabbStxHEXUj",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2bm3fmyLq12943jC1UePUcvFho7y1bUik8PisvsRc2yq",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2Dh9w9HuNuvmpmsfRFqWhNqQuMX8U9BAU4xyyyqzEq2h",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2DpnT6to3eJsXeg1Tk42XFCXLMKL7pGzMKFwQS5CNK6a",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2EWi8L6xp62VgTqFo3LnhoSP5sL9CWqYxvK7UA63qK9x",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2g2QU1NDRax6i2mKzRwgRfdBFoDkMC6bj7Zp5Q3i8sCq",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2Gife8andd4BkEbT5CncpriPxmQYqbspDh8cXkN6RUSH",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2het6nBRLq9LLZER8fqUEk7j5pbLxq2mVGqSse2nS3tf",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2iWXwF2Q5W6o7yntV2mkbxncB4rYHnX61y3NU8a8EFMJ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2LdPsE15gum8SDCExPHuhYz2Gx66gxaETQcUruDoavSv",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2LrSZWeyvFovnzVFpFPQE7Lxt64xs3s3Re9HLxMJtGwf",
+      "mev_commission_bps": 760,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2NxEEbhqqj1Qptq5LXLbDTP5tLa9f7PqkU8zNgxbGU9P",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2oxQJ1qpgUZU9JU84BHaoM1GzHkYfRDgDQY9dpH5mgGn",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2PEyBgsPYBQ8pMdXQtEaPGNqWQHE9GCnmV2tTVN4GMru",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2PpHNHPLseBb4doTu1ajTwAxCrjmu7ubReDHKPrjxi9F",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2Q9mEXrNcJknsDyBjsAieH8XrL4MBePEaLJwmHr3NK3L",
+      "mev_commission_bps": 300,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2QE9X9X4tdDUTYic1DgBBJjU7cWUNPbKYGerCb9KqDQN",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2qsJLygBZ2XoYkRtkngH4fH4CtFmzfnjARbtMSWkZAQs",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2tdiMkw7vc7ELX6YSQVRdEWFuwAmmYCTcvgqsCTTVRHc",
+      "mev_commission_bps": 500,
+      "epoch": 671
+    },
+    {
+      "vote_account": "2tucttroqFNXsrYeMBQ8LfzKNfgwT2rHBzAF6RzbbHEp",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2ueVedJz8CZm85wet8vxPGX2bD3VrhB9oXk46ym9rcDA",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2UuXvFqNmyxsNygvFUfjmDGMGn7pGQ61t5CUzvgczazW",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2ViVhbfV3uJb5xVBBBs4HZaoMK1M2WhHJB1sRDnp8R4o",
+      "mev_commission_bps": 500,
+      "epoch": 668
+    },
+    {
+      "vote_account": "2w4dcnbJDcGrAh4CFAYYpAaEJiUB2q1rFMGByBuB5Cqz",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2W7icpaM8pu7qShR5mxLCA64hjUx3ZTZqvx2P8C4Se6N",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2WgrQTu8QitYjqywZ6uBZBFWigMdXjR6trzd6SYNwihU",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2WKHhJ34gNkw1G8iReLXn8roPfQUjsLyzjWHspNdvbFw",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2wUhcnViyzstvWmk7NAboKtjbFbqJPo4BvFBV37dacLc",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2YnL16L174Tj8awY9FfRfR5odpGNEbLnx3dM6CRt9L81",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2YNubqM7eHLEL7JnygJYSWPq42LXYKiL5GkXfvEbZGQW",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2yruMEFWuAJ9C2jv5JyjAfgTZVGhCmv5945TUwdP17kk",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2Z3wkL3hKB9ERwcPCDXLok7ZY5SKWC6m2ExhmDRRuCEv",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2ZiMfQaT59j86HVWCvspuMtBotnVBeTc3BKk3kKpwgKP",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "2ZuVhyBsUbTh27LBCQH3BkenjPp86gUZiNBKmhPsTRpT",
+      "mev_commission_bps": 900,
+      "epoch": 672
+    },
+    {
+      "vote_account": "31BQ9aXoHU7TpJ4uQHyYGZW4JVb62LefFWW53NpeSYmB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "31XTYdLdpZh3gAEr6oKkXRhx9hiEWJwRh84jo92C5CBX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "33hurzEz6aEnzfESL6pnNyR6DCgcKzssT1pwSzDCBTRQ",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "34nZYTMHzQcrWFQ7v47t34B7AzSbJgwLVehaZxTRPQwn",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "34oGkjDsb6mRwSbvw9xZDtR9URfVpRnYjvwZecUZUsHF",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "34yvUa2fxfm2tUqxFEj9PHrVNwCcdzd51eo9hntWpZRs",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "37BPVW1Ne1XHrzK15xguAS2BTdobVfThDzTE2mv8SsnJ",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "37Fz6yZjFdZS6DDsJSsswX5kSvunaZQtQ5zusC3y9V7S",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "39xF5qkfK5HBaG4Hkq6bjumUB2k4B5ozEAmfZoobhUVw",
+      "mev_commission_bps": 900,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3a2onvgTpGynakAQwx6gigtSeL7itZewNxqb5JiAvWeA",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3aHzcWLrkY2QrcDSR3bMbFWURRJWFojxh3o8wbEghXZ9",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3CnKZPQn92W8WXG7KTVaFQRk8LJJ3KZbrVVF4ngUxqkg",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3d86H85gXsgFr7qu9hwCdPn4xHtWmw37QXjEiFc1wB63",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3dXXxEaV4fZqw1PL7VezfDkiJV5W4WTtRjh2EHgKSthF",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3FLezD8GJgnawEHhZcsjdPxZVar9FzqEdViusQ5ZdSwe",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3fntToRUTyDpSoLF1QMZgpF5HoDcSmvBisXoyKASMaaH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3Grtx7bvWU7FPZDWZRdUUmigXBSfkJUzwdZqgfAapcgz",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3iPuTgpWaaC6jYEY7kd993QBthGsQTK3yPCrNJyPMhCD",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3JadNLK7V9NNzC9a1jRAZQXExT7mBtBhcjCaaaRE7B3R",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3JFt7NBHuz7bR1wbWVKgGLkZx9QPwnkuW2sx2nREgbbr",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3khMmeupU7B6ZSDSbTX5cYtME9yVqeJ178PQD7mCE7g1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3kV8UahWWN7Fh41PddYczuismJSLjtrKhYRZW5RUqiEK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3M4QYXfFM64wqSpSeQZWA6PJNmR6QQtF64BLzA9SG7ZD",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3m8Ct5n9feJFEuuXFb67oqt9XEJeBYkGyEdQRX33QQ5H",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3nSx5yrMimosm6fWh3KooRp6RxAr2A81o7UAgZUhuLQc",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3NXnw51gHc2rDWTCWU4eVpP1yHyKKbJa1p6JDgMkmiDa",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3nYnW8z3Aum5U6HiVLJkR71rauWPW2hyvngye4t25rPt",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3P2Fq9v1NwtrVTnwPGj2qVdVwnSvuNovZJWGS7nRvoin",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3pBPy27F1Wz3iVydZnGkdvefStrFm8UMCDakYZii8AUZ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3QPGLackJy5LKctYYoPGmA4P8ncyE197jdxr1zP2ho8K",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3Qvmhayko5Yn3sSXDsHsMzS8QjdU4CshQF2y6L276kgi",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3R4effnUPr3sDo5wdegPBnqTmKTZhKkbgL1wxYw7w4B6",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3r5ZXC1yFqMmk8VwDdUJbEdPmZ8KZvEkzd5ThEYRetTk",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3r84fqQnrSLrEDA8p5TStbHB8QFRHB9Frcdmq1AGVDYG",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3RhKQt1L4RtZMGMY111bjymGqKcd6ZbExux9NCm8t1hd",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3Rk99suwAvvJgyLpDYEJeC2YPPLw1enc5T1r6J8ZoRSr",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3Rv2AfJuaunDHePFPGiDkN828nwzsbcZ5nM8jNdW2i2a",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3S5Pw4wiwvF3B5pXQVzraiFUF2iQUDnowZDTCXBmE33k",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3tjGkvUsNEk8UBUQECCTpeAoo6NovHvEG44MZDPCcZko",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3Ty8DYNBkK237zPvACti83EJYGxDcMcoDMCou5r3eV5Q",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3ucuV6s4F3jvhvMrx9hz69abis2Q6P14aDxpdtP65kCc",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3UmhLuNdgE2NYDSfXmbu5DhPRxWUK8JwiRcG6tXV4JGc",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3uvqr8aX2fS3W9XHdud5avRGbUtY9uswBGmr9S2N7uF2",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3w5guZWHiP1A1gSnhksgtTXejAYUnTQqWvXWd9BfSdUL",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3XDZhoRESsx9bU9rdX94qrtLL7YCxhgX3dKmXFRV2vU7",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3xjfK9C9YNcta8MvK1US4sQ3bc6DEjoJoR3qLExGf9xE",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3Xn3K5zeTzs4sURj1PCRaF6rvFg2hPgT49B4SiM998f7",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3YCCGCuCicRggDgdK3ixZWXNPVRYfQxvytDUgHFrRFJ4",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3yoaBCgeuNNCK7SWqUdSvbjKZdj9BeN3neQc647oUV8g",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3z39UyCtJf3gcCmBMgLU3LJFUBWP9Fvmr9fhGZXb9Hdi",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3z4NrwnS72RkSmnZ89MNr3GMxga1WWjjW7qGArg8wCng",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3zEbnWKibg574DaGC1EA3zLNwBK6MGQxEySUgQWKBaYV",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3zH61eoL7aL626arSqKEbfsx2kPb6P3WFU9ERUWciPSq",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3ZHY9PQtp7MyznRcHRAkFYrTWinQzidYAQxNjBeyzyr9",
+      "mev_commission_bps": 9900,
+      "epoch": 671
+    },
+    {
+      "vote_account": "3zxkHtntSzfW2rukRFqhN9SDPzqicvF6WwN6yDwdSvxQ",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "3ZYJxzCeweSoh2Jj7oCgencFs9y27iKmXJeqYapje1cj",
+      "mev_commission_bps": 10000,
+      "epoch": 669
+    },
+    {
+      "vote_account": "41HgiTYQ3qDWFW8jSDkecH2mEHUqZsmwFGDPndtmyLDR",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "42XzJdJvr1qE7zdEnPQhV5PsN9eyAcR45SWpTrifW1JB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "46aWpTtjQaTRL81dWXg19H5V2Jf2rg1Cy3hzr76vJDSf",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "46mwXQRqWwj8Jp4ZR2tL1Yr3Snm99xDfKUs5jz7hLmEK",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "48oxpSHQkM4sdXUY9NQ8KnEtebzZbyk8uUT7JRdVQNuf",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "49DJjUX3cwFvaZD5rCAwubiz7qdRWDez9xmB381XdHru",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4aFj9VyXDrqU4TnKWnMVuPaAVTaF4GZLLKZN2iZivW29",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4BVYjw1ztUzUPsxsaCheWWwThT2X4rjogZytGnuWPUGg",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4BwKbV3ViY9huwhxRrbYWC5GgRUCwEe9k1YpFqFC7kQa",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4CaonBV9LeqJ2oGhTdbNMWKFcHMbLmCnpCyvrRZtLkz3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4CtNJvygjgJ3aY77eLV6Ld5V7g2M9bD2t9XYxYFcbMJ8",
+      "mev_commission_bps": 790,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4DBehwe4U1gHaE575LZVnjN1MfyPSyWjidadRJoQcyAR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4DcSke272vfn4QQK49RNzPPj9pYasbyjoiY1a5UxLDH1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4dmBLJcchyfucSxkVmrymmsnVpZm3rBkp7kbF7qHTTYW",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4DW4nrbGrjXRhhj3CH3AYgocExfqEoCCSMxZ9uzc3NpK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4EsJD6cpaae8rh27U9pHsfxAheCLQnze1bDvXZfpjcUv",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4GAmUQ8FvKcTzeYGqxu2oSBMStYNwDTmBo7LC1Csg6SE",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4gg56BTsCSEXW3CLw7BuT31x3ptEjSz6aeVE1Xjby22R",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4gGhS4PaKHsg5GWEpo4tHhMibdHMeRa5567NVubMEBiB",
+      "mev_commission_bps": 400,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4GN2gRpWbtx7REhN7gS9AsEkZy8QmA5xv4eTGiGafGuF",
+      "mev_commission_bps": 500,
+      "epoch": 670
+    },
+    {
+      "vote_account": "4hZueUrKETMSg3k94JihgbyCdc8nma3GcvdeKBrtWamQ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4jEHuQZTNTRYAhxRYEjV3HJ1b4wqdQjnBRdPzFWzkCft",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4jx1b7HCN9nCxygP3hruC85BxcYndhxby4hkNexuHvxT",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4k4op6epymSYQkuJoX31azW2bdXh3exmEsj7wLCRKaPB",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4K4qpgksvHbKnk8mpMNncHxihMN1ayidQ8odqJKaN7mH",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4KAmS9X8tGJPPzDdwT9Fa9F1y3GZEoacGhMqJ6zstUXN",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4KfAqBj3Jvi9GGngFK1MbZkjHTcSFyvhFnVwc2QrNiEh",
+      "mev_commission_bps": 400,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4LhqjPqhFMdXPMPN3B7raXVmd8zCKdEddRcrFuRf46Y9",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4m1PbxzwLdUnEwog3T9UKxgjktgriHgE1CfAhMqDw7Xx",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4MMaBHtwEFhhrjptoHnh628sm4JjRqUYxTsQd9xuVZMU",
+      "mev_commission_bps": 1000,
+      "epoch": 670
+    },
+    {
+      "vote_account": "4MpRU9fDDSQNNTeb4v5DPZZTKupYancGksH679AKLBnt",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4mUZWLYoo16fe2S2xZ1DdXZHBxynRWBAf3prokBQsxac",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4n4KiUuRwgAqdTh6ag8WRy3ibL2gbWTVJPfEGw3SAsHx",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4NTGFvib9jutwo2GZbXSomgMoeJmoFv66T1mup4Kd8o6",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4PsiLMyoUQ7QRn1FFiFCvej4hsUTFzfvJnyN4bj1tmSN",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4PTVcstjs4s89uETGapnjTNPDa4XfHF9kLUu8WCeYNQb",
+      "mev_commission_bps": 900,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4QCeaNWTRsKY7Taw6PtneftQbuJCnqEuHpXW4cbSVvLB",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4QhNoG3PN1FXXFhAEA2QWdor6xjXvM9pjq6MXAUV8Zg2",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4qvFxnUXYjBdcviCwVV7gKcGJMCENEBfS82hSLJUhyvu",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4sFsBDei4m7UXwuMeAGVmnJxZe9peJ5tvq581HoT9aH9",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4SMxMpQ2uaF5chFaMg1NwSg4oppoPBrbncKCBeQsxKi2",
+      "mev_commission_bps": 800,
+      "epoch": 668
+    },
+    {
+      "vote_account": "4tuMshQNpAFpy1YtEHnSsE5EPN1mAT8FevWvn2UPJHNM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4u1Wi5yANaD9ABmi8xpdUYGLQSFxghX1D6LfgzdzrhdG",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4v2os15BGgAnqiy76YvPmAywp5xKh9jfBPfnQGzUVc9c",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4vggdLQRGJYvBkgbVh6kEWhyBzua1yYVpZKh4GeiLo6w",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4VgntoyhaZ9TFXCJ73xNSon3sL4ieV2yrACRFSCnzf6i",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4VvZyjDj3KNYNbjzgaG5GxX4xeLhcFV6fA6BDPf6dLy4",
+      "mev_commission_bps": 500,
+      "epoch": 669
+    },
+    {
+      "vote_account": "4VYA9PECtNzDRXNHKepzMprS1Y6nxKF4oRRnwkJqQZys",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4XRkaMPQnpAncWVZxAw1NfiqGiAX7oa4Ccg8mTD1JMn3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4yk87cJbcWooz3FSScp8aEWVgNium4HR9UbnDUJpvXp2",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4ysUQbvWDjUdRprcjaBEH4V2VqPJgrPSwRsS6ATTMbiB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4z9rbspUBsnZmTQbWSSPETkXmWHfhzQXXc289Z3m6XcJ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "4ZxDeRyvhXi7Bc23qPFkeZptzE8J54eimL8phVPN5AXa",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "52J4Nhv5u3bKiKBw5nvAJjUigoWHfP7PBQCfC4craVEY",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "52YQr3Je2C1BJMFc4AxydsT4tad3J9ZVHFDHPNMJznE5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "531ABLCYsNQ4xztxHfoCc4xqEQ8xiEWWSP3TKDG5s7hz",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "53ANFYA6BCDzdtiEeWawm5bqsH1Qgmjog8oMo5N4o4wU",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "53fAQnWfTPoTQUb3AwPsUZsTTe4djRHmW8U8yztvVF8G",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "53gnaHMxDzGTZ9A58S4jbc1qzhYT4X51thUD4MdSBiyo",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "53RJBy7aBGA7Aag6AryxEmBbsHDgwfBWagLrPbGHnfvR",
+      "mev_commission_bps": 1000,
+      "epoch": 669
+    },
+    {
+      "vote_account": "55d6G3qVzKfZ5ZWQxaExw7rJSZ1sRg5EQfXaJAo6vwwZ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "55gncCYVFXYZhjD5a3aemVVtiHaVwfzu2R4axgamGLwV",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "55L7AV93xRmx5F7rX1GCfsHxfYWNu4bKsG6f8tG6dFRo",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "56CMrsFGVrnXJ3PwNV935vFYhfCBdX9btYPnLPE1ATFH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "56ixbAMwsBiguYXsbzABGNaQVDeFDXQdA9m6hvyumtLy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "56V15dWmXcpamgP9N8KEuXRoPXh3F664fawEAhHoH71v",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "57gGMmhTCxHtLevWHzDdrme3e4SC4UCXEq9oyfR4hDjE",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "59k9CiZ7L1bpEivLrAtaMPMgw18syZ4RQsJUo3hbbj8x",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5AC692spnjbegP7ttCXJEzUe8S81sLYsqJd8Ae6Zv1xU",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5afRnmkFn1pRU9oussqwk1RRBVyoDgUkL16Jz4qNf574",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5akpkYincAbsTBXVbf2GDCg4KatMnc8BKkXZCh7MWGPK",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5AmyDJ3uyTf4poghKocgUePjFR2y9PgKkZLFM1S1aL6U",
+      "mev_commission_bps": 0,
+      "epoch": 670
+    },
+    {
+      "vote_account": "5BAi9YGCipHq4ZcXuen5vagRQqRTVTRszXNqBZC6uBPZ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5CcxrEwDtJYJWatpYd3Ngo5TjZa61WTR279KetxRXJde",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5cXLZKeTuRm95ng96K2qCdxB2kSU1ajW291HmEkNpXkM",
+      "mev_commission_bps": 989,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5cYwwC8dmQ2tvtjDueHrU2B6NvmTHmoimsNGeGXVbkP8",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5evi7HwSeD95YbvwMpA7cfz6uDFmovHXpcGYAwZbKsoz",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5EYp3kCdMLq52vzZ4ucsVyYaaxQe5MKTquxahjXpcShS",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5fdEXhCBKC7FRRsH64asZCSiwgNXRozxmzb1cFzfrtWM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5frYQSynysBe1akCVK9tNBJ5j8jgBgUsjAXAgqHxvykJ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5HScvYkTWL9iojhPv26xK7GqB7oBsj9A2qHCeNRFmdyG",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5HVnkucygxhRqnVqch1vEoH36CEpb9TRJAQHW1gKwuzD",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5hxHdAJAJrJ8UYkDU2BboECxJdosCYcQqGYjkqJFuCJi",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5iJDEVRi1nMLwKAWhYbEokZnvBAe15rgFaHGkggVEP9z",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5iZ5PQPy5Z9XDnkfoWPi6nvUgtxWnRFwZ36WaftPuaVM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5kAKXkZyBpAncEyYxGcn2peRkkCMZh6ZrhopWQXq78Pe",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5KgAGvMLZogKnDGKGgn47xY6GaTwQ3WBbGPoBxW5nDqp",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5kYPCTLoF2y7cynJEuv5LVaTPpLoPbcxiCYKk3KKcB1C",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5KZ2dv5fnpJGy9LjwXkvXX5M7U6NjqxW8UfbVkTph89n",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5LSs29bKmRBDSJE61jAbEcW9KSzKo5Zd8iuidU5yApKy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5m3oE8X1HokEpjXJv9eES98JiNuD9yp1T9TDCuxvZZDR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5m8kTjAZRGppy6Ag5uCfUBzY1Ev4NtLR7fJwoaK3HanP",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5mSBnz3zNSVzXQHxBmrTLESynukH2JHVcCN14GHtVsWD",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5nH6sYJNSa71DCBQHgRCsX1dh5W1bWrUPeYieo9xyZ7f",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5ni6KoVM62cRJNfFFKGdiyDfYbKWWAGZ21cfGZcj1y66",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5nkSzU4oVSDdxZvorYwxz6BQab2VfmHbdA9AnpYVkAL7",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5nqCxM3G1FKEZ4gUirNfpVoZSV8csVFXxbq382DdMHPd",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5pfqseENmSjqymBEUc86MM1YCX2d4hzb9HnsugADb72B",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5PKBzZEbwGEXhQj47eiwH6RHAPSCxcVhdYcFttW5gLWQ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5PyiGb6dNrCaKTkMfovKRQPYgH5zizcsvXp9YUAVWqbo",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5qdCvzzeCXfGH7EPjfu1fBNjL6DtcwV2w24A2m1xRM9p",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5RCD4pZcKH3NHN4XHxvsnVAawSaConLgsZbreSN5dXpZ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5Ri6yTqus7LdDaYGAVNGStC77BHZuQy8F6fYsp5cC7Vf",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5rLhUQWKogfKixoUr3XxrMDJEx8FPWBnXCdVgH7YEFGT",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5szskKdH8nfnUuHTvn9hnhH3Xuvo7RVmcDDvD5WD7yNh",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5TkFPZf79rezPXzCTP6DjH4NLb7Hw3jRsAme1fv431oz",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5tq4wWgnwRiJVU6nakZrBCZJ63pMEZJxmVrL2WnZ6yQv",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5vfEHBMSCTkR41GeKLyLb6ua6dd632eCpEXYC4YzG5df",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5VocRSwT6cqSTB8qcJ8CsSmHCmGNnohXySHWWQRfmv3a",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5vZqGaxGdjhrAVqScWxLiy67ze2PqgMzyNVJcagMvPaQ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5WF1VwByGfW31Nmk1xcfz9k5YyZLskX4659JXyAA3rpb",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5wP5Qm9frQfXY9QadZZHqgy6GEvqtHjpJ6uongxdb5gJ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5WPxGiB6zBXNJp8JN3WhSKDuTY3ZBX6dBDcbtVMQAJLX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5wYHvcKbCHPsT9dhEZaVZzoVY1qA7bosKRzKczpcaXpq",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5XGMWvqZSBk1fktPtxbwaMF5dhkbrtchpwd4xiXG9q8u",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5yFNiQbTabGCMzvfyrhjiMAH1g6VEcs7uHe4W3KyYwR7",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5yHqB3NxovCEMUniQCboaPRMyyQ7kQQF4QqvC4vaz78z",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5ysJtUNfmASWjzdQy1vyvrVp9jAg5Vq791HABeobrCX5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "5zjXNe2uvviFsxqEqAWKKZ9EhcwegCDjrjxQ9GEW4NyU",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "62AZkVfjLRXmNtW3guA2nsXv7MmzQsCWmscwkFzwts1k",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "63CeFmqGDCSUUbF2EZ6UfMwoCzrZYJptAvj143qVeh1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "63mj5NgxsJigb6GEc4KVMsydnM4fQ8qg5ujU57puT154",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "644K33yWfSzc32VvY5fRUfUqphw8LTaLQntCkyEpJ8h7",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6559KMdiUseNSAkRcK9WcFcNTppoj6jWtKVedpMkBYCn",
+      "mev_commission_bps": 995,
+      "epoch": 672
+    },
+    {
+      "vote_account": "65XpGeR8ScLit1sEZTf5moSEJR27QJTPWJ8AdAuHM6Wz",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "66ADRQzSCUySLWsrqaxTLzH29a37SX8xcuda5VJg4Mga",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "66PSXQ5Z7mFqLZFEMYD657PJFGqwqqqLoFa1rkrp2S7G",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "686JcEJ98r8fMtUiVuKiz4WRoBpJ2Sm9zMhdc2b6H4bu",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "68q1YeY3QJoL3DF3umVKkCFARYh931sQTbZbRtYthGu9",
+      "mev_commission_bps": 800,
+      "epoch": 669
+    },
+    {
+      "vote_account": "696fkFqwiLxsDG8Jr5MvU9kvGm9uuMuTPh3rn3ybRNQm",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6anBvYWGwkkZPAaPF6BmzF6LUPfP2HFVhQUAWckKH9LZ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6aow5rTURdbhbeMDrFrbP2GR5vZjMEhktEy87iH1VGPs",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6cEvDrwXz3Lq6J5s6iFtg3hcuYoznPPV8g6JZ1mJ5aVf",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6CSENi9ZT4iMQGgWi7mBBe9bKwe5qKamcJg6MAANTzrN",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6csfbzZEnk7kGJRy7Xg4cgAuRdFCUdrjckzRnnY1Qj55",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6cvBCfFXugkTqgSFVPvzhoWaLbhHWvZfSsZadWP5rryR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6D2jqw9hyVCpppZexquxa74Fn33rJzzBx38T58VucHx9",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6D9w8FRw5EFr5qtZEphPpughN3W8zc8p6zMXg4PFuaXL",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6F4gdYb1sqHGMeFaeEcqt8N6S2anHre2BkZM7QWo8r6N",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6F5xdRXh2W3B2vhte12VG79JVUkUSLYrHydGX1SAadfZ",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6fiUHL6s3iGgp19H7PfbEuJGgu4LQsWMu625fya16xgb",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6FMaXpe2KWDeqzKVuKBAJRgG79zARSLsFkwYyKrij4vX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6GjZkgrdkS19Ws5Zy5BEBgrHqgwXZynr2biHjTZb1hdM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6GoijNiK3JZVAY96ykCfPhcJnrQfrQMLvrQaX5HyMVhu",
+      "mev_commission_bps": 1000,
+      "epoch": 669
+    },
+    {
+      "vote_account": "6H2opQ2ebr3B6PPnjVFoMQK8pFiJhjb6AqWTjAYGqLYH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6h4mhExruKD3zp7FLFU6ZDK9yVqoLHHdKVGpGXcauveT",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6h8UDnJb4Rw7j5ZnszWPE5qKdCmQpXSpbfndzHbzjJ1Q",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6hkfqeNAbURk7CmAQsP4Qm6WwHVF4LxHupEvQf7Tkrf1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6hTLQ5HSdWcpZkbXmZxXaGjCgTh7zh8UeWKWKgGE1BPp",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6hZL2FZim27WkQccMfygvvXH2eow5u3wR6XUJHbMoeWP",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6JfBwvcz5QUKQJ37BMKTLrf968DDJBtwoZLw19aHwFtQ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6jzDwKeR21EFHwaRgZMefMxJ9D2vnQRqfYxkpUuJppPh",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6K5veuKeVeXXnJQVm9NPytNX3ZAbUoGWePyC83ymRUCh",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6k6Yo8kmwssvayHTzp8K4jtVwmyRyjvQx6T96DNJAdYH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6m4ZwGp8zCuqjBoAn11pYAQun2FwSMe86RwPbqpf34YC",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6mEgxgVus3rWJrt3qFk3BvEV38SVHNCqBdQJXxLBbcst",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6minRorGYiA5aEeDvXL1Usat6DCdaF46owL3oANVQ8uB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6MP6Bun9VmkGcRVU4iF14Q8P7jTkGtQW9zVwmB9kCYyK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6p7SQ6D3ACRYDM7x5Pjb9xa6sChaD3ZBoZxXpR2LyUZ7",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6QbXuFT59Gu9ihxPmUcLFpTfgXwaSxoJPUTcEDkidPAE",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6rC1zg98a89eQurdnvXz6uJ3zZZa2f683WwCDB41Us8w",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6sHtpsxU8KPY5cd6EbutSBUGaXnwu8r3voM3kgjSKoW9",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6SmEcnuXJ3ZYqJWTqCoPQMhfvey6PfWb1LebLzoH3f7m",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6T5kjAEURp7jsEfX6NdQVczDseUgMFHtK349Agouwotq",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6tajb2FFdjiRJLrdwfKQsijHGmeVFcTcXJn6NH3BEoLW",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6tgtejPHUHR1pECzXqQT8EHZqnKCWZFSqdZXDyBaKe3b",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6thJCXmoS2EEgKxiub4ekWysjKWPDc5kAtuMgSui694H",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6UDU4Z9TTbYy8gcRKBd7RX3Lm2qMsSR4PMuzoyYPzLma",
+      "mev_commission_bps": 749,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6UgxzgqkEyXMwPtgyDZSn8WGzJ5GdSWG1bSPvy7V6QwV",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6V4SMF3vweyPZWUiPAXkZsNstHDoecsWdCDTUacn8j4u",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6V8U2Fkwworj6xfFukBBVHgvgcXWXo8ghghCpsYUSgZJ",
+      "mev_commission_bps": 500,
+      "epoch": 668
+    },
+    {
+      "vote_account": "6Wi4bMzio6PGnHXg39zBMjGp5vgphLBB2k238DzPBqhz",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6x9uLhegx488uA3dPoq8DWHS488K4FsEqeeMXeW7kQPx",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6xwWwNVXJLGhgPfBpew7UDcSjQr73McXSRK2EhdhcL1u",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6ZDsQFqdBNmcLho9KLv4M3ggzHxAh8G1EdR6DCjajPvK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6ztDG1XRZiuXtoCotN51kUPtdHXwRAgRiVEbbUfoQ6CK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "6ZUCygEHeA1MRgdxZ4V6e6gcAsJz1e2uDA3e3jv1bY7M",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "71nnaeTyVeA4pTozAPjRuQyMydQTZCrFUkz7Pzy5tiDJ",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "725My2yzg5ZUpQtpEtivLT7JmRes2gGxF3KeGCbYACDe",
+      "mev_commission_bps": 999,
+      "epoch": 672
+    },
+    {
+      "vote_account": "72Ag5dggfQFknHXABYnG172r2vtepa5ugiZDJCmKnx4X",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "72i2i4D7ehg7k3rKUNZLFiHqvhVFv1UvdCQbiNTFudJa",
+      "mev_commission_bps": 1000,
+      "epoch": 665
+    },
+    {
+      "vote_account": "74DQRGa4oqepMGcz96obZvw5gJPEPwaPa9MTqbAfBi9F",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "74PrnaiKU5q8SJX4H9Jis7xyzMUNoSesizn7FhFZaxfG",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "74UYnazXV25u3SCTsx6AHfPak8nennsxYTMhaeHbvuE6",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "75EiDe2N17CA64fUhhJLK9rKm4TcRfhMFdghzScycWfa",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "76DafWkJ6pGK2hoD41HjrM4xTBhfKqrDYDazv13n5ir1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "76j8TGM73QzGLd2KATNsCwewPVESCkVpkePQdm5PwQXT",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "76nwV8zz8tLz97SBRXH6uwHvgHXtqJDLQfF66jZhQ857",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "77hUX7gpQov27qQTBDyJKJXNwm7apatfhEdsStC3YUb8",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "77vww1KxwCCsVRFioJbV4CGwTVyeyrf3KRC9SZdbHwtc",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "78QvBqfkWbDbyo1DMb2ku42r1UfxecwptjbPWJqxkX6E",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "78Txiv4aMrEeTLNhJYtfnGwtvuVH4NZ8igXS3oYeKdg2",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7BEkR6kjnh7XPxQ4Ew5ePby7orLrXKT4zDE97kbN1fiT",
+      "mev_commission_bps": 0,
+      "epoch": 668
+    },
+    {
+      "vote_account": "7Bp6dp5UVhwbDWnrNQhvVBUK3K2poxQSf5we274wYnSF",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7bshVP74UGL7gn6CTEztizxKsZrcmwPmB4rT1tVbU3vH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7cUkUBJKGHEH8dT6FrJG7TfifE7ZUjhu65NakpAUZuP2",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7DCb5VuNx9XFqsaEgERyb5mwwRunDNtLRudCEoqhcz6N",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7dz4Zpj4bt6T6DsF8Lt3GKpWrkUXCXdmKxK2UGeAG2bi",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7ECQ4mUCMpxF8kchT5sHg5JpwV9eves7yme4GB72m1uk",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7EehNwMoKCwFULMYDcNxv991pVdtBALKR9DSXnN8DJE3",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7Eg46UwGgsufXdd9C9kF27UAyD2t4VdmCdVTtPFoqxCy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7emL18Bnve7wbYE9Az7vYJjikxN6YPU81igf6rVU5FN8",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7F6Q6C9sthb4DPaM3gnncwopgJmuFFTu1jYjhBUdvqhj",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7fARjzLYPH77jVBPyUfptJGbi4aXfN4FAfs8W89BWZDC",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7HhmcAGzjChFjG1qsN4Y9NPgDWfytXXVA7ZRBWE7eZc3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7iC1Uu6QBqNG6oaBimnPgLmtoantH7Nc3RD7SoLHgVET",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7ikNtivRm2EDHQtnheqSnxkbNvRxMgtmthEAG84V8AEf",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7jp9iA5QF4VJrV1YZ47FqFDziuZALp9wJSWRLWBa4Lg7",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7jPqpHuN5v59dtBom2tjmYEfi6WaM4sFtJeTD6fzhcdS",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7JZTyHRTmzHfmHH89uT9xKSKDVJ1VnNQ1FeTeM4iH3J2",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7K8DVxtNJGnMtUY1CQJT5jcs8sFGSZTDiG7kowvFpECh",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7kmTFq434qDsbuCbJgDsAtih8AurPfUk8u6kc5bJb5Zb",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7KVnUL45FH4N8Z7x1dnvJ7GzMx12cs81mS26mHzNjQPN",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7LR33GiYcNS333LpdccyytkfPUytcZt3ZnVn7CRvW4pT",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7LtXiFCXqxwntUkTfzMAmS8TTehK8m3cbzx7BgvYFTiP",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7miZ2ZoXwS3YDzBRCbWcEtNVyuxk8WbbcyQwq7i5btvZ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7okgo2YWz8fgNLAHSmAFwqPF59GMq9QuTSFSzPkkVcq7",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7PHy8rXJtkfkgpsHVtSiiX3StdwD4MG2VdhoeciLzaHv",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7PrwBc81z19peAGLjjq3Bt4uLtRonRrwR963gxJE8i18",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7r1g7s6UjYuosRCHwedpGRCbJhZqM2LhUPxgoayRE6Rm",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7rFAeD5UT4fy8cQCnY8Y5F8GW1Wgw345Nxb7diXu5cjG",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7spi8Z1CpG1AezUpjHQ5rGKxw2dBoeTfBmQxqT1YkS9y",
+      "mev_commission_bps": 900,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7StQWSBg1tCFRqQ2GUEUn9owmZuyacUiD3xQ2djXDFpd",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7teJuHhmHjCHDZiB2TEgdS5wFru4sRJB9JJR4wAQ8pM5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7Tky1T9JDevVnNi9oF7tbq6T9KjRVdsMyrHusMKWbY4n",
+      "mev_commission_bps": 0,
+      "epoch": 670
+    },
+    {
+      "vote_account": "7tr5vUb3j36k4p9bs2tr1GwRFoSsEWd4LEut8e8HJZEv",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7VGU4ZwR1e1AFekqbqv2gvjeg47e1PwMPm4BfLt6rxNk",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7VKJjStSELiuK9PRQzQmQCGgy627sGSRSJhCVobMLVqL",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7wqiBhRVEkbV3A8LbR9W1eNb5s27CBwoRCVro1okB6ew",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7x7jzvQgZ5PHdkZKrzUy2sXgpb3YxY8XjLqrZgd6nbGy",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7X7oVv6K6wawMNzVriczSAEk18GzqyrYrvqyJbwLAY3s",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7xRrCC88etyrLveU2PAGdSYyB6iL4krUnfyHbvbHjkEk",
+      "mev_commission_bps": 700,
+      "epoch": 667
+    },
+    {
+      "vote_account": "7XTz9RDt9gbckonUUYvzQ8q3Pfdo36oiQsreXsHhNFzj",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7z3wq9dTjdRBKGpapQv6FugsdSUKxZTEEkzSFaUG1noE",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "7zFvisPXq7xCFoSAL4oxZhRpDonmf8NxQFuLNGW4UYFh",
+      "mev_commission_bps": 800,
+      "epoch": 670
+    },
+    {
+      "vote_account": "7ztvwhHQxU68beHN88iK2h7KMZb3zdHcESWpNHJhQwsc",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "82LBHm7QzS7AZ266njB8uQkMa2t891Ma7CjhfTwQfuy9",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "83c5NZebvsUQsL3e9xb37nHiYchLCudDYtQ5Z3gLnLxv",
+      "mev_commission_bps": 10000,
+      "epoch": 670
+    },
+    {
+      "vote_account": "83pBJ852VuvrX8yaJgNSeYiEmgP98WuUGoADtaZUuqMR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "84gebYpPpEafPeGJUVA8QzfaTQC3GeyVufCTHpqsQqE2",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "85ykoc8e56w7wDB3q9obP4fA8WwzvWVNGspgqN2KZ9gC",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "862VZk4B2PrWf96MDbvu6EH1j9PMKqhYA4FAgQWhpRYF",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "86dGbSrKhZHgKLWZc1hAyzQkk2asXGCFsoRsu1Ccfzd6",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "86Sw9R6ynPmXnHfwUWinXtq1QoF2KHesfQQyZG5r8sXo",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "87d9cGc1xHFxoiteZhXjYL48U6B1DAdLhpxXhmVKi1un",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "88KvxpFUnahtg4GCuRayvoyysboHp8j1P38EqgjjdB4r",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "89DXJe6XTDASsmyXJoPyRetLq1csRj9N2Bwn67fNvYGt",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "89jnaTMuq5aXUkmpLbykRNaU16i7Du6QywqqPeCPT1Dy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8ACcAUtFEEYRYGJ5CPPBco8NvbwhjZKsgv7Fma64QDPM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8AKJkPw4d2XXXy1fjQPvty9ModNrNaqdJJb9ifi7iXAX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8B2Z2R8dRvqFcXuLBwinu3Jq7HQidCaJCnDuRRqeJLC1",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8b9afBA43fSDH2GHMFWVgz64Bsi5k96MDkrjPx8esePg",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8BbpzqTUCUa4oR71AMgcBiTQvd6Gta3xJHCG4xK9mKBp",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8BCSZyw28kK3pt3DTNKoVysjMggakuPpE2WB3pTcWGim",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8Bsn6atd2NRbtRvkotzM8aLa8PXWv56SQF6bum2advGF",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8c15zdteBtxxcffHsegtppNK9eG9JPye9gL4kCppZmKr",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8CKQeLWLkFXD9kg2U4y238i4eQrAxsoVtNA1dAtysbfJ",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8cKzJdvB1imSKAg1SeY6yMmNDgVkxhtqMcuZgiyWQTmx",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8cmey1eqqVS7GRqR22NafhQWhzsdgEiciM3xiEPL2Kac",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8d25KBXdovroNVbjRmvDeW7H3QMW2nfZZo7G9zQ693ki",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8D8XL6ovqx15RKwC1XtFyTz6H8JYF2fUsxTnsY4b123P",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8Dfm249TXe9Wd3wYEnpBdSme659gecoEMH8zx1YWN79v",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8dHAjvZbnBfi67A7RTBXyMuq6uomJNNyre9guENFGcFD",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8DHFGo3fDB8GudbNLZEyExLzXQPwvY4twybPbxwDnffx",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8drPe3FbV8SjsU8S415vtjarTnW9XR9TGaXbhAdWRUWp",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8e8QYWHrPEEpAk7rDJ3BSKm9YGnfb8cwmGzo6EMb7tYb",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8EfUy8zz6DF2iTMQCUe4QAnoq4jVUzfU1yvZMCr2yJ7m",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8EHeAESs87EejfEMi6u1ndexywxGMAanV7QsUpDiseWP",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8EKcbqKnQT9SV7hFUmfpJixZ63GL5btf74umgPQWsMUH",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8etTu2xMeEFYoECZtZS3p3SBQStZYU3dVzxhV1a4yd8u",
+      "mev_commission_bps": 1000,
+      "epoch": 667
+    },
+    {
+      "vote_account": "8F1yhZvTwrFq5SqJ5PH2VLRRwULUGYHju84FjMtDbJPJ",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8F4e1nbeC6hn9jkojtboERZGaafxUUtsqUy3MKJLohkh",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8FPz3JG4E3HVXxGbPZVibarva4AGXSZWx3qKLUS5uFtN",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8ge8UzG9FyW4NDZ6zzZiUypnbcNQ3nUfTBKndxsmWqSB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8gGA1SZZ4ASou3mHm61T6vM4jskkjYzXFmbCLwtU3x3j",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8gJCfKzr55gM6DtAaFqoWjBGAmsJ71mpHem6qJAASBU4",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8GN7k7hoSXtuZ9iGwNcQbEDHBiyf8AhFKCSAi2me1pTe",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8guXF5HQVU4g71ZCnn6aEJxQyb59NaEc4XCGjF5arsiH",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8HKqT579dAjdTy86zKUs8kAaGDHXY11wDC3ohGCkLSQH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8hPk5CbKDoM7dN9LssTdVkFhDykeq7A8CZurA5AQSFJH",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8HR5rCobbFMDe5EbgKdJLNDWVCeGG79w837BUxtsCngs",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8iLE53Y9k4sccy4gxrT936BHbhYS6J13kQT5vRXhXFMX",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8inoRcYLtHdDL1qHWvGph7pkJKuJdrE2kNkFpjcYaYHf",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8M7fvH3pXSrDK8xaNXLN6kNxaAL3J4niRqPvzQru7X4w",
+      "mev_commission_bps": 0,
+      "epoch": 670
+    },
+    {
+      "vote_account": "8mu3JHHF1Qkcrbqjo6KWxyWvTxarZjqptJTokR2jrDFo",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8NGHra5ExC6zy2dBXc92MwDTrDCtmJXZaGRMRihar5SP",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8nJRto45oS8fqqmdFMsm6rJ96rZewKanr1V9NetCF3on",
+      "mev_commission_bps": 500,
+      "epoch": 670
+    },
+    {
+      "vote_account": "8o3tfZcpTizxtxphuBCXNDxnVX7pFNwpNBLmHyf2Dbvx",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8oGhRavfRf13fBdp257nitq8VVgXhRAZxR9fR5Q4oKhH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8Pep3GmYiijRALqrMKpez92cxvF4YPTzoZg83uXh14pW",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8pjtSdYyBZU95qnopcoSZynqntyMvWdwixRMrntqGKAd",
+      "mev_commission_bps": 0,
+      "epoch": 665
+    },
+    {
+      "vote_account": "8PMeDKfxUKv4KJBBQJYPmfyZfoYYnMju6fnokRR9uT2w",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8PTusiY7z4wfjScHU6hr459AFDzrCki4wWmwhXd91mMr",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8qPCNWqVehF1Sc7YgUKUr7DUZtt514WHF71Wah8ZTkgR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8rP6iyELBNkHabaNXvMJKEt7tgNSKeExT1w6AQUJbyz",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8Rs4wJJVFaRmARmwSvsVSAcSsUb9ZJD4USejuHm974hH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8S9tun2N71Q9VmTsyf8oWgf8wWsLF6YVKQEpsTmsnBfD",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8sHMgX4GyEByphQm8b8ESKJhSpveSMrnwh4Y4pt8t8FD",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8SRc8gaFpmnb2behQp6KXZxrt9KcV56eFTzUDhzk4qei",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8StzUMT1Kq33EHPoFx9zYhfuvzAbiqeh5nE3DftLLDPG",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8tjRQLzor4dP4qd1e7pVDdQmsdwdVv4kSeCVEHwWEiQW",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8UZnAPPeYMbxju37MDR3it9nTutGhK9F1hKDxZikygfN",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8vqRKnHH77FdrBxSDR9KozJE98R1ETUJCSrFYqoYmbKh",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8vT4MgBeZQmYN44DXwHd2BLM7Z6io186nJk3FQEwy58f",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8vumofCfwJXMWKcBufRnMicvUmXp41pxa4nMGysSpcWq",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8vyuJTHSDkx7k1zymea4TMsgvixf3rCYBXHPDQajePkE",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8W4JH1JgFuB6qY6En5zyVZH1qLAr2hafCaXGFZaKpRFm",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8XPteKmVNkkAwESc7b68BLKLLfHfBwKrag9jk2JnotqM",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8xV77wuFP5BkMDdb1845hRRWZNbDNAbcV75BjMuViWpf",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8Y1ghRNu6zyAcrb79uddZeWPfth6arWaaSazbpHES2q7",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8YBQZbNQKwtNLgcNPExr2iwWUsrSTT4PsR8duxjtWiP3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8yPiZWMNYMhEqTmPSRc6LsWLFC8pewYEzmgc5kRCLTrZ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8ZfSRfAuDLV86PaKSCNfgx3AU1w6Hp8sGrEgFTkHViCt",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8ztfVJM7Yf7CMXqTGMGBkXmTkGCiJTgVfh1CYDZZND5b",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "8ZvTbWfA7txjkNubA9jnv8CWQtwbaZSzpf7vaDDcxMr5",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "91413b9eEvG6UofpSgwdUgH9Lz4QBF1G3J325Bw7JwGR",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "91ciyr81FJnZaoWcDT4PHwwdzgNp21cgH354JbCuxnwR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "93jNtLuu5MF3Me4MGidwQFq8Pg7iVWiRHioXm3aYhsv6",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "93JNyhEhzyNQWAyqNRyCE8GN1jTAfR2NBT87hnrnYvAM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "97DsFuV8H6RiFXSXds1k4RscrLPbbDnxG2CW7wDwqrZn",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "97im1Mxgn8FFcwhoVoqgGc7QegAokpQS2sxzrPVggKA3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9a7VQpVNCwBKEiADAr4EHW52CTesXnDDfnPvvp7qRFyP",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9b9Th2hxmgf49rzs2mQcg1hHoasmQT51DDwUH1jFtPtk",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9BkYZz8t6u1VcE26pdRhWhYGuAwDUzXFnfGvLoZTh6Bm",
+      "mev_commission_bps": 10000,
+      "epoch": 671
+    },
+    {
+      "vote_account": "9BUaTrUWHVpwq4mN5YTWLD5cYy3UtyRSwzg5v2hyNFNm",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9CJCtwxXQvnSTiTWvyWJgXqpJL8oGedtUft89X5eLHQL",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9cn49HT2MVjUQtrFQU6WJ29w5THLuHLCjawuEzQf5rVH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9DR48EtgDzh3Gx5HiiQikZn9c2y12casm1bcUMuurV2x",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9DUTDovSg7Tfc2C9mBHvtGfqfgaBY7srBb2ZYPCDgUPY",
+      "mev_commission_bps": 0,
+      "epoch": 671
+    },
+    {
+      "vote_account": "9esjPxaUdD7yg4yDrBkP3jLipcAGVjpLDXsddF89avzW",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9EW9kJVj4GYqXmFcN7XzfxuUEfrB5HLm5jsBNscdBBXb",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9f6sqJ9JvWm2eMC4D2bTRqjkkrzYQ8bzoUJvffmkkKL9",
+      "mev_commission_bps": 10000,
+      "epoch": 665
+    },
+    {
+      "vote_account": "9G19HT8xqceG7mKQVSrTRS3DGnGqDHErPyQEaEfyWEuW",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9gANMngbGUmAaLXL1RC3JdiaLjRowJXNbzCTh53ht7mq",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9GJmEHGom9eWo4np4L5vC6b6ri1Df2xN8KFoWixvD1Bs",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9Gko8QZBbV5SrEvHKtQHcMrGGSfgFP3KJUozEGifu25x",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9gX9MV3nGHRs1R9E52Q3vMg1tNGe5NHvzdfo3AMHnr5t",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9gY4S2LkL6QJwBU7hpDFEMKcvb7tvdqW29UfobazJG5i",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9H7v1rB2tkPUaFmW6BMNV47Qpj63crPTzmhVgpQAmz9Y",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9HkDHk27SwpNdVuAjWvxx8d1Pg8HYUNCC721okcvj9Eg",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9iFqFRaQL7dHcmqJwfy4RZaTB64ne7S9iL8GuPMfD7f4",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9jJNuZE4EHTrz8xiTzmDGjJnCn5dGmruCyUwG1vgdHZR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9jVU1ET9Xxqnrsqjw8FGxmHgcXs6Hbj1HECckWqn2LUD",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9jYFwBfbjYmvasFbJyES9apLJDTkwtbgSDRWanHEvcRw",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9K67smfw8hDXmtnR7uvP62WrKUcB7oZ8cvpsB1hmrCzf",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9KCBBdzx4cGZg14YaqBuZd1tGUvo9ohYnW7KEqQes1E1",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9Lp7PzvKVMhjqyQfJwxyha5P6thNWMmVDuVVyqqSaK7b",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9MDcVy7CjbNuxUvSzeUFbppSP1XWzXGTPo1PiC4CqtGM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9mg9SH69itqkRdy1CudMforH3ju7uR3K8GH8esGx4Mfx",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9nyiCpH8tfzSDXWP5BX5u5Fyi7Mz1DcMPp5a7aUhDybE",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9NZ18GkTnXZug6eXAzpBsmyCsYfAJ7mL9bgUfSJDSAKr",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9o4Y8WvRisPxEpuo4sZBq1CtfNsYanzp87bSgeYuGf3R",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9oNSYHVuPFYSVRBUN1nRW3Hoz58XGH957etGuQ1pWAmG",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9PzBVUpbEGcGxnjxq4WvJMnScwvQTY2wFrfMZv8FEPjC",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9QFvZhLvpbcFJTPkKq5wTWR2DGTXqrsP8z9igPgjSsZ1",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9r5ifZdqmyK6fqB7t8WXPAibCW9xgizniaihFPpWkaP7",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9rCg3Nduf3YSPkvYWw421n8Ya8EUJ5KQQvkQaK7G3DkM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9sWYTuuR4s12Q4SuSfo5CfWaFggQwA6Z8pf8dWowN5rk",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9UL36jMUb87NLqGhMDTZdEreZQ4gjQMcc5w5p1B4JaNS",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9V3mbi8z9MHicFQN9n9CGEMfuX4yKaBjJNuzyTUxaWXi",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9V3Yy2fYZt65so3xg6wmnUiG1mDQvgkTJYTsn3YPkgLH",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9vNLTLdwAdHw8EdiZrLzDtUpm3hp7E2MGaNi6SmdfBGz",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9w3YAf77BSGLQXahTpwAe9U9mNdCXkqmxH17uCyN1wyH",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9wQQnnnkk5b5GkQWTW9L4kEA3CjFv6CqsQd5gt6tRsHK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9xEFsHZt2mbuGQjtVGABxpeQiNeDvj54pfsJrrrUUev6",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9yn8kRqgtYsAV5Pg2YTmu3PCmnm4yXFE3cRGZ2G6WFho",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9yYzduhLTmv2C9unYhiEDxKvaTj6D2yeRXL8mFkmTfKc",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "9ZPYFXWnVTjzDUMMJNKzfqCNJaC1SEyRSHtSytAd5meS",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "A1taSaBJrLMrqfWsPESYDujnZv5yD7bF35LjXoyNXhzN",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "A2GkHf71SqegGcLmhgs6XzR5YfLh5ZJ2Ci2vKM5SY5WR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "A2MtELFxn9wAiUrobrZ6vsypQtGHdH3ZesEnvAogvuFZ",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "A3ahHFBFkPkuLMhxLGEnKVVZu2J6Qy8Z7z2zozyXGhw2",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "A5tXuTBECLBm7DwHcUvPJrqFbzCuBpj2Vm57E8vnnq5W",
+      "mev_commission_bps": 1000,
+      "epoch": 670
+    },
+    {
+      "vote_account": "A7uqmajxP3NdzbYDXiGQRGTL8d3dZ5pjS4kR9NTZcxtg",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "A8ARsTnLNEieHGNvnjoiJj9A1JY98dXbnohA18YRmDzN",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "A9V5e8ZLwQ2ArKZnCcrmz9Q92pDCkUXE5tqJmJDZkCMo",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "A9YmK82uhCXieM9Cw9gN7W1F2KCxa8U1ArA6qxnyYcXQ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AAhcGqPdM9WdjhVH6T4vAQLvoDFrYQqirkxCdvxoKhgp",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AavwT5GecqFL18ino3YVv5z1icD6p7ENTuXuzAUf6QNM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AaxfteYTX2ftBRQfW1x6FiC8wY5dCJYgsPr8JwwMUuPZ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ABA59L7zGDUYDjDPpP7yQ1DxLfXoFfjJJ5MRnBQNs87k",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AbacusTT3yhEFEKkQKjGStDhKDnvSFGpg9EqBwz8FnDF",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "abc1zP7ihWsgQW8z5YmfQNqMckJE5Dfx8fwUNMNVNkY",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ac1beBKixfNdrTAac7GRaTsJTxLyvgGvJjvy4qQfvyfc",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ac8zL56RqrEwZcJa2HL7ZVCBW8py1ehVYj5qmfJXcdFQ",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ACyyUk2AF8XCkyjVKL6kMxUHqaud5wrXo44jawohn3qT",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ADaCfGqp5drykfme5omgfFsVgyFv2kHJMQCTxcGngrn2",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AddV9GtVTtepbNa7MBNDx81wTMRgnXf8nzhRuyinVab5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ADoWVeGQscFzTue51tMtFiLWiTTYYnkQryQFN9VzoRxL",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AdtBv6jyEjY74XhkxZkowMuGfV1r58j44WCRyeToic99",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AduRf23soau1sxTo1eyAoV11RyrtbyeF1fjj48jX9vYh",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ADYZmUgm49MeEotqzz59eVtoeNKBv5d4jRn8xjvR2uj3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AE6xdVD5e92ZgevjWAamoF5kuAu88AvmUv4RRdBcoyz3",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AEtdq4CwtuktCEUWLLpRTNPBZs6tr7BBqxkHJ1DjAttR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AfyTzhTXBRBCxGdTEMc9LNEkVGVGfGA9wHf1VikaNb37",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Agsu9fcnH3rKBix59mktDRqJhjR8aStgLDd9njaddcdr",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AjdEzodq5LpRA63AtQaiHyTLDfjTkr6csrtYWiSDPjaK",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AJmRAtaMf646abDoNBK18ghFTwR3ocnQjRCttrQkzFET",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ak5BJzQe2R8qFuyYmaAFPjXuD7XPux3ZNTv52D7rfiqR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AkTJNhRStpi6FmehZi2tit96vQgXkmgpkfGfrp4krQuN",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "akVU92YQV5hNTuzLBkF3RZCzKydZokyvzL7WdPF3D57",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ALiQdX94fYbGUt8ar6chuAN1nj8g8bKSgJ7qV3W7bPsS",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AMvyqeuRBxcDuy38MuGtPksvBtpuT3NPyoiVBDbzza6P",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AnodeNCzJGQ7QwheFqJr6EknKGa72m6XHiLtDQiXcmEc",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AoEE3SrEtKFVFjPxkTXzEcUBmQHiUBJDjtwSZVinjUiP",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ApcUbFDskBMrYJqu9orEnPSq5uMAH1YjhwR4DP2JwKT8",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "apySoLRzPkGf8EEinWQjAbL6B4frjgx4gG4YePoM9NJ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Aq9DBA3EtBRU19Vk1NKBCEReRaZNv9eSR2VexgbZteu3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ArgSLuXhyJzchuv8cN7oYzsVaqiAZwgdvG6nQgyg3Mhw",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ARondxXAhmFsVfVkhyBuCvnszpzpH2Joge1nD65L1G4V",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AS3nKBQfKs8fJ8ncyHrdvo4FDT6S8HMRhD75JjCcyr1t",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ASfKFAKz6fH4eip1jdLGt5Ym954kU9KYnwq2Csn9ogSz",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AShjuYEE1bTBar9HGJehw3FgzibJuVwuP846guzbjRPM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AsiGmWgxcbZm3FdbYHJ241pqt7r5FjUndATazYeJ871w",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Asns2MR4Su8domaswW1qnMcBBbzcW1SfJurPweKXgvd9",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ASrBTnxfvt8uY164wRrM9xXP925yoHzoRBnVYU5s7DEs",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AtBb8cCroMeGNhiF2H5eAzfqnHLn6jS5mZtWFhszwKnp",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ATRFbtnsDd9ka3eZooTPixm3AjicHxod1BAhNYBMsj8K",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Atw2Wond9H3DHfgg5NGqi4dxMwF3Nrgdhm39x2oK8MCW",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AuBB9st3RqhHBkzZgBSm6SVnHZNJQSHeBWCSkik4bzdA",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AumDzwu4mvm8TthHRcKjCGAWMBbEutMYE3tsPqArue7g",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AUTnPgB8m6qsctP9RRAcmnVrLSpZbBYB8nQAzYUN5j8q",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AV2h5iBU1Tkdy8j4rxgJK7nBJYvR11hD3dyvjoyBvbYu",
+      "mev_commission_bps": 600,
+      "epoch": 670
+    },
+    {
+      "vote_account": "AvDxkBtVZgauCHTMLMUMFCG2GfnsN9zv2qXbrgAoWUmA",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "aVotE2iXaXUVKeTWaHtKbSkkUqH96zC6kTKyonzHQZ4",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AVWnWgnS1ysX7ymBbQ9pMdWnt2hpweWGYekHRM8mxpQy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AWDiZEPxJizd3f7NxiJijUqHt2NDViGN5CWzzeN5Uoeh",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AWFQY2upeyu9YHstZM4gNDvRWS3ircS6EGrSTntg6E9k",
+      "mev_commission_bps": 1000,
+      "epoch": 670
+    },
+    {
+      "vote_account": "AXA7ztxJGz77RHmocYQ6MEbPYHbpc3TmhtQqZGrdzqo1",
+      "mev_commission_bps": 800,
+      "epoch": 670
+    },
+    {
+      "vote_account": "AY1nugg77a2QEMfTKrfniYqHp5MgLMWykXTKwZwXYxQD",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AY271jdvcyo5VzBiWsMGLEjpZFFrarq8FDydJHLmYgCG",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AYSvheimgwhpRHXossLqrTBDPwo4jHDQJ1UhMeAArTwH",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Azc2uttGtHsRLorfQzd7tsMNtfaEg7LyvVEMVtckPCNN",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AZcKUCnvQfdL3BWgX5KUDDRd769WR1AtFE7SV3Q4Pzeg",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AZoCYB4VgoM9DR9f1ZFcBn8xPSbtbqoxZnKJR7tkvEoX",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "AZUYzQX7nrbN1iE25YsSCSZAywZcyr1C1anMnwZtaqX9",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "B191sdbDFjEmLLNixWEfjsoxoYLbr5hnpT39KKoqgkUp",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "B1u3QSjYXHhiD4iWo6t3MwbSnRXjtsguMYZjYGXu3FZK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "B1UaJwhZ9rmB6rUwCikMCkYEPVgpGYgmmrKqfAHCZanw",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "B1w6SZcyvjyp6zEyStcc8u9AxXAh2AbYvNzMmP9rRKE9",
+      "mev_commission_bps": 900,
+      "epoch": 672
+    },
+    {
+      "vote_account": "b3d74rXdGgdw9XeqRWgAnm7bsZgg9mf5J5hjZMqKxRD",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "B6nDYYLc2iwYqY3zdmavMmU9GjUL2hf79MkufviM2bXv",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BARLL1NvF3jPHQ3zb82q1v5m6uewcpkgRBYVNufQMWjo",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BBGumW2W9u8NEpkKeK4Gq1dCL2dUzAcLVPoPFYHwHHjm",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BCRg6hEiLbrdgaTUbUbuz8deDcbyCgP37fCBMGqNhhq7",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BdDF74LLy8a2o95pXLzMx2ribFE4SDWCfDMkq9MRx4yb",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BdM7KCd6ZYWcaCMmHVi8YeL4jFzDVM9cRLJUeRAGSvMS",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BDn3HiXMTym7ZQofWFxDb7ZGQX6GomQzJYKfytTAqd5g",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BeachiopjxQxL7CaHNSZsynApiZCKx9QFVtcWNz3jDBo",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "beefKGBWeSpHzYBHZXwp5So7wdQGX6mu4ZHCsH3uTar",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BeLBaGs8dVP1bcA2zhv1RHmEPFY9PfmSR2mFgoqKkiaz",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BEnZR4K28tNLPiH15tdxYkyhaXGbzxqFCNjzTU66uh8b",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BeSov1og3sEYyH9JY3ap7QcQDvVX8f4sugfNPf9YLkcV",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BfbkjGQJjfA8DDD6Pkkdc9c2okMQ2pzrg7qpbiYs7TGC",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BfBPPqzYcqEQK9hF7AnQEJojzMtzQzB926qcPc4Y1v3L",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BfF3vg8UFcwTkFJNgQ7KQTAZBUWegF3spPm79d71WNwo",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BG43US2rrtZggEPtXuVnabwp9FbKCuyZDASvJ1EsNAHF",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BgheKvqFnT6qEyBtweMGGBRGtgqzb7DxAYn13uXqfoZW",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BGhFJPWxDdr8ATxFYEBifgRaZXta2nZ16oav2pdwiBck",
+      "mev_commission_bps": 1000,
+      "epoch": 670
+    },
+    {
+      "vote_account": "BgjQPDdsHeD9XXs7pYyHsmvKdkLR1A4SBNYs3mLmPUCD",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BGoQwskddfA7DvGkp5JBSuBbryQ96tgeq7ubu7Y8TCGn",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BH7asDZbKkTmT3UWiNfmMVRgQEEpXoVThGPmQfgWwDhg",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "bhWgxLuBivaKiUgywT7JXsNhMgF8C6Pjg3j7jFKs58E",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BHZCk3XnebkC7QKk6az18LBPrqgrL6HRp8bUKX9Mg46v",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BJ6RVC6Moc9mB8u3qcubnhS9ejninfPfXvz6kFGgRH8v",
+      "mev_commission_bps": 800,
+      "epoch": 670
+    },
+    {
+      "vote_account": "BJipnsRJCxgcMoYc7Env7ee2YASTtwLuyvD23AsJ3E6U",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Bjq4FbzK9aA9bQ7nYd5eGjTtiMyB8yFLVomgr8Wow4hK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BK5Km4MyuncoBWKCM9y3zntA1JjhdqNcHd3mxitms4Xo",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BKccvpa2f5McCLjE91pSGzEY6Ac5sWm1jmHy5QmZ1vTm",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BkQJo4j8V6Xhi8p39B76GhF3csWzUz9C6VMz5Dn4bmKb",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Bkskrv38Kn7zJR5mvmbCDGn2M4Jyhzt2ZqwQXV6rYnXa",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BkSS8kGUNcQkTgEKMmBhHxGVLdzw43EAzDYpZqyyxFrT",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BLADE1qNA1uNjRgER6DtUFf7FU3c1TWLLdpPeEcKatZ2",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BLX5PkLh7GsHaqCpLDxiW3UjxfT2GMyteVAhRZBYhCts",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BmCLQofhV75owwSAbhZhvQtRRcCaftKUwNfnGBv41QEg",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BNYVMkawH7ekKdbZ7NHqd7duLVc6QLATHYf5aqMkwjec",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Bp1F9Ma65vJCecNQBauQ3yvbARDbC1kZXEvfmcux9HLy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BpoqTRHu5K2XZEJe4EicRnyYabeBLG9TVekBXiHXSXTi",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BqcP9Uj8R6jAG9btZLPxhnPtZBjCTQax6qmuztby2xoG",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BQMvUHC6wqpd3TR8B5tAF8WXQ9xBRkopVqzAC65BSd4A",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BrF3uiDCn4yX55kZ5wcGN6NBUdg9pksWRzaniBALJLJu",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BrPtQfUipB1yV2kMXPeQsEKERy4uZAX21t2ZMb2Ee48M",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BrRf2kyJEuW8TgdeDjvJcKK4NzTzRtM9RB6WuVKXHxkN",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BSRRvjdKd8SHApi3KtTGbzrdhUojitiwAt4xt4nAxbFh",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BTquv7QcKQU48GyQEspnpseM7dKjMiXSb2XF1TF8BnfZ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BUu7cMtX6vnp7DFciYD7LsJqyf3WnATQPGjAgUoq8sgW",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BUyTfHHrp3HQ4TQXaXrRrNuhLsbz23auKYNrxkQRfViP",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BWBf7yJzAgDrDA5L5Tjn9TN7DbsjKdjcWJPT7gNi51nD",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BWkvytz3MAiLkUbMuYK5yV1VYThbBYYQYG3gdef8NLw5",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Bwkz1ddKoGE8hgiSV6HZLXi9RBLqfBi3HZb2QujzVGgz",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BXaSsyrvY5o19AoRDovjzVyZU9nXHixuDfNjBH8pfbjd",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BXf5pMTSWJdfwaiRYpwJjkTUuUe2sdvcJx7X7UNbyGe1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BxFf75Vtzro2Hy3coFHKxFMZo5au8W7J8BmLC3gCMotU",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BXNW9ysAB9ksEDidcNWraaFkMeA88q6xzFRSyNnGvQYC",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "bXr9MyoUAaGusQZ4gaUPmSZByHAV7RRGr1FhCW5tFh8",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BYNXBFkB89FoRCJ4VxFE9Tfde3anECjZjasTP8qSYQUi",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "BzFtHeFSLDDEWeGN4UbRNLCtdeaicHWsxRjCTvxUnJtw",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Bzn4NxNmh6vTrZyMRoL2qjZFNYbckRwNyHQwxzoJoggX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "C2bJpaAU2cBupABkV5p9ed37sn7z8f2nfXqZ1gFBNBvv",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "C2HZnYeF5BBbtAA96iZYcFPv3vqRUur7ZXXYAAZ1GMfw",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "C2KtdF4FBNybpJrAW9p57SRxv1cqH7EAFeJPJ9J3biLi",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "C47xkkWQAuHUi9kRbaAvpBpEL6YYMG9uEYTGqtaf2pg3",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "C4UD55ynixANA7brHZTyBwPN2uL3YYRwn2d1x3TgShvi",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "C616NHpqpaiYpqVAv619QL73vEqKJs1mjsJLtAuCzMX6",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "C6o1toH7rriz2DocmgTw6JzFbJdLpQ9w2QsjeKQQinfZ",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "C8MLmDCg3LReWoNCkFdHgsscFpHx2WdtcU9ZziNfXrhd",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "C9t4MQD7GGidZvdy9AV8Nwmnoou1jZEa7ZsEZnw5BncX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "C9YVc5dBPRbmyi8tPJKnrBuVwXeULby1eGXWvUVv866a",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CAf8jfgqhia5VNrEF4A7Y9VLD3numMq9DVSceq7cPhNY",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CaraHZBReeNNYAJ326DFsvy41M2p1KWTEoBAwBL6bmWZ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Cat8oWQiFfrR3c7BcceTYcpnYCzSWfCPjMXT7mfHXvEP",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Cc6B7VmLhvqoBghrPwKTkZScC1fcXB15zkSGVBM6pTSS",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Cc7UtVq4G25VbC3w6Ccs2XL2xikjc926q1sHp8zfddoL",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ccd7Sbwz18cHZ24uYomhc7JHhXKHZxyb9Nvyf5DncbTh",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CCknLtNpJWNzq2cBrwqYxXR9oguZmaXtoMQQQDCec2xY",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CdSGp7TLd8cFSwpEN4vKyroVxaCq76dCwCVMSmzAmGNF",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CertusDeBmqN8ZawdkxK5kFGMwBXdudvWHYwtNgNhvLu",
+      "mev_commission_bps": 3000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CGj63fS6gJXm8KvaUkkL5yAZvH9cjeRgHCgJwcZZEsRd",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ChaosDKeBjU22B4nnvYWXyTRPuWTzJBR4m3QPfBw6Tta",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "cHikkH5cdo1B8oGRUpe7M3d3QUuEMrWpvDwoXgkMKtY",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CHiNU8QWVW77kGS3U9MbYLCYkWXGTfPz2iRGoy6r6CA",
+      "mev_commission_bps": 400,
+      "epoch": 671
+    },
+    {
+      "vote_account": "Chorus6Kis8tFHA7AowrPMcRJk3LbApHTYpgSNXzY5KE",
+      "mev_commission_bps": 5000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CiTYUYPAPHdcri5yEfsmqVcs54J6j8X1QaiFLgYqMVe",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CJ1GZixWD1WzozqZMm3v9dY2xboRYZfQuuEHzawAthen",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CjspxRz7DTACphbx9J7ijypCvvVg3PHFo9rwmfajECfL",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CJznrtFkWvkK91W57btS77cXqRKce3DcoX8KXRp2WzpR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ck2rHWiP22YzrMgwVSe9ngyRW81JXLRot2CUo1Bf5RFh",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CKLRSR1fxYybR553rjwknHdnShRFmYAcCZWvoTExBqBp",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CMHSLFkNiRSkM5fd3ve8cXLX6DSCqoaPhDmjxkGh2L7E",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Cn9bZCGSYN57GsTfJ5YLCy8HMejHZqrBQkv99eusJtEH",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CnB88pH35AjH2XUsiK5X257sVLkGUf11UDioXgJXoLuL",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CNcaYdqkCwxDpKSVK8in5f6kqrTiZ5SuHsHFDqx6jNvu",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CnuTdyrVwnNFLzUWSkhbX7VGYUTVEqhavjehAXHhAw3e",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CogentC52e7kktFfWHwsqSmr8LiS1yAtfqhHcftCPcBJ",
+      "mev_commission_bps": 5000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CooLbbZy5Xmdt7DiHPQ3ss2uRXawnTXXVgpMS8E8jDzr",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "cover89z945JotsCRGdbjakJm4rnL5XspFSPgN1mVZj",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CP6mfD4Qc5AYrboXBAQeHMYj5x1UnYksDXRjG7DMkHH7",
+      "mev_commission_bps": 990,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CqDkE6NwoHNyRdU3x4h52pKrf3iD4RyTszwhNYyRyXKm",
+      "mev_commission_bps": 1000,
+      "epoch": 668
+    },
+    {
+      "vote_account": "Cqg1VwU4pdC8zAYMZZUViJuy1v1G8vxdYeUW3UNCqpfV",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CQr9DJLMeYqmXcfG8Z8cgSFw7ntXvVUamBM3dMVzWiJz",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CqSMzh8DWZeqYVa5M1V1rHU825T19NCjYipM3pkdHncm",
+      "mev_commission_bps": 900,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CraRZ3Pk5mJC2sfGXGH2rFRYjr8LPVz2gLowNbujcND3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CrEA7jydDYM1kxLR3MoYXm3r7WJxmgR54MyjhF9FgbtW",
+      "mev_commission_bps": 900,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CrLn7zEBytbmRBUGhkDyyUbGCa6H7bMCnw94Dip8QbcJ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CsfWHXyL85Ur2vsfJcxg8advGyfFa6FbCWMX22qbsqmk",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CsnnNsr7aZrRdGCTYv7Mpvgx7TJe1GJxVfS4pmpEKdAf",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CT2CzbiNRz8ccgWQZR4BN7cpm3rDyWyQxUf5MNbMom7n",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Cue647T8jgwpRSDUb8ttTYx7NiEfJCRZNiiw1qmchXsG",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CUoE2FDBKfmPsEN5NSH8xToXcybbJrbNaBHKdpYgNaQB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Cv4i8f7AZ2hA7LfSNmTRTbvCTUyRSbriSa6gUA3ncbgG",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CV7uvPY1Hk5Avb2NvkGJoUzGnipZrEZK27j5rQJoUae9",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CviQXDMPZPVAZ5qgVGN2gSBSD9GqqwRt7VZidoHMpArr",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
+      "mev_commission_bps": 2500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CwrJAdkEp7fibRs8Th989tX8gFyJo88jVoK9HmaSCkP7",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CwSZ17woioM2bqEbaswZJYvx5pemN6t3shBcU6zqPHyG",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CxFe8PsDXAuzgZzP7N8um59iL517Lz8SWtPahbfU9zVo",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CxFH1pqJnEmyaE4wEwqdqMKpQMpkmdaMxhS7SzpHokA8",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CyxKaD6TayfbCRx6mSrLpPY1YSLofdVZKA6BSThXWfXS",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CzGLRXJXoDo9q86MpphPVNNsTgAxHvZfUfAiouWDH89M",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "CzmqDuqEpfnkptuLAcikmJrhCnhFXo8aUBj6Rto1SPAc",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "D3DfFvmLBKkX9JJNEpJRXpM1pYTVPQ5dpPQRc9F49xk4",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "D3QPJm7BDzzPeRG51YZSEz3LfV7GvFNu9NkcibzURxuj",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "D4A3ZYhd3zH6h8QKykreea7x3ajvuwnw1yZD3nRrjiHC",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "D4mLBafAJjpRABT5Tyj6UhuwJ8DLRk74JzyuTMUdU9Fz",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "D6HbUn4FeyZWiY5ftTAxK1TXmvCLjBoPG9nRsr8z8y5g",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "D7rALJCR3KUMhTwtmjvk4ursBLbDNvAVRf2FwdQtbVF9",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "D7WodK26tETSqyWBW35vvMGfige9afLEyTsm1Pvvropd",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "D7ZCDE1PHe8duMjNpxwHrYbrRzcnsS7p4nD2daLzWwtr",
+      "mev_commission_bps": 954,
+      "epoch": 672
+    },
+    {
+      "vote_account": "D8aGMETy3q6ymADJs7YS81QY2qTQmptVox3iCfGDgSTA",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Dcd4JMKNuAzoSbV48FmpmdiA1iPZ1FpZp4QPjBXdrNj1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Dcoj98wWiKhA4iqxcSg7NtuR2miA7tZqtycMdkPo8XDw",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "dcwMB2qjmAwid5KNo2qquBPyDxzdLfe9io8JAxeRU5m",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DD7NQUKUex26GEsM8jpcx36MoGykbdUHJ3LbcD6Lzrfn",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DdAvpE1oUuV1sNUxLgtCfC6ZwhgdyPksoXU9EfYdXL5U",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DDyikTKaM6RW8PZes38aULUeZkWCtecPZt2pmGCby5Q4",
+      "mev_commission_bps": 0,
+      "epoch": 670
+    },
+    {
+      "vote_account": "De4k4hrdkxFHmAx4nVRA3g5ukdg4YqmDLdwuYUcrjjud",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "dedxrPfNqPKBRmUyP9LDkaitpQzU6PD44jA6GP9Ndhk",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DfpdmTsSCBPxCDwZwgBMfjjV8mF8xHkGRcXP8dJBVmrq",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DG6fVEB2Qy1jntvHVPui3R12CMqcwNNnjYPYdsbQ9ACP",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DggvF7asrbjrqvcvPPRKovy3VVvjCgvc2GnWVusxq2MP",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Dh4K8fNV6pRFZtbzQnP5a5HmyBPb2kmxvWiYmc5fJMvj",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DHoZJqvvMGvAXw85Lmsob7YwQzFVisYg8HY4rt5BAj6M",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DhU3Q2NoCxU5ArXJWm3zxFDRuBiPU4fGrJ8kUasPxMnQ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DimavhUqvCpWjUZqSFZGLqBiUVUYQ5jZEaCHutKKVs45",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DiSGejVwMNoXn3Digh4sPpNErMtu7UuKATRHdsBu9sgS",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DiYFYCDVurwZPVWieFsDNjG6iS2nSfBb5JQg3huY5eEu",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DKeL7T5t7XXKSbWpM3i9mkV9hRhqrEDbVVyL63AJ7TqE",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DkFMfnJku9arJJtUytBXijUyb8tuX5FQvsTUVUQQ9pgX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DKnZkpsqtS4kpFP5zWudrg8w9eCUHixJ2QCRtwwxh8Me",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DLMhVf7xXa8R2D2y1fZSRVQwXdup7EfwBFbttzn5ppnC",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DM8eVQwKYpFUq4MAC1XEeZMjV4T34LfvGkK9vca55GaY",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DMSuZcavta8L1w1tSiH8bALWjz6Q6KSryGG6m6Az4Qt5",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DnHUCbu4unnxGukqp5hJWZL6a1P5Msb491f6iybbRCF5",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DNK1bxnRtsg3Xvif2wHbPsVjAJvoP2EQmwsTxtQbjAmh",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DPhzpiNGU9C6576uLsNSHmdi2AxwxpjMsRdh2iVC4TPh",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DPmsofVJ1UMRZADgwYAHotJnazMwohHzRHSoomL6Qcao",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DpZLBTc94PHUQLEsGh3mjRF2U9etouZbSVyAS5aqFrom",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DQ7D6ZRtKbBSxCcAunEkoTzQhCBKLPdzTjPRRnM6wo1f",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DQRqi1v2un5eSoWxCkheGyVvcxm5LiMnxmSRUXazdGVX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DR3Gt31cATSx4T6qRTaWcPzLKP3FSYpqrZ74iDHVm5A5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DrCcHpAWj8a4JU99QKtwfCynzdhgQeuieAY9WadZD5Ry",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DriFTm3wM9ugxhCA1K3wVQMSdC4Dv4LNmyZMmZiuHRpp",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DsCamyDGT7ZsrBXhTEpYAiHdrnuPgnYtpWKeSST3QRBq",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DsiG71AvUHUEo9rMMHqM9NAWQ6ptguRAHyot6wGzLJjx",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DSRnpPkLWLA5V2TZo3AJwe2eGfkZ4ZaCwRf2v7e4aXg7",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DSzLJLUQD55sxaCsJBHLFSV1SYngMmT7oY8rLpFhyGgb",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DTDvrj1mKFv453DMAGRuFwg77DuLjsfVHnbLe5BJPL9D",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DTwEEF6VSrmTBYkDcj3BKAc52qhvP8CEQUEAMMT1cG3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DTWh2VQuUJmskHuZWy1KLNvzKqk7PeMkCoaNvZy415U7",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DUCKsGEPEdNv9QeskPNwoJdWgAXjxUFrkNDEKjAnLWyY",
+      "mev_commission_bps": 400,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ducZeBYuxQeeHStH1QtNRJV7tKixfKSo7RMR2TeP1Y1",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DvFTFLrEQSfEadPQdesvf5bpYWYqXK9iaJAjq95piQBs",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DX3Rpy2drSHvwS85EEy29wH3LQG2ZrefoYqhroeJSzY7",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DXjujkbMhAvkaygmjLbi7UGdovAs2AU6y45UMEqxhEnw",
+      "mev_commission_bps": 500,
+      "epoch": 668
+    },
+    {
+      "vote_account": "DyDjFYB6i51FMHQvB4eKSwGHmgMxVf1i3FWwANAngqyY",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DySC6eaUthvVVzu4s8GFupm4PzYLNvq372AYnNrKP4xP",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DzCirYWNsCECVHgSaMVg1mqMzKwtGuN2Pqm2a4HqVpTE",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DzGHc5pLJACrLNrXQqvhoLW5cyEDQnuRcP4QDEhumkpG",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "DzQHN1oTdN85Sbku2bc9Fu9yEwrgRMiu2XbRcntZ31yb",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "E2MhCdSvsm8qexDPZ5AnZU2Wa1mG8F1US82vh7y317ff",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "E3gHWAvHRCRoDogDPF2Z1Z12ESucz2qqxreXHbMMVXKC",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "E7SeJHDuThghiqzyq5WRP67zGr4JzLCQYqeAeHKc8vwM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "E8SMqsquNDQQPPunKkKCrMcDayNXKYzKaX5e7hswcPVj",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ea3QDFfHSEPbTDKPaDSKwcYYK4unXR5HEuqeiQKU5Scr",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Eajfs6oXGGkvjYsxkQZZJcDCLLkUajaHizfgg2xTsqyd",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EARNynHRWg6GfyJCmrrizcZxARB3HVzcaasvNa8kBS72",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EBGfQMkRqBZ6mj2AJ1UxwKD7MbiuMGJamzKZe2UZrG6B",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ebm1XKkMzaFg2L5rzLPBnFHMtpDPa6SWJ7nVUzZUmXmR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EbTAFfpPzoHYAbj4HoSbiJ9nYtZjwPULi6y2TxummJcw",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EBVj3uwSKZpqEb1K267JaPxDQhULVqCy6hYeQqjsPh81",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ECJMTMCroXLtAqUnSbrCH85ARP9zg2vYooM3fwAMfMSM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EcjtYtuxBuupjeyXNdttATwoQoNL5Ck7bmrqDCj3ALT4",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EcLPNfLFgCkbcTuvdeQ85pnQMgAfBDqi2dkoNVPrSyr5",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EcWtSUtmgCPfLP456LrKG7QqhSSSeSVuQAJSdqFtBK3v",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EdGevanAjM8a6Gg9KxBVrmVdZAUGAZ9xaVd7t9R4H2x",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EDjoFJLunZhjS7difXbi1DvLPPdFenf7YvTFoa9y5pCZ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "edu1fZt5i82cFm6ujUoyXLMdujWxZyWYC8fkydWHRNT",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EFeLsLsrLhGqy7LSdws4sKvinvCohBBAda2q4iHBrrss",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Egz6nSLqdTaM4xPyx6ZerwWqaNJV7NFRprXJtFKonASV",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ehdn9LdjTAURQSMoDPERXLehtvzy7QD762wwPkzGT7RS",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EHhxJpoAZXSSmUBhUXUMNd29verm4WdmaHQ2eZtU7fWR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EijMpL5u45wg1ZTJZa4i7DvUsn8um8s5woVJsNmvCpTP",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ej35PiU6wxfrQeJJwuqoT7s2gYSwCjcxQtEpHvpvWBu2",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EJ59wFK3qPrnsFFSpZ7jSwCnXe8hVQ12heXYUqry7Muc",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EjCgjDEG9Moendqzv8wkCmnJiuNMAkDioYFRQxGYU7gc",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EkLA4nA5jtM2t2FkNWo6XWAyvQyaJJUZoX5p7LMawoaz",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EKUh585fWD7LeDRHgmYd9EXpQnY6KNbNAhyBi3FuVw6Y",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ELLB9W7ZCwRCV3FzWcCWoyKP6NjZJKArLyGtkqefnHcG",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ELvd1ayPGicuX9yBNr6tn3V3BUCa12Cme8FDdghcmskf",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EnRcbgr5r7EUS2P35szncy6TW6eWA9UQiU3yQRCDbh2P",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ENVaKoD7ytn58xJ8s5htFfQ8hqQt1G9dcPUDqbSwVcgB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EogKVYgic8LKAuV1kR9nRqJaS5zpwCvSMfqoehzmAMpK",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "eondcw2upjH14EuvBzmn6HfGEGo8t9hG9JbXtPj6cym",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EpicsoqLdDP8qRn3wQRKTSKAXbjK9dUgFfNPRQS77MQD",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EpRvips2doUUdxvs3Qhf4MCLqVeJEPu47Aci5QbBXASV",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EQahA1H9zQDGTHzt5uGq1YXoiFSaYU8WxjtfCCGjUAv1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EreifamaYZ1cAtegv5hJFgRSqDQg3i6uRamWXfYuJeC8",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ERut3CwqVeoa616QBaoHc5jL52RpkXjZZZ7MeaMaCtLi",
+      "mev_commission_bps": 800,
+      "epoch": 669
+    },
+    {
+      "vote_account": "eRuZHEsLgULocRrgw5PsuDEjWR1SrkC4aES8QsiHhF5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ErvMUdtMC7AX55zKdYSyy4DnWNCrTsWn5GwprSG7ocnx",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ERXQNpsCnxHWhiTjFTKuRYRJs13hHqSKJdx5aDGe8Ww3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ESaLvDNR7FVdf4sR1edjAGN678ts24s8VGirvPq9q7H3",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EsELtZoep4TYcugKyMnB4ZWZYxn99V5Vb1TwexDzFey",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EsEtxoyhFTgfvudcy2VwwQJ1qA6BScLUW39PKpYczuxF",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ESjX2jRuvdr2a47JfEKjP24gNsgreE9PvSpkw4t5Xn2M",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ET5johBaPyWugD2Mx1zbTCvvbedxZFURembUHng1rzfZ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EtGWDbP7342Mo2PnG6MYUP1rL8v69ycn1FRnRTB1BLU3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EtMSc3MvcDXUr6ChK5GxyFVwTxYA3zqP5XzjE9jwKvSV",
+      "mev_commission_bps": 1000,
+      "epoch": 668
+    },
+    {
+      "vote_account": "EUiPhYZ8NoWX5ZzDh2cRR1fAS4su9jjV3YE7veyactzd",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EujFnyMz71DXdN93GeSCDU7pFiy1vrFG7cAbtfAhFeSe",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EuUxT2aEqiAVkCjdfjehTYzPA9vGSrS4AEcroUf3Cxq6",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ev3gPXRo6TJeQ2QhxfqWFoasdoGbmDytYvJbUabEHfLf",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EWQfCyftKLVbeJtJ4idbLDcDFSGaZ6bZHGS5vboUx3VR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EwsDhgfbT6H4FRC7AHdhXNBxfBSbWCbDfknrw6g5Dph6",
+      "mev_commission_bps": 2000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EwtnPXAgJsN8GVpX4GiJc1pSKcMGnCVmwwDiXrjuC3fP",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EX3g83pPDBzmqhR3Butivqobds4Mx547REXycx4jAJe4",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EXhYxF25PJEHb3v5G1HY8Jn8Jm7bRjJtaxEghGrUuhQw",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EXrWdDxFaE3Sfsbh3TV5ToGhMqu53xrmeoVdvn467jUH",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "eyeVhGmVEoPSWmQU2wP5WZmMihPBTCk7kMMm4VhuAKS",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "eYz2SxqtjoojYR3KVvLU3wBQks62fKcGX2821eChPw2",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ez5oqa7UBJosiUZ3YbXsjGfnZAdcGE7awrkRmcCWY3yB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EZCQcPkgsNS5rnfoAWRsVZNGEo3GoZSVV4qSdeWrXzhX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ezp1xiZC2mcenHjFB4nAfb8HW9YuGEBFit49yGG7XdAu",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "EzZEi48kvDWPJJBM1z9nmjpgRyMwWJwaa4xVW2U6psPr",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "F13Fo2eRH5EecT1gL9TAisbLxwDYiLsK7sTjHAEmprTM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "F1emDGY23U6YpJj4H4af2CHcHUmiDGgAWs2xvWYZHWdR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "F1uC4BM1KbAHfpcJALXcZNvuxqbrYkC3Mt5ka8tcf5Hj",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "F2bcoVhE2he5DCruN4PKkWAriNXs2VWty94n9CCdWZ8s",
+      "mev_commission_bps": 0,
+      "epoch": 671
+    },
+    {
+      "vote_account": "F4UVoVGgmd2aJwnfz3eojQ92P9AvYbRG51z1xnEj8tFy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "F5b1wSUtpaYDnpjLQonCZC7iyFvizLcNqTactZbwSEXK",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "F82nmpcZMdHtMVsLtAGByPavdN5WuEX1hjNwzs3UFuwq",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "F8vL85h6Je7XQYZBwwQPy7fbHd4rf81pTVE47Y2VpjNS",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "F9BQ33SM3CWo3wUK4GZwnKUWciKMB7pF54no9cKzj68u",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "F9PZNSEtgbqmgsa4mkgkAuLFYQ8nHzn1UqubJQiLkBn3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FACqsS19VScz8oo2YhdMg35EsAy6xsCZ9Y58eJXGv8QJ",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FahWJg2PkphJaMUUCzdYhXkD5NngUuuFRFD3YCE3BSwb",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Fbnesg4kSDDoFbjaSiDQJ3GXHHAnNb1CJCgLQp4dxj4C",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FCjVa6gBiKjvacMqWGGMqJ5kiQh1kFcyeAcNyKMyCxzK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FCvNkHa4U3yh7AXWGGL2jWLWiSRouR8EtzY5WVTHKTHa",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FD1S7VFjDhWXwq5hnFpmAMqnt8cadQf9o3pNzr3ETJTZ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FdGcvmbpebUwYA3vSywnagsaC3Tq3pAVmcR6VoxVcdV9",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FGcFu8thUEhvnsKmPBT7D2Nzgeef7fpnXsWtM3WgDv3f",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Fgevrsfh8KsFN7eomRWS3N2bjKvqRBGMcEo9oQbT1ikX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FgiteGaHbA22Wt4Quzv3muscQtvX7gzVwvUHbFnb3rTJ",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FGj3nQTn2Lwe9KkaKnFGm4HcxLSh8B8TjpvP4CinP4iX",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FGtsnE1HB4bBi6g4xAt5mvWtuC3qBPWPBgWVrnRmUiVH",
+      "mev_commission_bps": 900,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Fhks5gukimP6vxKYbRY4V1aw888EgHhpdDSscD9V6bub",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Fi5PyZW2FHsrDWvHRwNBiAAuHRg7467jhpEwC29zd567",
+      "mev_commission_bps": 400,
+      "epoch": 669
+    },
+    {
+      "vote_account": "FiijvR2ibXEHaFqB127CxrL3vSj19K2Kx1jf2RbK4BWS",
+      "mev_commission_bps": 2000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FJ7sKbuXR28w4K5EChBbi9tXYfCfrdpF4EaKnRvLPzL8",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FjEkD78awHu3Zh6x42FidATyMfaU7QviZbDjao4UfZ9m",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FKCcfoLt2pq7boiNqRGucVq5LE1K5Dt4HALCx2WbEQkv",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FkK9cat6c8zhLXeYFn4UTvy6fnSLB4p6SCbRQQfdFkkP",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FKsC411dik9ktS6xPADxs4Fk2SCENvAiuccQHLAPndvk",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FKSXgi9YVuMwUzc4miWhFnJPMTbjJ53XMFgyoCZCo8c",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FKyoehgzXD6KVSQoHJuTteXGCrChYe65k98wMckr9MN8",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FLCrbfbwEhFARa8nK9rnZw8BVtKNAuHujh9EhWy5A4U4",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Fm3YevqrrvwKWEAJVmypyja8JZnanYudvx2ZXV4RogX9",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FMKT6kHBkmPf3LjZV5tpo3oR4m32rF8nF8JtC3WWcWoN",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FnAPJkzf19s87sm24Qhv6bHZMZvZ43gjNUBRgjwXpD4v",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FPjq7vB2V3TiseJJSPsp47UWSfT4AwvKjiU7GEro7bX9",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FQ5Hc8CgnBBFT87QYt72SVVYGEk677fZHDKH1wX2TeQ5",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FqhGYvSrTwEnJv4VHJZx1oEtd5fewYcdi2CPsbKnSYhy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FqUfeiVYd1LMNSDw1t9WE6fAXAKzjUVHf8YzZXWQjSMd",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FQwewNXahV7MiZcLpY6p1xhUs2acVGQ3U5Xxc7FzV571",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FREEL1BCzmPpNneC7FHCtBqzeWYrHRbtisFvi4N8XUP9",
+      "mev_commission_bps": 0,
+      "epoch": 671
+    },
+    {
+      "vote_account": "FSDKGroWxgBf7VmV6X1NLDhnncrWW2ekztwRWiJrPf3k",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FsT844wGgZg7MLR9Uc9T9qHQxmSoFVanhfgAEQvS966r",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FSwhPiYebzF5nNGvWbUUZ4SxGx7kw2QcA7A6xgYz1PZJ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FSZ4GBucapayiQC8w1VNpKDmzM6NZDBSZmEFZsgMteRr",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Fu8PjDfwWjRBAx9nSynpMRUtn87SraJEexcnDHtcoD6g",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FuvD3qqrVjuh355sBs1u8bUS3aU8NgknymLskPvtAc6N",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FVhMWs3bbayWpUqDAbWUPH813gzFzJEo8fzhLhhkGstp",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "fVotEjqpmpQYgyVyBCwYm62BKqqTQNE6SpYnRmdBazH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FwLsjPJdnSiuCvs1NXyR1cV6Sw5GRE6Lj2s1gZ9NNTmv",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FwnUt6MUucm4mKKGfRVcKo7W82MTusfZ2sDhnc8k6F5i",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FwPkzFcLFGH7GCAELuHVxNMuUV21C4wTdai5BA7Ptz6c",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FXbkkbLWH4PxSK8t1JmKAHn4pEvGsCFyMT7pfgwm62us",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FxDYPzbpwsiuJoWiHyEfw2itgQvZAdX2PHufoLiqvbvm",
+      "mev_commission_bps": 0,
+      "epoch": 669
+    },
+    {
+      "vote_account": "Fxnh7reapaQPZdbLPpFG1svuEGcJvibnT1Q4N8h11g4A",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FXRu5NA4ouLGFuZNNWZFwwnvQz9zE7JCX3D23RJTc2NU",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Fy6zNoZ1eCPpQX3JXeQ9Yd1HW1BFL8rrFmDvYYDnuxjT",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "FyrSH4VeQidMVPQ9AE2szAbP5xBZBprRG3z1QMMLNi5X",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "G1itch7djMvG4vMRToAgs45cVqrLGKFbzrgV4qNDsG1X",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "G1juWDqojmp5CWDhgRqtXrtpAFw9xqhjmEQAKr9faf4V",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "G2Qvt31y3wQDqLvnZTf1Lj91JrZ8rKUhtCP5kVJxXS9",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "G3zgPda4Pr8hspBGYbVQmvQBqpep4zU9ngf9qbP71XMn",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "g4MMQmzT7182jBvyUebMvsgvNM3RVrVFFJd9tRjWXhf",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "G5dZZ3J95jER4v7N5LBg73ybxfg9RxFBpVc3LAY57UPu",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "G5rpFxdBqmZGg9Dm7QZwqatKa1YRPE5HDxZqohw7zbz8",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "g73uD1jYARir7KJBmS94KN5XjasoZwcxAgCrS59LyBG",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "G8hvpQDLe7hGgYtWYt4TJJEbGbgLFCBJYiMi9pMD9Kk2",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "G8wNSn917P34TADGh3MHwr5Un8LT7J7U4LrkhDMTMUSL",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "G9oM5tuM9E9r4Q9N5cNbm7NbT8bGuaQFdJ7QTPXVYHeJ",
+      "mev_commission_bps": 300,
+      "epoch": 672
+    },
+    {
+      "vote_account": "G9x1mqewTeVnXLmv3FamYD5tq1AdS395RHH3MLQPj6TY",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GA2t11gJcmuZ4y7pShTzgYDkxVaJaVQJqkVUqojhPPsT",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GakAanHMN4dYY8rMKL1e6uUKjNJj2nN2sENFaxzdMEBm",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GAKLDmghREn6YHGu5y5vTHA9JJY1Nuxy7n8zz4RFzH3p",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GAnbgkZq584QAdfZZzX8aCiKvDYcqszY3jGCiwqm3a9h",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GAnFgdPQ8WvnsFKgPsZ5peuSqmGzSznZbJaqN97kPxjt",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "gangtRyGPTvYWb8K3xS2feJQaCks4iJ7rytFUPtVqSY",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GaxxAn5335dA4U3772MCFeqdyqCVEfmsQTQ47YXfC2Xi",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GB44NXtM7zGm6QnzQjzHZcRKSswkJbox8aJsKiXGbFJr",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GbC2vzt6S2HsUAJ46Qfh3aoG6oB9y3V4T7XD7914K5na",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GBj57rgnT8gvFdU7awQ1u4toKxMGcHGHp6VVRXz34qyV",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GbRQmLLZFwc6Y2T6LWeKAj4jYRUA216kp2qrVrpT9avM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GC8W2uHZ9UyrmgoDGsuFt322L18cRhsbKxWiZ579aLM6",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GCUWGuMnmtMv3BFMx8EmeWxst18sihXxyU3skeNGTj8A",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Gd5ngiHe5vQbDW6EbQ1wNNsvumwL1M3ranZ3xh4Wy8Hm",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GDeQhGxQeHC65MWt7o27NdjichewGMm7iCHuZLvgGrsA",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GdRKUZKdiXMEATjddQW6q4W8bPgXRBYJKayfeqdQcEPa",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GdVBPczdFaPf1GXvx8ByHeA1ZHAHwwmdQEPihH74SXm9",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GE6atKoWiQ2pt3zL7N13pjNHjdLVys8LinG8qeJLcAiL",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GFK84uv9cr1d6KnkPERSEYagTvpLKTuwa8W9adx1qMg6",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GFQmJaC2SqTDf2tfAHauiGdaBfBD8tJVpwZTT78SeBCr",
+      "mev_commission_bps": 300,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GGKZN9R2aGaW3rBA1HyzSUJESjNccpEfUQtQNZG2z9Dr",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GiAsNLcrHMMwmd5H9RqAxKgbwoiBVw43Yb5b9eL2uhWh",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GioetmC79nLRnN7VDfHaq8coWAEFPJKu9py59uUqdV5U",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GiXx1mwSR44Tz96CaDqoadzAhZgZv7e3yZshqUwiEwwh",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GjZdDp7emowSgB21XaV9BCcStSBjypDPA3bZtc1494DU",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Gk8yrBiy3gBWCgnHaXcEeMEyCZf9sK3kvTaSdAQAj7zm",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GK9MfwWEK7BvMS8eQDaiEPnKcqMJoS7SKUiEBQY2pfxC",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GMiBDMmwFRZfxVuHt3bXe6ZF7mGUBGWKXHLfY97NwQ72",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GmyxzCjsRJupxiiHJxKuiSYy3jrrDvn9pBkbhHzqCH1K",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GNajgJGjkdnmZTRGZzsQ4P4eL54gHRMfDDLyZpnZYmUy",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GNZ1PAAS33davY4Q1BMEpZEpVBtRtGvSpcTH5wYVkkVt",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GPjDwfsmy8A8ZpPHB4uTwZQhPnbA3mRQeRsY58uXqeDy",
+      "mev_commission_bps": 700,
+      "epoch": 671
+    },
+    {
+      "vote_account": "GptPXjYUBUjxpRmueH6F5JcqizvjPTRDShTJQ8Vp6uN1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GQ8DSRSNCFGEdCEwc6em1ma18qSPc5cXCSDnSPSznWBP",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GREEDkpTvpKzcGvBu9qd36yk6BfjTWPShB67gLWuixMv",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GREENr9zSeapgunqdMeTg8MCh2cDDn2y3py1mBGUzJYe",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GrefCNn5jSbcWv3uiervqZiCC87F8oX7PXz9LEBiog6s",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "gridZ5cMHjWGktAQt6o36NtF7XSv19nJBrW83zmo7BM",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GRWCUtxwiSLtLGERyNyZymr77NJdko2HdDHxpVcJz6E9",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GSaWJ4FjXQ3RGctXaBdcW9oh939cwxXUeeV9A9d4shvf",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GtieaErmxgFVySoaxcN3RP3m6kcmpWGqknZ3peXkaRPC",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GuxBSrv5jnSwwPepkqnmkM7YCBSakKanbnw4BKMdda4j",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GVQEm6h2UjDKhSU54kf7kFumJ5NDWddyYUtgy5eLCtBn",
+      "mev_commission_bps": 800,
+      "epoch": 670
+    },
+    {
+      "vote_account": "GvZEwtCHZ7YtCkQCaLRVEXsyVvQkRDhJhQgB6akPme1e",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GwjRJdT9nKmegq6a8nyvEPfoQZUSPp6N4KmWAUMo76aU",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GwT72fNWtBrFa9GsBru2kPso1NEw3AnzrjPwprVAv32X",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GxMWXbj3xLVf9bK4rspJ3yjg7cmaLhZX6325brY8J1wi",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GyGjudkJs6Ss6Vu1U8rGSFVLPQsXsqiM8F5yY43Uegda",
+      "mev_commission_bps": 1000,
+      "epoch": 670
+    },
+    {
+      "vote_account": "GZgVV7MMweKm11hh8z8Nui9kRo3VxUVr2qgmkDdtJesa",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "GZzcHTsorXLrWEevXYo51ED15NTYPLPLzgGxddYMNdn5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "H1ScoL1TosVSRvJgARRnMs9extCdXZRWdKRqY4H7k3ik",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "H2tJNyMHnRF6ahCQLQ1sSycM4FGchymuzyYzUqKEuydk",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "H3PePkvEDsq7kUaHttsjkjxHf2Cwiay1cyLJhakstg99",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "H4cXCqtAy8qdu9qe2dSxoPhUscMTYVrmVBXyPqRVTNR1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "H4QVPxS7napq3NEYxqLhxbKi9nJ8s56dD2EQZGsyZ3sb",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "H4UcftxDC72MW4WYcXuyYmfSQMo9hDXpkGBxycBMVbEi",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "H5oqciP46Ls3mJZu334niaKMcVWjsC7JKULLCZHxT8hr",
+      "mev_commission_bps": 1000,
+      "epoch": 670
+    },
+    {
+      "vote_account": "H74qox1GASBWd94FWMyy6GVAbRVLf9SAMgbJ1tzSUAst",
+      "mev_commission_bps": 10000,
+      "epoch": 669
+    },
+    {
+      "vote_account": "H7CfFGvmUHWvryBKAaVibVxz85SYmWyoECx3CjLHq3zC",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "H7fXvnLCKtZqJBTipxeseabGfAZUdHJ9XuP6hCKrbvUb",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "H7JJ6aE73ufbUuDCZSQMxguQsj28XHe4VQyMk2hsVGoo",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "H97b7WujYu1qRLdngfSWVxsXpasMoTaCfRbNx3qvu3ev",
+      "mev_commission_bps": 1000,
+      "epoch": 669
+    },
+    {
+      "vote_account": "H9p8zGs56CnL4b7RrbwQ6htc6V4K8PUtKvqH2m7hYAtL",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Ha5QeKj9o3u1116qohTcSqEhPRJgUUKSLxS1n5Phgq85",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HAK7iPgQTFwqEzPfVrRDbG5epFdk1dsA9qQexytsDoes",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HaTniLULzUW7Mfq5qBXPU3okduucnoq81Kr21niLjNgT",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Haz7b47sZBpxh9SwggGndN3fAyNQ1S949BPdxWXS3ab6",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HBH2mppWdny8NBgxm61DjDqBzNLymn8fZFkFX6JnSAX6",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HC1NSDR9cbBeQ8V1XJ62VNceUAbjGdnCcH7f5wVFVZw3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HcbE5huUVDgsf7SURsRfQqnFMp3Zz3i49eXMddugPyAP",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HCvnhbT3Sn5RsueDisWzzn5FkW8tAqoQK1dr7cvAVzin",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HD9FwkthKMAFzT3zsPfsZuELUN7pW71KkDR1EczuX8t5",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HdP3326wLHUqtzNvVfxFWtfp5EA8njHdfwnWfPoCBjWa",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HdRcSKhqD4iG91qtsFpgATit1vZCcJQgbjnZoNdHmnC5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HE1zd4TpbDuKzg6cqbk91XjSZELL7F33eqDinxj5hLfG",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "He4AUUbyUciqmWuAga11ucr2tM64GA3NqFXYEPmHPv6t",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HeTyhZdUKswQoonJJTXqAnDN48ceyVAeFaKfYKayGPNS",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HeyVYASPrUcKBwV25axjdjjWzXbMs4sR5XCEt1u2f2N1",
+      "mev_commission_bps": 0,
+      "epoch": 669
+    },
+    {
+      "vote_account": "HFLsfstZkJeWDgVEA5fmXeea876Ad9f1VxrbXk386bBY",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HFpuMHuQqUY9o5D4g5ByAJKEYQrMLjwcusDNjozXa4Dg",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HfXwCe7o66x2bDC9LvXLPcP7FpxcDzDhWzxgrCJ9r44w",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HG574XwiowrjLx8h91KhHUhPeMfmUPBLfC9XrXynj9x",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HgovzvawYMRPY6Go2kaQF1vLR4rNixooHKrUWSH6aW4C",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HiLaiF6HAUL2kYBsHcVb3CDws9c3dEphtfPbzDnKYFYB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HjGn6RPn77LGaWGvzBHvsNAwNMkpBXo9AgfYToA5Ka2N",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HkK6U5e8HkTs5uE7VEWQ2H3NuznjLF1mpoRVjzdDgfF5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HkqCfZFY5Hh8UDSGH6AJqtxpS6CFC2aqqFgqiDYtSPZw",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HLM6hyDWrEca9QMS92nDBa2AreU1qDkppttPVuJ7E2CU",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HM5H6FAYWEMcm9PCXFbbiUFfFVLTN9UGy9AqmMQjdMRA",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HMLfMHdETcGSqPGAr38rSiwewsSZvLPMMPALc5pggtiW",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Hmq1oALENff8DejgYhJxB4njb6pyCtuMKKxotdZicB4n",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HnkhL3JYBSmb3s9thcVWzAQA9NqJb5m9U2d7mdDxprGo",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HNXuDfYtRnRjcUJHqfNg6sKzeqfz3YBCXeZQEBwZJg16",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Hocu6Vb6cDRYy5MnUj28tvDwda43wWx1Vc3fiCXziJ4x",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HpeyxYuEXXdB7Xx58pWN6o6aKdw6mxSRBHYAZpXsdkpS",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HQbdXrLm3EuFyu66mCpDS4ir9zRkhNHJVnck4vxG7jEo",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HqMYqwdCRqUDfpg7sVJZxTVXRfxTAQv6r9CZajtJZzv8",
+      "mev_commission_bps": 10000,
+      "epoch": 666
+    },
+    {
+      "vote_account": "HQuUQmerqwvBRFo1moWgNPpcc43EJxGUQZmgrrmqA9sA",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HTtwGKgQgsQCAFDPBgN7LabHTMEkUpmTnFqEo5cBcquR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HVuzQEZtxQycpfJsLNAeykrqT2vLzKtUyKaAnNsnKy1A",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HWeDLvzf8PhbYCuNFXB9E3fiCaz8RCtHW8b52iPAboCJ",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HXAepTnchdti3ogS88CGTiAFKrxrDt8gfiFA9KeVZBh2",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HXnHzBUQVZAmovjMb7vbm8G53XS3W4KVrzpF6jiozrJ3",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HxRrsnbc6K8CdEo3LCTrSUkFaDDxv9BdJsTDzBKnUVWH",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "hxVjzDmta9TuN1gM981TRKnfwG2uZ9TQDGwSCs3uDow",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HYjVeaM7XjdVPVUR2xkSDRDKUvaz1VaVAxn4RTj2gwDu",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "HymVLhdKah8BrZj4FAXJJYH8nhWGqjqvFvPFJM5L5VNa",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "i6PZjkPHGYmPfPE8LsJuLn5huZyusXhmysiDiHGPjxb",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "ifHMQAxuzMPF19jsZXpLMTA9wNzPzB8XkNaWyCi8Zg8",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "indVHvxmQVkK4VsdHiK8kXjLDSjHfHRfP3yvZ947Gn3",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "irKsY8c3sQur1XaYuQ811hzsEQJ5Hq3Yu3AAoXYnp8W",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J1r9rLo71mG7eTpX1jiYi7vyLE3QMZ4PCBXYJJfXYsp6",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J1to1yufRnoWn81KYg1XkTWzmKjnYSnmE2VY8DGUJ9Qv",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J1to2NAwajc8hD6E6kujdQiPn1Bbt2mGKKZLY9kSQKdB",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J1to3PQfXidUUhprQWgdKkQAMWPJAEqSJ7amkBDE9qhF",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J21SMPFJEY9ExCDPiSJQXN23PVSeoQe3LnKD7QcP3bgP",
+      "mev_commission_bps": 300,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J2nUHEAgZFRyuJbFjdqPrAa9gyWDuc7hErtDQHPhsYRp",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J4JhJL3kurhw8RZKhXp3fFTjyd5NX2yCbKDBN1eMh1Uy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J4oLW1wjuALZhiDUQeZF4fo9ZMwTCmup6YyjxAxwsjbH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J4pH3yiFrzFG1AQPRGBJXo3HP72MCZwsQamtp9ym4LwN",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J5L2z5rVWQHFeM8PzSSTnDedLrYgnK6WKxU4X8hh4qry",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J6hFEnGhsGxTyss6DNW9aNQskPZ98gD8P6Wo1F5MBsCK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J6XZBDuUpuBzgcVGmY8NgHQYKbGZegoYmbpadAKo1qRw",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "J8xfTV9UVS1cdaZj4toDd5Q1kgJ41buq19YDB3xH77AU",
+      "mev_commission_bps": 10000,
+      "epoch": 667
+    },
+    {
+      "vote_account": "JAc59DHJCxu9T1xSP1eaMD82aH3jGNqvwQYZkfA4JLy3",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "JBaE8QhwFwka2kZxdF1DJHKb7XGdSRuiWutVB9SyENbJ",
+      "mev_commission_bps": 999,
+      "epoch": 672
+    },
+    {
+      "vote_account": "JDeNVy8krNyf4dziyKnXwSMoBeFDhGUnHEeSmqWBAHkz",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "JnGGar3XbAN6J3cKGRbNajCuhqnc9XWrk6WWr6hDmuM",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "JokeruQoFrVevoPR5QBRPGncPQbtrpq3PJEcY22JefC",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "juicQdAnksqZ5Yb8NQwCLjLWhykvXGktxnQCDvMe6Nx",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "jUP5hCf2fGJEz8F2j2gACezxFYCNE9zo1eTMsRQjRK9",
+      "mev_commission_bps": 1000,
+      "epoch": 670
+    },
+    {
+      "vote_account": "jVYhgtviF8DjxGQp3JYS6YZXoXA2LontoxK9cqQmjq3",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "KaRMa7rp6WbmBgkqLAGLHw2KGmffiTtb4GsUQKM1onY",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "KBoNKQQj7QpVEzKKFbzxASVUjXx8TauASwYb546hCqS",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "kpkkSzKLha44i5ij2eyTf8Aju9eQTEixeR8ktmvtDgT",
+      "mev_commission_bps": 300,
+      "epoch": 672
+    },
+    {
+      "vote_account": "KRAKEnMdmT4EfM8ykTFH6yLoCd5vNLcQvJwF66Y2dag",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "kWEiSEQZMeLAbMUiz1njRTZEjuSpJDCgVynB6pJHpcr",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "KXMGa7fRW78c6VVND6YwPbR9sEu8V3q9QL3ctLDioAT",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "LAKEuKJQYVFpf4vyjX7iuf9ajHo3k9FiyewYKf6VxPV",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Lf3iQuTNKqJoBdTCWJmX1YRKBc3TC4B3YZdfzidRN93",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "LodezVTbz3v5GK6oULfWNFfcs7D4rtMZQkmRjnh65gq",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Love31JHTTweTzCu3BjyjhXJadjRrd57hiNZn7M1fLj",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Luck3DN3HhkV6oc7rPQ1hYGgU3b5AhdKW9o1ob6AyU9",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "LUM3Ur6VsoBygnLvmU1JjBKJCwFFs21iuohgjwQj8JV",
+      "mev_commission_bps": 10,
+      "epoch": 671
+    },
+    {
+      "vote_account": "Luna8BkZNpZ9DKmszrZYPvFpTr4eJJfxxTnGDwTrYkv",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "LunaFpQkZsZVJL2P2BUqNDJqyVYqrw9buQnjQtMLXdK",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "LvmTxRZAwJBtPuTSWU25UQBQu9N8TnsJJDemusfDDXB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "MAGAwoQLu8gzMdb6S7hUCW6twaKrXWVHWDs7qZ1UNJu",
+      "mev_commission_bps": 200,
+      "epoch": 672
+    },
+    {
+      "vote_account": "masvNDXtxVVMrYSV84RMry97JyHXAFcdfTZJ5VzpSYR",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "MENFRm8PpkP2QwFV3iubwiqG6GyJ4LZQ7f9k8DUE9Xy",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "mintrNtxN3PhAB45Pt41XqyKghTTpqcoBkQTZqh96iR",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "mnde2ZW5LdekuDB9ywYsKeZvpNUqRXACnGks8d6TShC",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "MNDE6ueF5uMvyk3ohq7wWZ8H749pbpj1yHj2MvMRCJM",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "mNyQrNRYAuL2CwNCGmCsmwj9EcG88Sf8hs5rCirZaUr",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "motHerBDDLoLpk1VwWmztHvw81sMdyoQKtcGsdbYzYq",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "mrgn2vsZ5EJ8YEfAMNPXmRux7th9cNfBasQ1JJvVwPn",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "mrgn4t2JabSgvGnrCaHXMvz8ocr4F52scsxJnkQMQsQ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "mrgn6ETrBDM8mjjYN8rbVwFqVwF8z6rtmvGLbdGuVUU",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "mStRhdPx1gCC8aTteWrEzqxLyjsn7nqh2LqsCZ2Bihr",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Mxv1Ubm71XoUvxrN3qjN8ii6Bh5b43NuuKywsWx6ox2",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "mythxna3hpzXSbaseyR12vu5Vvym1HxS92eCgXLvY7w",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "NDf9Pv6TAxTDPR6ud3djsd2Ux1WS2m2YfTw4qEmSnQH",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "NikGQUQqSLtsdHGGx7mQopojZcgd3N9uWFaZQ1r5EXn",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "NipDoZC37aMQvv2fFq2moUyyiApQxszc7X4mvWHP2pZ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "NomaDtKz3VQi85XssD6jpprLF5FPWghbAB1SSdWV1VN",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "NoRDTy8jpkpjPR7yxahVdoEUPngbojPhFU5jb8TtY4m",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "nymsndUdAZyUPpWYz5VEg8Ghj9cFvwTRgciLogpmYaQ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "o27rnqfNHPwHsRp2xPXXwWzn2q2dGxn6UD4Rt5KMU5h",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "oRAnGeU5h8h2UkvbfnE5cjXnnAa4rBoaxmS4kbFymSe",
+      "mev_commission_bps": 600,
+      "epoch": 672
+    },
+    {
+      "vote_account": "P4f3F3VfMhKvpGQXg2MuvLfWmZui41gvcH9XKtYDiFX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "pgbB8erEYkTBKxyuXJRB4HrwtgyKYqeGCQnuPAH8yVw",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "phz34EcgWRCT9otPzRS2JtSzVHxQJk4SovqJvV1TQk8",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "PicAVSPJBxGianeFm8r9fSLkudZXX73QzYwKe1CpwAh",
+      "mev_commission_bps": 400,
+      "epoch": 671
+    },
+    {
+      "vote_account": "Pond1QyT1sQtiru3fi9G5LGaLRGeUpJKR1a2gdbq2u4",
+      "mev_commission_bps": 9500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "proofK5zwB5eo5q6UWnFKiDHxyh8wopP5Bq1aXVnouw",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "PULSARWFx8NpS5rbUxRgJiUbGVrGrVT6j8CykdH4UCX",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "punK4RDD3pFbcum79ACHatYPLLE1hr5UNnQVUGNfeyP",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "q1phrX11VjA2XEPqsTFMYRfrTZiwUeG7HCVz3d6V5Ua",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "qjUuLxWo29QCBr7ZQw4EPLkAtmjHS2ZdZpZcH9g7fRb",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "QodirbUG8AZQBWpHhPJPfjj1xg4AaQUZCVVtwT8YfPi",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "QUANT7qKUEW4PS4eP9jq4K35rDHpgWkWcgjbW1CwnGJ",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "QXmsTYFK7YT2BpP2AnvXwuRpfwmsJZpovLcUqdSjoK1",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "R1vAoSPFQdCc6wsAEMtxWXjqptSeN1YUiq2Zni1of21",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "radYEig9KGrMTMWbWRFV7LStotQbnLgPaEFHVDsudQz",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "rapxbkwBSSvtqRFrsY83f51oUuZNuVXci74MuzYhiCy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "RAREcr3SmDePhWD4Je1qEh1UMCQD5MFaDHF7UTzezQh",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Rash24BXgUyy65JJ5KBzpYLrj3pyCqEMEixLVimTcDp",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "RaydiumJDX8X6om6Fg44xyqz5eukZ9KC3LX61SttLbH",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "RBFvvcGPBpgkBYmJGsphoDQJD8sszSuorM7TorWm12Y",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "rFLcT89WTT6kJsKmrMzpz5FUZHy7Z9bycBF1Q1SMy6i",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Rhob5aKMhFYqwn26o2zvApzwAWmagtW1ShLmWSPxhKX",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Rn3ERP5cLVcB4oWRZpoujk5VRPM7SLrM2txPVHGYwn2",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "RNXpSdqrJL6eoLrbW69Q9qsFviEwRpfFfk3HiRRRohq",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "s1V1Y1XFHfr6pqs6edVNzA3W1kf9ye2J3VhrgKMQyb5",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "s2VZdgVB1GkLy9y6N8CwEyD35bomuvxSkc4e8affvt9",
+      "mev_commission_bps": 999,
+      "epoch": 672
+    },
+    {
+      "vote_account": "sandyGeU5cX65Hn1dqjxrtmtGFTUgCtxuYzyrghTPYB",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "sBcuGeMJCRkdtMNgskLTX7MePb4CzCqZuyMKDrcPP8v",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "SBLZib4npE7svxFA7AsD3ytdQAfYNb39c8zsU82AA2E",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "scanjszMg2p4pXCZJWNUY8gEN6sCqY2oThXV58NPbWd",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "SFund7s2YPS7iCu7W2TobbuQEpVEAv9ZU7zHKiN1Gow",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "sh4rko7QjstESbderAwDEGitkXuuHdXLK4h8BQkr81i",
+      "mev_commission_bps": 0,
+      "epoch": 670
+    },
+    {
+      "vote_account": "siLaRwjLu35b9uRkwz1aiToUGyjoy4JTTgHMBDj3924",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Simpj3KyRQmpRkXuBvCQFS7DBBG6vqw93SkZb9UD1hp",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "SLNDoinxE7cCgE5ga6FJZ19F4FiUaEmtzSatbY6cjWy",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "SmithX2hngQMZXVN36C6TsyjthTU3YnsALAs1MaDghV",
+      "mev_commission_bps": 9000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Sms7uGpLwxCUxvV7uJq36wvQyGBPCzy87ZkC9mZcDSE",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "SoLdWNZvT8f9293cELNBcPL3XLzsKCyG4AFmvqwXbmq",
+      "mev_commission_bps": 500,
+      "epoch": 672
+    },
+    {
+      "vote_account": "SQDSVTDfE5HqL7D6RjZk1vvZhaheWoskrDdDHCki68w",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "sShosKd6uA5c1ZpVMxdsE6do13TLRWSMYsXbSMmNC77",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "sTach38ebT8jnGH8i2D1g8NDAS6An19whVMnSSWPXt4",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "StakeSuWAzutXc386d7PRaSJLWrNfh5iBhqxqGCkmZ8",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "StakeyJXE1yJbEApBVswHN4JdZXcj7V5MHbzffa4dFp",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "StepeLdhJ2znRjHcZdjwMWsC4nTRURNKQY8Nca82LJp",
+      "mev_commission_bps": 10000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "SUN1nYpPJVjd3gKnDACdaUVL53LJaXR9u8e9i1jkZ3a",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "sw222BfVDABppvydacSCj3JVaPSC83RoRtyvLmr6pNx",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "SwMV2YNK7ahUx5LMDqLhMBFC1QfBAkxUxihr7roLjVT",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Syrd4L1eGcZdhRGoB9wb4aJKKJKv9gMudZLMnXdV7AR",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "SzNm2zDpK3eJmSYR21pRaQ5b4wQ37ecds6det5YCZFP",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "TahoeLA91rRRqaWWBft1KvWLEjv87Zqe2qaDqSG69fm",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "taiVRnba6XSryVXnDGvUTm2xJNuFiZV5VijE3442SZ8",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "tri1cHBy47fPyhCvrCf6FnR7Mz6XdSoSBah2FsZVQeT",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "uCAkd9fN7Gj72iDYKCVRBhNMC1qqzuryZBaZ1MHDpoJ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "uTnZDhnbiSV3TX2obj71nFPAm2aXy83mFTFYzaBRk34",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "Va1idkzkB6LEmVFmxWbWU8Ao9qehC62Tjmf68L3uYKj",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "VaCdXKupamusfRsDf9Ai7e8Up36Z4f3MP6SqhnM7c76",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "vahVByZszdHguLa7U7GLz8UdUFN85mcwdkefiqVjtGt",
+      "mev_commission_bps": 700,
+      "epoch": 672
+    },
+    {
+      "vote_account": "vCLwKDp6hSCWQgQ7yVyx8vhbW4zQgrZ2btWfqvtw6ic",
+      "mev_commission_bps": 1000,
+      "epoch": 668
+    },
+    {
+      "vote_account": "VNbW721iu6uVkrx246N2BiQth8u4b4SCPJwH3JvUovD",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "voEskim7SFWrPx1tV2PVisqyrJejxmDEARX11mtZ5vo",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "VoTEJDVw84uZvDWcMXYgfNAVcLETHsPyPEc2nTpwZPa",
+      "mev_commission_bps": 400,
+      "epoch": 672
+    },
+    {
+      "vote_account": "votem3UdGx5xWFbY9EFbyZ1X2pBuswfR5yd2oB3JAaj",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "VoteMYitKq7mruk9QPJRUgryYbSkyZKBuvnL1VTgoMq",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "voteRCFm2jCpLswhSZxiRooBGmuGy8JfewCcjSDPGCL",
+      "mev_commission_bps": 800,
+      "epoch": 668
+    },
+    {
+      "vote_account": "VotESBSkLKU8vebS6wTR2rzWWJsLc6YThYS6tebPxXq",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "votrmVhKBfy2taHK5RYXb8XF8zfgU8jK3VTi77KL8Bz",
+      "mev_commission_bps": 0,
+      "epoch": 671
+    },
+    {
+      "vote_account": "vvvvXsU6iG2enDVvs4KeVqS4YrZczTujSv5p3dSeNHx",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "We11J5D4iXcNbdMwCZX2o9RRkwaWBo1AGLADfubmeTb",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "WENuuMXGi8adKogNbQj33Vxgia9oA2erkWAPF4szWN1",
+      "mev_commission_bps": 0,
+      "epoch": 672
+    },
+    {
+      "vote_account": "wetwJSUHT5afX3gP49q75gkz8FcCfvsw2kuSQ1UjT9R",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "WiFKWdvXypmu9nk4RwuMDh28YbVAp66TigPHUxH5iYY",
+      "mev_commission_bps": 400,
+      "epoch": 672
+    },
+    {
+      "vote_account": "WkP89qGBLsdu2XNVigu7WZThfCEsBJEvDBwWxUCv5vj",
+      "mev_commission_bps": 0,
+      "epoch": 665
+    },
+    {
+      "vote_account": "WTpLibwKTmWo15cRBtJFiBU6NoN8qZEnMDMkuM7N1rH",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "X5b4FjDKLpYKscwktr3nZjPwTPxsuSiLURNxZKqSvCw",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "XBtfuT5gYU27UAukT3pEzgiKgHpHNQhSoa3zX2PYtiT",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "xnYks8B2TPLRumBHQSocoXqpH6fmDxTStVQvhZNf9D5",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "xSGajeS6niLPNiHGJBuy3nzQVUfyEAQV1yydrg74u4v",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "XzMLju7T6BSSngmsPogeuryd6uswiimkPU87gB2chho",
+      "mev_commission_bps": 800,
+      "epoch": 672
+    },
+    {
+      "vote_account": "yrfQfUfsZechz1zqQyTRRz43czTZQidcrm4SNVWiDPi",
+      "mev_commission_bps": 100,
+      "epoch": 672
+    },
+    {
+      "vote_account": "YT7i3TkDv9GpbQ5qEkL7dvb3fAXSuNKwCotw2MjrWxZ",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    },
+    {
+      "vote_account": "YWKwnuovuAw4X3VDPJDPo5DPZ4TmdxsXzLArbvqu3Ph",
+      "mev_commission_bps": 1000,
+      "epoch": 672
+    }
+  ]
+}
