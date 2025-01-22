@@ -69,7 +69,8 @@ jobs:
             -v /tmp/id.json:/.config/solana/id.json \
             -v "$SCORES_FILE:/scores.csv" \
             "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
-            ./validator-manager -s --print update-scores2 --scores-file /scores.csv
+            ./validator-manager --print update-scores2 --scores-file /scores.csv
+            ./validator-manager --simulate update-scores2 --scores-file /scores.csv
       - name: Update scores
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
@@ -85,7 +86,7 @@ jobs:
               -v /tmp/id.json:/.config/solana/id.json \
               -v "$SCORES_FILE:/scores.csv" \
               "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
-              ./validator-manager update-scores2 --scores-file /scores.csv
+              ./validator-manager update-scores2 --scores-file /scores.csv --with-compute-unit-price 10 --sender-rpc-url https://tx-rpc.marinade.finance
 
             status=$?
               if [[ $status -eq 0 ]]; then
