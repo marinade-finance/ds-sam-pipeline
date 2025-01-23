@@ -69,8 +69,8 @@ jobs:
             -v /tmp/id.json:/.config/solana/id.json \
             -v "$SCORES_FILE:/scores.csv" \
             "$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" \
-            ./validator-manager --print update-scores2 --scores-file /scores.csv
-            ./validator-manager --simulate update-scores2 --scores-file /scores.csv
+              ./validator-manager --print update-scores2 --scores-file /scores.csv && \
+              ./validator-manager --simulate update-scores2 --scores-file /scores.csv
       - name: Update scores
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
