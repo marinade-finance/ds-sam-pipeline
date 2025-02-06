@@ -1,9 +1,5 @@
 name: Evaluate Auction
 
-permissions:
-  contents: write
-  pull-requests: write
-
 on:
   workflow_dispatch:
     inputs:
@@ -60,7 +56,7 @@ jobs:
           popd
       - name: Create a PR
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           run_id="${{ env.run_id }}"
           branch_name="auction/$run_id"
