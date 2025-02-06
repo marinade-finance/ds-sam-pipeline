@@ -64,7 +64,7 @@ jobs:
 
           git config --global user.name 'Autonomous Auction Pipeline'
           git config --global user.email 'bot@noreply.marinade.finance'
-          git remote set-url origin https://$GH_TOKEN@github.com/marinade-finance/ds-sam-pipeline.git
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           git checkout -b "$branch_name"
           git add auctions
           git status
