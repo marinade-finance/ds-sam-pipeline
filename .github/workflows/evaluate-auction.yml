@@ -56,7 +56,7 @@ jobs:
           popd
       - name: Create a PR
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           run_id="${{ env.run_id }}"
           branch_name="auction/$run_id"
