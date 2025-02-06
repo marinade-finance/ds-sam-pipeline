@@ -17,6 +17,11 @@ jobs:
     name: Run the auction
     runs-on: ubuntu-latest
     steps:
+      - name: Check GH auth
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          gh auth status
       - name: Checkout this repository
         uses: actions/checkout@v4
       - name: Checkout DS SAM
