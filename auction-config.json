@@ -4,6 +4,7 @@
   "tvlInfoApiBaseUrl": "https://api.marinade.finance",
   "blacklistApiBaseUrl": "https://raw.githubusercontent.com/marinade-finance/delegation-strategy-2/master",
   "snapshotsApiBaseUrl": "https://snapshots-api.marinade.finance",
+  "scoringApiBaseUrl":  'https://scoring.marinade.finance',
 
   "rewardsEpochsCount": 10,
   "validatorsUptimeEpochsCount": 3,
