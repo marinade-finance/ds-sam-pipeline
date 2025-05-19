@@ -3,6 +3,7 @@
   "bondsApiBaseUrl": "https://validator-bonds-api.marinade.finance",
   "tvlInfoApiBaseUrl": "https://api.marinade.finance",
   "blacklistApiBaseUrl": "https://raw.githubusercontent.com/marinade-finance/delegation-strategy-2/master",
+  "overridesApiBaseUrl": "https://raw.githubusercontent.com/marinade-finance/ds-sam-pipeline/main/epochs",
   "snapshotsApiBaseUrl": "https://snapshots-api.marinade.finance",
   "scoringApiBaseUrl":  "https://scoring.marinade.finance",
 
@@ -20,4 +21,13 @@
   "maxNetworkStakeConcentrationPerCountryDec": 0.3,
   "maxNetworkStakeConcentrationPerAsoDec": 0.3,
   "maxMarinadeTvlSharePerValidatorDec": 0.04
+
+  "spendRobustReputationMult": null,
+  "spendRobustReputationDecayEpochs": 50,
+  "minSpendRobustReputation": -20,
+  "minScaledSpendRobustReputation": 40,
+  "maxSpendRobustReputation": 1000,
+  "initialSpendRobustReputation": 1,
+  "minBondBalanceSol": 0,
+  "spendRobustReputationBondBoostCoef": 0,
 }
