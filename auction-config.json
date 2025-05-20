@@ -29,5 +29,5 @@
   "maxSpendRobustReputation": 1000,
   "initialSpendRobustReputation": 1,
   "minBondBalanceSol": 0,
-  "spendRobustReputationBondBoostCoef": 0,
+  "spendRobustReputationBondBoostCoef": 0
 }
