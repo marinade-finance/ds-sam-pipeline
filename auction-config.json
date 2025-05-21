@@ -20,7 +20,7 @@
   "maxMarinadeStakeConcentrationPerAsoDec": 1,
   "maxNetworkStakeConcentrationPerCountryDec": 0.3,
   "maxNetworkStakeConcentrationPerAsoDec": 0.3,
-  "maxMarinadeTvlSharePerValidatorDec": 0.04
+  "maxMarinadeTvlSharePerValidatorDec": 0.04,
 
   "spendRobustReputationMult": null,
   "spendRobustReputationDecayEpochs": 50,
