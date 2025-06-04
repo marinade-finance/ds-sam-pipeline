@@ -22,12 +22,12 @@
   "maxNetworkStakeConcentrationPerAsoDec": 0.3,
   "maxMarinadeTvlSharePerValidatorDec": 0.04,
 
-  "spendRobustReputationMult": 1,
+  "spendRobustReputationMult": null,
   "spendRobustReputationDecayEpochs": 50,
   "minSpendRobustReputation": -20,
   "minScaledSpendRobustReputation": 40,
   "maxSpendRobustReputation": 1000,
-  "initialSpendRobustReputation": 1,
+  "initialSpendRobustReputation": 5,
   "minBondBalanceSol": 10,
   "spendRobustReputationBondBoostCoef": 0
 }
