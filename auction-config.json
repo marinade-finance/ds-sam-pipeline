@@ -25,9 +25,11 @@
   "spendRobustReputationMult": null,
   "spendRobustReputationDecayEpochs": 50,
   "minSpendRobustReputation": -20,
-  "minScaledSpendRobustReputation": 40,
+  "initialScaledSpendRobustReputation": 100,
+  "minScaledSpendRobustReputation": 5,
   "maxSpendRobustReputation": 1000,
   "initialSpendRobustReputation": 5,
   "minBondBalanceSol": 10,
-  "spendRobustReputationBondBoostCoef": 0
+  "spendRobustReputationBondBoostCoef": 0,
+  "expectedFeePmpe": 0.0437
 }
