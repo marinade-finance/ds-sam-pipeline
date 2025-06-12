@@ -31,5 +31,7 @@
   "initialSpendRobustReputation": 5,
   "minBondBalanceSol": 10,
   "spendRobustReputationBondBoostCoef": 0,
-  "expectedFeePmpe": 0.0437
+  "minMaxStakeWanted": 10_000,
+  "expectedFeePmpe": 0.0437,
+  "expectedMaxWinningBidRatio": 5
 }
