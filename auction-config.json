@@ -29,7 +29,7 @@
   "minScaledSpendRobustReputation": 5,
   "maxSpendRobustReputation": 1000,
   "initialSpendRobustReputation": 5,
-  "minBondBalanceSol": 10,
+  "minBondBalanceSol": 1,
   "spendRobustReputationBondBoostCoef": 0,
   "minMaxStakeWanted": 10000,
   "expectedFeePmpe": 0.0437,
