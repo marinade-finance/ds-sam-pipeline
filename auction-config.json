@@ -41,5 +41,6 @@
   "minMaxStakeWanted": 10000,
   "expectedFeePmpe": 0.0437,
   "minEligibleFeePmpe": 0,
+  "minExpectedEffBidPmpe": 0.01,
   "expectedMaxWinningBidRatio": 1.2
 }
