@@ -22,7 +22,7 @@
   "mndeStakeCapMultiplier": 0.1,
   "maxMarinadeStakeConcentrationPerCountryDec": 1,
   "maxMarinadeStakeConcentrationPerAsoDec": 1,
-  "maxNetworkStakeConcentrationPerCountryDec": 0.3,
+  "maxNetworkStakeConcentrationPerCountryDec": 0.4,
   "maxNetworkStakeConcentrationPerAsoDec": 0.3,
   "maxMarinadeTvlSharePerValidatorDec": 0.04,
   "maxUnprotectedStakePerValidatorDec": 0.004,
