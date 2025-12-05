@@ -43,5 +43,6 @@
   "minEligibleFeePmpe": 0,
   "minExpectedEffBidPmpe": 0.01,
   "expectedMaxWinningBidRatio": 1.2,
-  "bondObligationSafetyMult": 1.1
+  "bondObligationSafetyMult": 1.1,
+  "minimalCommission": -5.0
 }
