@@ -45,5 +45,5 @@
   "expectedMaxWinningBidRatio": 1.2,
   "bondObligationSafetyMult": 1.1,
   "minimalCommission": -5.0,
-  "bidTooLowPenaltyPermittedDeviationPmpe": 0.05
+  "bidTooLowPenaltyPermittedDeviationPmpe": 0.01
 }
