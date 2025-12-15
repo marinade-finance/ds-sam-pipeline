@@ -42,5 +42,8 @@
   "expectedFeePmpe": 0.0437,
   "minEligibleFeePmpe": 0,
   "minExpectedEffBidPmpe": 0.01,
-  "expectedMaxWinningBidRatio": 1.2
+  "expectedMaxWinningBidRatio": 1.2,
+  "bondObligationSafetyMult": 1.1,
+  "minimalCommission": -5.0,
+  "bidTooLowPenaltyPermittedDeviationPmpe": 0.01
 }
