@@ -28,7 +28,7 @@ jobs:
           echo "scores_file=$scores_file" >> $GITHUB_ENV
           # Dummy rank and max_commission columns (and stake rounding) for validator-manager compatibility
           echo 'vote_account,rank,max_commission,target_stake' > "$scores_file"
-          jq -r '.auctionData.validators[] | [.voteAccount, 0, 0, (.auctionStake.marinadeMndeTargetSol + .auctionStake.marinadeSamTargetSol | round)] | @csv' "$results_file" >> "$scores_file"
+          jq -r '.auctionData.validators[] | [.voteAccount, 0, 0, (.auctionStake.marinadeSamTargetSol | round)] | @csv' "$results_file" >> "$scores_file"
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -105,14 +105,12 @@ jobs:
         run: |
           results_file=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep results.json)
           config_file=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep config.json)
-          mnde_votes_file=$(git log -1 --name-only --pretty=format: --grep 'auction run' | grep mnde-votes.json)
           scoring_run_id=$(git log -1 --name-only --pretty=format: --grep 'auction run' | head -1 | awk -F / '{print $2}')
           epoch=$(echo "$scoring_run_id" | awk -F . '{print $1}')
           curl -v -sLfS "https://scoring.marinade.finance/api/v1/scores/sam/upload?epoch=${epoch}&scoringId=${scoring_run_id}" -X POST \
             -H "Authorization: Bearer ${{ secrets.VALIDATORS_API_ADMIN_TOKEN }}" \
             -F "scores=@${results_file}" \
-            -F "config=@${config_file}" \
-            -F "mndeVotes=@${mnde_votes_file}"
+            -F "config=@${config_file}"
       - name: Notify success
         if: success()
         env:
