@@ -22,7 +22,7 @@
   "maxMarinadeStakeConcentrationPerAsoDec": 1,
   "maxNetworkStakeConcentrationPerCountryDec": 0.4,
   "maxNetworkStakeConcentrationPerAsoDec": 0.3,
-  "maxMarinadeTvlSharePerValidatorDec": 0.04,
+  "maxMarinadeTvlSharePerValidatorDec": 0.08,
   "maxUnprotectedStakePerValidatorDec": 0.004,
 
   "minBondBalanceSol": 7,
