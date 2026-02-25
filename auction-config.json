@@ -13,8 +13,8 @@
   "validatorsUptimeThresholdDec": 0.8,
   "validatorsClientVersionSemverExpr": ">=1.18.15 || >=0.101.20013 <1.0.0",
   "validatorsMaxEffectiveCommissionDec": 0.07,
-  "unprotectedDelegatedStakeDec": 0.1,
-  "unprotectedFoundationStakeDec": 0.3,
+  "unprotectedDelegatedStakeDec": 0.05,
+  "unprotectedFoundationStakeDec": 0.1,
   "minUnprotectedStakeToDelegateSol": 1000,
   "bidTooLowPenaltyHistoryEpochs": 3,
 
@@ -23,7 +23,7 @@
   "maxNetworkStakeConcentrationPerCountryDec": 0.4,
   "maxNetworkStakeConcentrationPerAsoDec": 0.3,
   "maxMarinadeTvlSharePerValidatorDec": 0.15,
-  "maxUnprotectedStakePerValidatorDec": 0.004,
+  "maxUnprotectedStakePerValidatorDec": 0.003,
 
   "minBondBalanceSol": 7,
   "minBondEpochs": 4,
