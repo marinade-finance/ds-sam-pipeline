@@ -10,11 +10,11 @@ on:
 jobs:
   apply_auction:
     name: Apply auction results
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'auction/'))
     steps:
       - name: Checkout this repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           fetch-depth: 10
       - name: Prepare data
@@ -30,14 +30,14 @@ jobs:
           echo 'vote_account,rank,max_commission,target_stake' > "$scores_file"
           jq -r '.auctionData.validators[] | [.voteAccount, 0, 0, (.auctionStake.marinadeSamTargetSol | round)] | @csv' "$results_file" >> "$scores_file"
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       - name: Login to Amazon ECR
         id: login-ecr
-        uses: aws-actions/amazon-ecr-login@v2
+        uses: aws-actions/amazon-ecr-login@c962da2960ed15f492addc26fffa274485265950 # v2
       - name: Configure image
         run: |
           images=$(aws ecr describe-images --repository-name marinade.finance/validator-manager)
