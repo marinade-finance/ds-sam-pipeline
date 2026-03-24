@@ -7,10 +7,10 @@ on:
 jobs:
   trigger_auction_if_needed:
     name: Check scheduling and trigger auction if needed
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout this repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       - name: Check scheduling and trigger auction if needed
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
