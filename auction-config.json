@@ -37,5 +37,5 @@
   "minimalCommission": -5.0,
   "bidTooLowPenaltyPermittedDeviationPmpe": 0.01,
   "bondRiskFeeMult": 0.2,
-  "activatingStakePmpeMult": 0.1
+  "activatingStakePmpeMult": 0.2
 }
