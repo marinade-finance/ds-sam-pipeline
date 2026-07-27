@@ -1,0 +1,22 @@
+{
+  "staked_sol": 2397444.254585815,
+  "staked_usd": 183072094.81394312,
+  "msol_directed_stake_sol": 479488.8509171631,
+  "msol_directed_stake_msol": 26448.768018285467,
+  "liquidity_sol": 6771.822835944,
+  "liquidity_usd": 517105.57603740506,
+  "total_sol": 6797634.286386092,
+  "total_usd": 519076573.39994293,
+  "self_staked_sol": 1214034.725192254,
+  "self_staked_usd": 92705338.15027656,
+  "standard_staked_sol": 1183409.529393561,
+  "standard_staked_usd": 90366756.66366656,
+  "total_virtual_staked_sol": 2366452.998161874,
+  "total_virtual_staked_usd": 180705560.44151944,
+  "marinade_native_stake_sol": 2875435.858462525,
+  "marinade_native_stake_usd": 219572181.96208146,
+  "marinade_select_stake_sol": 1218563.748311245,
+  "marinade_select_stake_usd": 93051180.49813032,
+  "recipe_usdg_sol": 299418.602190563,
+  "recipe_usdg_usd": 22864010.54975061
+}
