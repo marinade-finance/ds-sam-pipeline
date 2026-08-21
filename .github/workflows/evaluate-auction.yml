@@ -42,20 +42,10 @@ jobs:
         uses: pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271 # v4
         with:
           version: 9
-      - name: Generate blacklist
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends \
-            libnss3 libatk1.0-0t64 libatk-bridge2.0-0t64 libcups2t64 libdrm2 \
-            libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 \
-            libgbm1 libasound2t64 libpango-1.0-0 libcairo2 libatspi2.0-0
-          pushd sam-blacklist
-          pnpm i --frozen-lockfile
-          pnpm exec puppeteer browsers install chrome
-          pnpm main
-          test -s blacklist.csv && head -n 1 blacklist.csv | grep -qx 'vote_account,code'
-          popd
       - name: Run the auction
+        env:
+          # solana-sandwich-report API (owns all epoch CSVs); sam-blacklist reads it.
+          SANDWICH_API_BASE: ${{ vars.SANDWICH_API_BASE }}
         run: |
           run_id="${{ inputs.epoch }}.${{ inputs.slot }}"
           echo "run_id=$run_id" >> $GITHUB_ENV
@@ -68,9 +58,15 @@ jobs:
           mkdir "$inputs_dir"
           mkdir "$outputs_dir"
           cp auction-config.json "$inputs_dir/config.json"
-          # Fresh blacklist from the generate step; the auction reads it locally
-          # (--blacklist-file) instead of fetching, so results reflect it.
-          cp "$GITHUB_WORKSPACE/sam-blacklist/blacklist.csv" "$inputs_dir/blacklist.csv"
+
+          # Seed the current blacklist (repo root), then let the private
+          # sam-blacklist add fresh entries in place (report API + trillium).
+          # The auction then reads it via --blacklist-file so results reflect it.
+          cp blacklist.csv "$inputs_dir/blacklist.csv"
+          pushd sam-blacklist
+          pnpm i --frozen-lockfile
+          pnpm main -- "$inputs_dir/blacklist.csv"
+          popd
 
           pushd ds-sam
           pnpm i --frozen-lockfile
