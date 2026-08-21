@@ -26,6 +26,11 @@ jobs:
         with:
           repository: marinade-finance/ds-sam
           path: ds-sam
+      - name: Checkout SAM blacklist
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          repository: marinade-finance/sam-blacklist
+          path: sam-blacklist
       - name: Setup NodeJS
         uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6.4.0
         with:
@@ -34,6 +39,19 @@ jobs:
         uses: pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271 # v4
         with:
           version: 9
+      - name: Generate blacklist
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libnss3 libatk1.0-0t64 libatk-bridge2.0-0t64 libcups2t64 libdrm2 \
+            libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 \
+            libgbm1 libasound2t64 libpango-1.0-0 libcairo2 libatspi2.0-0
+          pushd sam-blacklist
+          pnpm i --frozen-lockfile
+          pnpm exec puppeteer browsers install chrome
+          pnpm main
+          test -s blacklist.csv && head -n 1 blacklist.csv | grep -qx 'vote_account,code'
+          popd
       - name: Run the auction
         run: |
           run_id="${{ inputs.epoch }}.${{ inputs.slot }}"
@@ -47,6 +65,9 @@ jobs:
           mkdir "$inputs_dir"
           mkdir "$outputs_dir"
           cp auction-config.json "$inputs_dir/config.json"
+          # Fresh blacklist from the generate step; the auction reads it locally
+          # (--blacklist-file) instead of fetching, so results reflect it.
+          cp "$GITHUB_WORKSPACE/sam-blacklist/blacklist.csv" "$inputs_dir/blacklist.csv"
 
           pushd ds-sam
           pnpm i --frozen-lockfile
@@ -54,7 +75,7 @@ jobs:
           pnpm build
           popd
           echo "Running auction: $run_id"
-          pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" -o "$outputs_dir" > /dev/null
+          pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" --blacklist-file "$inputs_dir/blacklist.csv" -o "$outputs_dir" > /dev/null
           popd
       - name: Create a PR
         env:
@@ -67,7 +88,10 @@ jobs:
           git config --global user.name 'Autonomous Auction Pipeline'
           git config --global user.email 'bot@noreply.marinade.finance'
           git checkout -b "$branch_name"
-          git add auctions
+          # Republish the run's blacklist at the repo root so raw-URL consumers
+          # have a stable path (git symlinks aren't followed by raw.githubusercontent).
+          cp "${{ env.inputs_dir }}/blacklist.csv" blacklist.csv
+          git add auctions blacklist.csv
           git status
 
           echo "Creating a PR..."
