@@ -26,6 +26,12 @@ jobs:
         with:
           repository: marinade-finance/ds-sam
           path: ds-sam
+      - name: Checkout SAM blacklist
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          repository: marinade-finance/sam-blacklist
+          path: sam-blacklist
+          ssh-key: ${{ secrets.SAM_BLACKLIST_KEY }}
       - name: Setup NodeJS
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
@@ -35,6 +41,9 @@ jobs:
         with:
           version: 9
       - name: Run the auction
+        env:
+          # solana-sandwich-report API (owns all epoch CSVs); sam-blacklist reads it.
+          SANDWICH_API_BASE: ${{ vars.SANDWICH_API_BASE }}
         run: |
           run_id="${{ inputs.epoch }}.${{ inputs.slot }}"
           echo "run_id=$run_id" >> $GITHUB_ENV
@@ -48,13 +57,22 @@ jobs:
           mkdir "$outputs_dir"
           cp auction-config.json "$inputs_dir/config.json"
 
+          # Seed the current blacklist (repo root), then let the private
+          # sam-blacklist add fresh entries in place (report API + trillium).
+          # The auction then reads it via --blacklist-file so results reflect it.
+          cp blacklist.csv "$inputs_dir/blacklist.csv"
+          pushd sam-blacklist
+          pnpm i --frozen-lockfile
+          pnpm main "$inputs_dir/blacklist.csv"
+          popd
+
           pushd ds-sam
           pnpm i --frozen-lockfile
           pushd packages/ds-sam-sdk
           pnpm build
           popd
           echo "Running auction: $run_id"
-          pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" -o "$outputs_dir" > /dev/null
+          pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" --blacklist-file "$inputs_dir/blacklist.csv" -o "$outputs_dir" > /dev/null
           popd
       - name: Create a PR
         env:
@@ -67,7 +85,10 @@ jobs:
           git config --global user.name 'Autonomous Auction Pipeline'
           git config --global user.email 'bot@noreply.marinade.finance'
           git checkout -b "$branch_name"
-          git add auctions
+          # Republish the run's blacklist at the repo root so raw-URL consumers
+          # have a stable path (git symlinks aren't followed by raw.githubusercontent).
+          cp "${{ env.inputs_dir }}/blacklist.csv" blacklist.csv
+          git add auctions blacklist.csv
           git status
 
           echo "Creating a PR..."
