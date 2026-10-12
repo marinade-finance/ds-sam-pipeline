@@ -17,6 +17,24 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 10
+      - name: Refuse to apply an epoch twice
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
+        run: |
+          # Run manually (workflow_dispatch) to deliberately re-apply an epoch
+          epoch=$(cut -d/ -f2 <<<"$HEAD_REF" | cut -d. -f1)
+          merged_prs=$(gh pr list --state merged --limit 50 --json number,headRefName,isCrossRepository --jq ".[] | select(.isCrossRepository == false and .number != $PR_NUMBER) | \"\\(.number) \\(.headRefName)\"")
+          duplicates=$(grep -E " auction/$epoch(\.|$)" <<<"$merged_prs" || true)
+          if [[ -n $duplicates ]]
+          then
+            echo "Epoch $epoch was already applied by another merged PR:"
+            echo "$duplicates"
+            exit 1
+          fi
       - name: Prepare data
         run: |
           git status

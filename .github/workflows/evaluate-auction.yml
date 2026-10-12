@@ -12,6 +12,10 @@ on:
         required: true
         type: number
 
+concurrency:
+  group: auction-${{ inputs.epoch }}
+  cancel-in-progress: false
+
 jobs:
   auction:
     name: Run the auction
@@ -56,12 +60,30 @@ jobs:
           echo "Running auction: $run_id"
           pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" -o "$outputs_dir" > /dev/null
           popd
+      - name: Check the epoch is still unclaimed
+        id: recheck
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          # The auction run is long, so another run may have claimed this epoch since scheduling
+          epoch="${{ inputs.epoch }}"
+          git fetch --depth 1 origin main
+          existing_dir=$(git ls-tree -d --name-only FETCH_HEAD auctions/ | grep "^auctions/$epoch\." || true)
+          auction_prs=$(gh pr list --state all --limit 50 --json headRefName,isCrossRepository,state --jq '.[] | select(.isCrossRepository == false and .state != "CLOSED") | .headRefName')
+          existing_pr=$(grep -E "^auction/$epoch(\.|$)" <<<"$auction_prs" || true)
+          if [[ -n $existing_dir ]] || [[ -n $existing_pr ]]
+          then
+            echo "Auction for epoch $epoch already exists (dir: '$existing_dir', PR branch: '$existing_pr'), not creating a PR"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          fi
       - name: Create a PR
+        if: steps.recheck.outputs.skip != 'true'
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           run_id="${{ env.run_id }}"
-          branch_name="auction/$run_id"
+          # One branch per epoch: GitHub rejects the push if another run already claimed it
+          branch_name="auction/${{ inputs.epoch }}"
           outputs_dir="${{ env.outputs_dir }}"
 
           git config --global user.name 'Autonomous Auction Pipeline'
@@ -77,7 +99,7 @@ jobs:
           echo "PR created: $pr_url"
           echo "pr_url=$pr_url" >> $GITHUB_ENV
       - name: Notify success
-        if: success()
+        if: success() && steps.recheck.outputs.skip != 'true'
         env:
           DISCORD_AUCTION_WEBHOOK_URL: ${{ secrets.DISCORD_AUCTION_WEBHOOK_URL }}
         run: |

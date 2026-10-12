@@ -9,19 +9,28 @@ jobs:
     name: Check scheduling and trigger auction if needed
     runs-on: ubuntu-24.04
     steps:
-      - name: Checkout this repository
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      # No checkout on purpose: a local clone is a stale snapshot. Reading main and the PR list
+      # live closes the window where an auction PR merges while the clone is being made.
       - name: Check scheduling and trigger auction if needed
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GH_REPO: ${{ github.repository }}
         run: |
-          ls -lah
           epoch_info=$(curl -sfLS "http://api.mainnet-beta.solana.com" -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","id":1, "method":"getEpochInfo"}')
           current_epoch=$(<<<"$epoch_info" jq '.result.epoch' -r)
           current_slot=$(<<<"$epoch_info" jq '.result.slotIndex' -r)
 
-          last_epoch_repo=$(find auctions -type d | sort -V | tail -1 | cut -d/ -f2 | cut -d. -f1)
-          last_epoch_pr=$(gh pr list --state open --json headRefName,isCrossRepository --jq '.[] | select(.isCrossRepository == false) | .headRefName' | grep auction/ | sort -V | tail -1 | cut -d/ -f2| cut -d. -f1)
+          auctions_sha=$(gh api "repos/$GH_REPO/git/trees/main" --jq '.tree[] | select(.path == "auctions") | .sha')
+          auction_dirs=$(gh api "repos/$GH_REPO/git/trees/$auctions_sha" --jq '.tree[] | select(.type == "tree") | .path')
+          if [[ -z $auctions_sha ]] || [[ -z $auction_dirs ]]
+          then
+            echo "Failed to list auctions on main!"
+            exit 1
+          fi
+          last_epoch_repo=$(<<<"$auction_dirs" sort -V | tail -1 | cut -d. -f1)
+          # Merged PRs count too: one merged after main was read is not in auction_dirs yet
+          auction_prs=$(gh pr list --state all --limit 50 --json headRefName,isCrossRepository,state --jq '.[] | select(.isCrossRepository == false and .state != "CLOSED") | .headRefName')
+          last_epoch_pr=$( (grep '^auction/' <<<"$auction_prs" || true) | sort -V | tail -1 | cut -d/ -f2 | cut -d. -f1)
 
           echo "Epoch of the last auction in repo: $last_epoch_repo"
           echo "Epoch of the last auction in PR: $last_epoch_pr"
@@ -42,7 +51,7 @@ jobs:
 
           if [[ -n $last_epoch_pr ]] && [[ $last_epoch_pr == "$current_epoch" ]]
           then
-            echo "Auction already in PR!"
+            echo "Auction already in PR (open or merged)!"
             exit 0
           fi
 
