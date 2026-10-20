@@ -1,8 +1,2 @@
 .idea
 .vscode
-
-# Local working artifacts — not committed to this repo
-/.diary/
-/.ship/
-/specs/
-/BUGS.md
