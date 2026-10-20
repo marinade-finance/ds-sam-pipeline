@@ -27,7 +27,7 @@ jobs:
           repository: marinade-finance/ds-sam
           path: ds-sam
       - name: Checkout SAM blacklist
-        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: marinade-finance/sam-blacklist
           path: sam-blacklist
@@ -39,11 +39,8 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271 # v4
         with:
-          version: 9
+          version: 10
       - name: Run the auction
-        env:
-          # solana-sandwich-report API (owns all epoch CSVs); sam-blacklist reads it.
-          SANDWICH_API_BASE: ${{ vars.SANDWICH_API_BASE }}
         run: |
           run_id="${{ inputs.epoch }}.${{ inputs.slot }}"
           echo "run_id=$run_id" >> $GITHUB_ENV
@@ -57,9 +54,6 @@ jobs:
           mkdir "$outputs_dir"
           cp auction-config.json "$inputs_dir/config.json"
 
-          # Seed the current blacklist (repo root), then let the private
-          # sam-blacklist add fresh entries in place (report API + trillium).
-          # The auction then reads it via --blacklist-file so results reflect it.
           cp blacklist.csv "$inputs_dir/blacklist.csv"
           pushd sam-blacklist
           pnpm i --frozen-lockfile
@@ -85,8 +79,6 @@ jobs:
           git config --global user.name 'Autonomous Auction Pipeline'
           git config --global user.email 'bot@noreply.marinade.finance'
           git checkout -b "$branch_name"
-          # Republish the run's blacklist at the repo root so raw-URL consumers
-          # have a stable path (git symlinks aren't followed by raw.githubusercontent).
           cp "${{ env.inputs_dir }}/blacklist.csv" blacklist.csv
           git add auctions blacklist.csv
           git status
