@@ -26,6 +26,7 @@
   "maxUnprotectedStakePerValidatorDec": 0.004,
 
   "minBondBalanceSol": 7,
+  "noBondBalanceSol": 1.00228288,
   "minBondEpochs": 4,
   "idealBondEpochs": 12,
   "minMaxStakeWanted": 10000,
