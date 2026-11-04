@@ -26,14 +26,20 @@ jobs:
         with:
           repository: marinade-finance/ds-sam
           path: ds-sam
+      - name: Checkout SAM blacklist
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: marinade-finance/sam-blacklist
+          path: sam-blacklist
+          ssh-key: ${{ secrets.SAM_BLACKLIST_KEY }}
       - name: Setup NodeJS
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          node-version: 20
+          node-version: 22
       - name: Install pnpm
         uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
         with:
-          version: 9
+          version: 10
       - name: Run the auction
         run: |
           run_id="${{ inputs.epoch }}.${{ inputs.slot }}"
@@ -48,13 +54,19 @@ jobs:
           mkdir "$outputs_dir"
           cp auction-config.json "$inputs_dir/config.json"
 
+          cp blacklist.csv "$inputs_dir/blacklist.csv"
+          pushd sam-blacklist
+          pnpm i --frozen-lockfile
+          pnpm main "$inputs_dir/blacklist.csv"
+          popd
+
           pushd ds-sam
           pnpm i --frozen-lockfile
           pushd packages/ds-sam-sdk
           pnpm build
           popd
           echo "Running auction: $run_id"
-          pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" -o "$outputs_dir" > /dev/null
+          pnpm run cli -- auction -c "$inputs_dir/config.json" --inputs-source APIS --cache-inputs --cache-dir-path "$inputs_dir" --blacklist-file "$inputs_dir/blacklist.csv" -o "$outputs_dir" > /dev/null
           popd
       - name: Create a PR
         env:
@@ -67,7 +79,8 @@ jobs:
           git config --global user.name 'Autonomous Auction Pipeline'
           git config --global user.email 'bot@noreply.marinade.finance'
           git checkout -b "$branch_name"
-          git add auctions
+          cp "${{ env.inputs_dir }}/blacklist.csv" blacklist.csv
+          git add auctions blacklist.csv
           git status
 
           echo "Creating a PR..."
