@@ -2,7 +2,7 @@
   "validatorsApiBaseUrl": "https://validators-api.marinade.finance",
   "bondsApiBaseUrl": "https://validator-bonds-api.marinade.finance",
   "tvlInfoApiBaseUrl": "https://api.marinade.finance",
-  "blacklistApiBaseUrl": "https://raw.githubusercontent.com/marinade-finance/delegation-strategy-2/master",
+  "blacklistApiBaseUrl": "https://validators-api.marinade.finance",
   "overridesApiBaseUrl": "https://raw.githubusercontent.com/marinade-finance/ds-sam-pipeline/main/epochs",
   "snapshotsApiBaseUrl": "https://snapshots-api.marinade.finance",
   "scoringApiBaseUrl":  "https://scoring.marinade.finance",
@@ -38,5 +38,11 @@
   "minimalCommission": -5.0,
   "bidTooLowPenaltyPermittedDeviationPmpe": 0.01,
   "bondRiskFeeMult": 0.2,
-  "activatingStakePmpeMult": 0
+  "activatingStakePmpeMult": 0,
+
+  "blacklistRules": {
+    "maxNewListings": 10,
+    "sandwich": { "ratePct": 4.0 },
+    "slowSlots": { "medianMult": 1.1, "consecutiveEpochs": 2 }
+  }
 }
