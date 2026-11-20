@@ -41,7 +41,7 @@
   "activatingStakePmpeMult": 0,
 
   "blacklistRules": {
-    "maxNewListings": 10,
+    "maxNewListings": 0,
     "sandwich": { "ratePct": 4.0 },
     "slowSlots": { "medianMult": 1.1, "consecutiveEpochs": 2 }
   }

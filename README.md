@@ -5,7 +5,7 @@ Automated pipeline to run auctions and apply the results regularly
 The auction lists validators by the `blacklistRules` thresholds in `auction-config.json`, on top of the list
 the validators API serves at `/blacklist`. Each run writes its new listings to `outputs/blacklist-added.csv`,
 and the validators API imports them once the run is merged. When more accounts are new than
-`maxNewListings`, the run lists none of them and names them in its summary: approve them as `manual`
+`maxNewListings`, the run lists none of them and names them in its summary (`0` makes every run a dry run): approve them as `manual`
 entries of the blacklist config in ops-infra. An account leaves the list only through an `exempt` entry
 without `until_epoch` there; with just its `manual` line removed it stays listed and the summary flags it as Kept.
 
