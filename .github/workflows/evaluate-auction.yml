@@ -21,11 +21,13 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           token: ${{secrets.PAT_TOKEN}}
+          persist-credentials: false
       - name: Checkout DS SAM
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           repository: marinade-finance/ds-sam
           path: ds-sam
+          persist-credentials: false
       - name: Setup NodeJS
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
@@ -72,6 +74,7 @@ jobs:
 
           echo "Creating a PR..."
           git commit -m "auction run $run_id"
+          gh auth setup-git
           git push -u origin "$branch_name"
           pr_url=$(gh pr create -B main -t "Publish Auction Results ($run_id)" -F "$outputs_dir/summary.md")
           echo "PR created: $pr_url"
