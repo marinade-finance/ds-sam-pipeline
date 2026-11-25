@@ -1,0 +1,3143 @@
+{
+  "rows": [
+    {
+      "vote_account": "1CsAW6GED6KuxT6XY7V2mSWtykPueF4CigpVhYapHXm",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "1znL3zFHi3znoaz6T6rnnEnRj8Ar3fohDq7ZNk37sUL",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "25quQGzrtcU224Kk7G5YDJ9oJXgYsiur8pZ7pAnCMhhV",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_907",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "27CnXybL6bvwgw869z2JmA6WtGypryEVJRYX2Wg3WM4F",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "27LkBkFi8hwVrQiSdhqo9Rq5hkc6Tn1QYPXvyG7xa6TC",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2Gife8andd4BkEbT5CncpriPxmQYqbspDh8cXkN6RUSH",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2Gj8Md6yPiaffXRHaGd5wdTqPFAgUCz2ZnBRSvKYbxNM",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2GoR6ixTNd41wqmKSgsLBKoewws8AumKwGVSpSye47rY",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2hcC4jcHk99ozzhiMXNSeqN55LkywXrnYG3wRTfgYTtg",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2ihTGWPs9xADf3DkUFpYnCufUddHj6FftoCM5QabXBJ2",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2ikGwX24ATJQHPtWpHupEAJvAyp63niaFL5R2sGXwfnd",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2jevuBmk1TrXA36bRZ4bhdJGPzGqcCDoVzRcyYtxzKHY",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2KRUKzCXCuHbyL5QGERMpwsH9tgAdwGpeDXkRMm5gpZm",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2LR74ZF3r6Kj34UbGNfvYvD8e7o92gqKfGfc8n2SzsKB",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2mxWiqtwdpE8zgkWxwFaJLn127dbuuHY4D32d8A6UnPL",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2NS9Jo3WJvxz6K1vnMdFVsVQXBLZZounC5w8n8AEHDCy",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2qD6yvLwy3ckWxsS1iQwrkCjLgcvH1u9PLu5m9KRRn5x",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2R2H7wHcCKwEq85HuScU3xvR9Rf1WJuAhGtpuUzUGhGJ",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2sR1ApkwZebjrfMxAyWxEokCQVDzw6FyEYwSk11wav87",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2sWtnefPHSWVX1g3rAVBCwjLxRAKWqrUdMSTSHEccQmt",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2tCoK3hcQhRvrtTJCtL84Pu2J5V7wtVQt5MH1uMzp4XX",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2U7MwCTuLUe59aXMM8VXNTDjdajpZxDJD6vkvVJ8iDHf",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2w4dcnbJDcGrAh4CFAYYpAaEJiUB2q1rFMGByBuB5Cqz",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2WrDvTbMJq9gCUkytxNcZH2YrEhARSszo8EHUyqUVqYE",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2x3pmdwex3s71i8c4VvnHCnYTwXtqPU1LgdX5BLDtN9L",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "2Y2opv8Kq8zFATg6ipqb2AjgCf18tkv1CLMLXQGif2NH",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "32w46YEh1WSMZPBLA57DzAYL4N1f66XtbJQCkhWnATFQ",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_826",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "33HZcdnvpGV4tshjmimFb5tweTmct1JW7eJpgy1xdM64",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "33jhUy4KkZ3AxRfqLshb4u6u6pA1MC6yoNHrKWNeRxbg",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "34mSDco9FM8599y4QF1GJvyWUrPixeT3zRNZAvzNXF6x",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "36ExtPWGy6yWfiVTpBt3R2qNATHJFvrcDJqEAMMwqkvh",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "36MVUhntTiTY7nsLyoCdRj4wbs2rvw2nPEZiM5XCkJLb",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "39xF5qkfK5HBaG4Hkq6bjumUB2k4B5ozEAmfZoobhUVw",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3D31JtXceje3h2QQynhDnZ1b54oY38rMoJBnFtGdBz59",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3FLezD8GJgnawEHhZcsjdPxZVar9FzqEdViusQ5ZdSwe",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_829",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3fntToRUTyDpSoLF1QMZgpF5HoDcSmvBisXoyKASMaaH",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3FXQYxv7vPoEKPm8LyZZvFTuvyEpnHiVyeqDNJvQ87NG",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_845",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3JDvbUoSpaSv8FwPCRJm5DB8Mt3qckxFHNoGdLd7Zd1k",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3KnQPzQFoL7NeL3eMKvSztMM4L2yV1HmjxGTXerhp7U4",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_822",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3LKjD9Cb8RKKbmwM3LphHEvfZdjEU4rAFGDDUiVnuXhJ",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3MvtE9TsVm7hUiKaNAuJ4JZX8CaXRRdvMfAciJ9DCGLS",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3n7mZaehg8vskkSQY7VuF7yxpG1tYiqeVVHAwgagWjAo",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3nYnW8z3Aum5U6HiVLJkR71rauWPW2hyvngye4t25rPt",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_815",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3R8K6iWxNHmKSBcN3taMU2YuzfuNMRjdphnLtsG1TwZq",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3vFELvmvHdkobLmgMCiXKqTFWwrbEWyxVX1uyMXFm6n8",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3VTepuwgRA9nyw2JESdnqrb5cqFZS3vD3R4TuuV2wGHA",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_847",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3yNMX6UpPT3dRSkxKGMc5Vki3j4CvbvHPLe6Wmr4rXSX",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "3ZsYx8EVSZbrHwvuJ1ksARBg7sNGynuKWjan4oezekaK",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "437jBWng7563yC8LForExeWZ8LVMQSkqqBEbzAFjfpVx",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "43rzZoc9SKPFQwqtoGcc4MrYMVfYsqS6DHJKi11feQ2U",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "45W8qw7QurSGkRrsiQpYapifreLouNv7hFbwnnzRjMMR",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "47Z27EDte6KTXcdHCvGZ3oZoa39SNqa7NSqSzJYsbbWw",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_815",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4cHZGqSeyauFBH4pz9Y65shU7YV2R7HzfzJ6PkSh2y75",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4Dh6frby55aY5NXdCGYe6yU61xusgzNHBa3GeXWMLPJ4",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4fBWWrBQhaQdFiLwPr8RfG4mYsjTRGRX58CRKNtFHgLD",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4gg56BTsCSEXW3CLw7BuT31x3ptEjSz6aeVE1Xjby22R",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_828",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4GhsFrzqekca4FiZQdwqbstzcEXsredqpemF9FdRQBqZ",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4GL3rCXPpvu9TePSEzVetJwAMhztHENWJ1bWtX5s6isc",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4GQovsSRvvFzko4iR3Dpdqhu7BbaU66hCgy6Jm9EWRtw",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4jx1b7HCN9nCxygP3hruC85BxcYndhxby4hkNexuHvxT",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4KAmS9X8tGJPPzDdwT9Fa9F1y3GZEoacGhMqJ6zstUXN",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4o2TxN5RNxjiLvEbK56ZyaZ1bg3ZTgaTLpPRqi8vEkRS",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4RRvY19jRFToz66zTpq28f26i4P49irnYLydspY5Zun3",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4SKy65C9373k9WZnq2ViR7nq8eCu32TkLhoXq45MYQm6",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4sw5oZBupkTe1g74mqCaFiw9YSrjgLbPAKtPa1Hv7LSi",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4SzV3GRjEFXZ53LmJ5kbbi7MMNKux52DHnAy14ypqoP9",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4tdrCXpoqAdSR7Zqbow6ikL1BGLHV2SK9XpwYsXvWGCW",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4v2os15BGgAnqiy76YvPmAywp5xKh9jfBPfnQGzUVc9c",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4vcLWDyAfgNH5MMzbKZjCtyeiTZcSvFJFpwWPRdNM6UG",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4yw5YqiXrcQGoMPRP2qiyVsSzjhmucuq4585cq6arNVg",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4YWwshguoARneC9HuSWVHcLAkh9J1NFoqMZ3VhtJSZuA",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4ZntDHEBsPycaJPm4JxPwBc6ZhQHHCQorvuWaS116Wn4",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4ZUdaCPz4t1gJK6bFN2YdG6BDfxZ3ApvGMiQUmKPPtny",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "4ZWkZ935pKUquuDpY64MmXVVoFciu6jAoC2z5bCxHhve",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "55UVRdjjX12UNnY4fkTNTXFFd5Y1TsxktJA4JdxUggJz",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "56CMrsFGVrnXJ3PwNV935vFYhfCBdX9btYPnLPE1ATFH",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "576M4qCLi4H3yzcvADMMjNA8bDrJuiYZz2XCXMxGvaPe",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5AC692spnjbegP7ttCXJEzUe8S81sLYsqJd8Ae6Zv1xU",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5afRnmkFn1pRU9oussqwk1RRBVyoDgUkL16Jz4qNf574",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5cQ27F39MuLu3ZHSyuTBxu9xaarnxezAAiLuyf1FCL2W",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5d4ECeozGJN1spj1dBqMEkZDzRAXDa5hvpzZytCJMRav",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5eb7FxPo4gdtFTUMNQLeFqWLhRKMjdiu7dyXt7Anp5J4",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5eJQDSbgTZSEmH3zSWDEdAKgjavUUn9BkouCFNLz1x93",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5enTTfG63W4JUzCpwioeLte7827NrYXUgGr6z7Rm7xf5",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5Gd1Tw6A2M3cTpReUY1u4EjZeggpgKJxbwNphPENcnCs",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5HedSkUKfYmusiV7rAppuHbz7fp8JmUoLLJjJqCQLS5j",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5HXxjDZwm7MAZAm2aCgGcGRr3SKiwugcQymoByyd7pfv",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5iKHfbGCttCBC9mS8v22FDTc1JVJuUX8uv5dMN812bmf",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5iSuYrTc2k9SLod5p2iKx62GyvvfAfvkwKMMZu4AmDhe",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5K8qgC9nHzKHSSyo9fKLsMfYmavYdMgEaYx86cMmVKVv",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5KF6gMG6f5GCr4V6BXKzdroHxeXK68oKrLQdiujGsj9m",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5mDbxDwa9QZSkqBGQ2HGG8Hwbw9eKn3hh28y3WenRKu1",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_845",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5ni6KoVM62cRJNfFFKGdiyDfYbKWWAGZ21cfGZcj1y66",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5pqis66S1mSpDGmg7T5wLFqPnb524T5gzgxu2iqF1kWN",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5sJPiR5pbxkYwCKCeoWHU65nxYX3acAueXUGv4BLyboz",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5sQ5AuSxmX2avcS99p8ECcvQAAKV3pKL5s6AoAccwuww",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5tKVdfSjikqPUrYxYYTVqciTetXcCzy5y61jRjohuk4u",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5tKVdfSjikqPUrYxYYTVqciTetXcCzy5y61jRjohuk4u",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5wacKbXahnCfRFwNwJT7ynyvRTmyHuqwvPvKspmgVcip",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5wZc6LkEaFTPi1Bi3kaEB5DEqmWKtmEWgXKR5RTZJ89f",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5x9owHqw5yuJxXgmAYcVDdmAuK9dpTvi4ahQajhmfcjj",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5yFNiQbTabGCMzvfyrhjiMAH1g6VEcs7uHe4W3KyYwR7",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5yHqB3NxovCEMUniQCboaPRMyyQ7kQQF4QqvC4vaz78z",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_906",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "5ZySjU8k4tS32ekHm3PFDiSyVgKm6sp83YRBjVtqnJ8a",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "61b5sg8egkGJ4ZGKxtF4Z44qTFD4nRGoHnpA8qp7kdsM",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "63mj5NgxsJigb6GEc4KVMsydnM4fQ8qg5ujU57puT154",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_826",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "664Lpj7PgLLd8SnG8oWWaCJ821P92TL2maMfwvqUYn9T",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "67WppeGg2JBxQWaFkDRQamNmRmcboXsdgKJYVxGiDn6V",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "69wYepwPQQLdVG9zT4fMtVrGzfvWb1gCdLv871jA6uZT",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6aCna9ZopJJUuTijkuKLmd57tnMco8KQBH7J8ydCjT2r",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6anBvYWGwkkZPAaPF6BmzF6LUPfP2HFVhQUAWckKH9LZ",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_827",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6BUqzA7GtQJ3qZXHrViMSGFdXNvrbcD56Png1mNRqGN6",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6c2FJC1NfzNvivapAzPW8vj9TW63dpHCVh7zzehwnNLH",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6C7nqxQqUzbqBFL89MWxqoK8kSivdsj8P7PHyNwuFKvZ",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6D9w8FRw5EFr5qtZEphPpughN3W8zc8p6zMXg4PFuaXL",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_910",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6JaxrJYVHRhNLgSwaJcje5mTkVHpYHaALiCdawdDHJs6",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6jf9Hwx4ChqUpi8skCqmh7bnfTWXHXsqbfqAPHmSzPYc",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_834",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6jRRQHGTBa88VnmgrkXHTTyEcuak28J5AV2FAP4WFU86",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6k6Yo8kmwssvayHTzp8K4jtVwmyRyjvQx6T96DNJAdYH",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6ksBdjCJbuX58KLD6H1wJ9NpmLi6qVezWFhVeXLPZCfo",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6n8taYki7RscA1XW7xGmevLcqj855oSgDgjPe1dZyHfW",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6sYgz5HPXFUATbfcn29NTAbggt35Dne819TFgWX2A232",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6T7SEeBwdFov3vYVFt1vt7mEU1w57TbevvETqipp9DW3",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6VcHke5SeCLSwwbYpHe5u9Hnx7S9RrLgqqj4uVj8dgzT",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6w2vQK2ZZkj3unHMCQjoXLqUwCAxB648NR1yBerUbFNP",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6x9uLhegx488uA3dPoq8DWHS488K4FsEqeeMXeW7kQPx",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_944",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6xwWwNVXJLGhgPfBpew7UDcSjQr73McXSRK2EhdhcL1u",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6yecu2K5BN1kYCYf6wLEYECg1Dmqf2CyJuD4uZ6iDAQH",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6yg4Usyr8VkvY8m7wrbLHegKVnKaAQmEwS6cuGnwB6wT",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6YmbE69EEyqJLa8eBSzciZK3cX6Ec9vX4zTEYu3ADzT9",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_841",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6ywtN5KvEmTqdsynVraiUWGD4pxr3WQEKrWQZ4f9c5Xo",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6zDrZWRXQ7GWi1W2fBTzSs59PSa2uj2k8w2qkc451rqG",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "6zzAPhyFZgS6rdknHNZLcsoooZ744GtVmTDyfvRmN37Q",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_820",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "71M936kzQRe7eWrABba6yKqPsmTMVhijQqDNQP9qM9pP",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7aE66BtyfPELpp6hnb6qb3PjQzmzMqXRMKx9EU7tHak6",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7cPztttFu6zHWvHqnGPRhxvGrmoMdzm75Lsn2yTbHbi2",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7emL18Bnve7wbYE9Az7vYJjikxN6YPU81igf6rVU5FN8",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_841",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7F9eS7xPfQanmDhYQvjtFarKioQVF83dphHVF5snQCj1",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_845",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7gds7PbCzmHbJStjxA5L5K8cu2LVUakmd3MDXFHSfcic",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7hQFSPy3ZkFQLaWek8PnCoF1HeSTPz5SYQYzrKHHKSxy",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7N4xUmFagUoBpkM22eSqv3knGLKeuUQx4CVyRtwrV833",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_841",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7obieMdVPKKcwEhhKizSkpdLaW1HMZh2ENrUDUhdGvVr",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_849",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7okgo2YWz8fgNLAHSmAFwqPF59GMq9QuTSFSzPkkVcq7",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_822",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7Q79sw9Sb625PFzxTvRzhgYme8Jb6mzuTR1CaU3UfV1w",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7QFPC5o5dmJaKwntE8bu2ohvT91y9eouXAMRMM1Y7VRP",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7rFAeD5UT4fy8cQCnY8Y5F8GW1Wgw345Nxb7diXu5cjG",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_909",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7tegjkVvZmYSpGJQVpiRqKuehxtiAEEXyWk1NEbXriGC",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7TFpR2oKki1HJH6NgtMxiX8nqijR38yS539QWxCGVeT6",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7twokzSU5oAJxYp49nP4dYFvwUsurFS3PmtRcSfHAR7F",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_845",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7tY6iXcrTSsiixRy3Vkn15CCRYAtcyQvPUcRpwE7kXHH",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7v5fMKBqC9PuwjSdS9k9JU7efEXmq3bHTMF5fuSHnqrm",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7wEZ2S26s5dvEM3h87pp1KyrEfpUJKXr6GZ9ntvmv122",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7wqiBhRVEkbV3A8LbR9W1eNb5s27CBwoRCVro1okB6ew",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7WrwDgSy7SwdnvWghJJGnKaLy9mrdSFwNNNMUtrbZeuS",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7y3tfYz8V3ui67XRJi1iiiS5GQ4zVyFoDfFAtouhB8gL",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7YzmMGQhrE7VaTiDFnb7R633gquLEKmSpwkXG6u64fhj",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "7zFvisPXq7xCFoSAL4oxZhRpDonmf8NxQFuLNGW4UYFh",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_845",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "82LRaauvKeJV5YxKaXhCL7DsyGWTNFGneCkQ2Ej671M8",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8auuvvDPFBYT67zEJZZji4it3ihtiDdsTn9BFeGYGbAs",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8bDP7mZsx6Z1pZbRoMtzj5AXaqoyBLqEfgAi157AnKJX",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8BqUmPfVZrYrNL82UMn8Qyrg3bmryukk7kKPoCwkMPx3",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8CB5nGGW1kRZaHAHmsq1c1kxvvFSPK6chgSn5CU2h7C9",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8DHFGo3fDB8GudbNLZEyExLzXQPwvY4twybPbxwDnffx",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_822",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8FPz3JG4E3HVXxGbPZVibarva4AGXSZWx3qKLUS5uFtN",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8gGA1SZZ4ASou3mHm61T6vM4jskkjYzXFmbCLwtU3x3j",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8guXF5HQVU4g71ZCnn6aEJxQyb59NaEc4XCGjF5arsiH",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8HA2gPaMXKXJDXpbFVxrmTDCtZZDPuEJqP3Vu3xwyq6M",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8hpaVczvUK24kogYWxV6s3hajDAbaHb6KGZsVRLDoksi",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8jxSHbS4qAnh5yueFp4D9ABXubKqMwXqF3HtdzQGuphp",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8JyX6MV8KshAo8ajUtXBHws5uhtZnH4nzBU2x9LhEBvo",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8KWzT7D9AuZShQEKdSUNYJXMXKugRvWDK5ctWBT1yE7y",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8mzuvcZsWFgvG78fCC8ECwwyrSpMRN7rTLhBmGyaeoap",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8Pep3GmYiijRALqrMKpez92cxvF4YPTzoZg83uXh14pW",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8PTusiY7z4wfjScHU6hr459AFDzrCki4wWmwhXd91mMr",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8VNKjGimak6Y53b2vHfcg2fFZMN7gWM1DLm9bhDXw8QS",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "8ZvC5d39VKnz4UUJV928s76Mv7FdSbX5WwHCuCFAanj3",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "93jNtLuu5MF3Me4MGidwQFq8Pg7iVWiRHioXm3aYhsv6",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "94hdc73PTrQAnWkzGqCJqmUPV4eMoMuzs8KtSoeQLVfB",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "94qeNkhspb7DjuqNPcGUgVcnnsNuibGYuqNTvm9FnX9m",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "97nsmFR6odp5EJnqK8Y9LBxtdk5TSGQnMje7FYWkuoiR",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_815",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9Bnti5HezjTHQ2uqZtr5V9YSdCuzuQTUZNoaZrVtxy5T",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9CquYfmEAUs6FsrLP14DxcyryehchkfTKeQ2Fbg1HraN",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9dDSAHq5z5JFhBEJSWRAp9fL8VFoFtwZ53spjvHd6bzW",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9DLtFk37Nxr9CbJAvxKnjEpCzCdyjtNcD6juCYdYktTM",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9e8SzLBT4wgCLgQwifj8fSGd6CdefbmJSMboesrETmG",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9esjPxaUdD7yg4yDrBkP3jLipcAGVjpLDXsddF89avzW",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_826",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9fgw3MScN9xDUTLZJaiqTBF9BmoASJGWmJCdUKSjzsXs",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9g6RHEoHaBYJkH3ukDg4bhfgKYxXXHkAebqUpWWvA1cN",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9Gy7YX8S3C2df5ghdQQuspRYw5rJMns1ZhSxeYNkmdwP",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9Gy7YX8S3C2df5ghdQQuspRYw5rJMns1ZhSxeYNkmdwP",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9hHEiSDTz9LeA4B4N2tJp6SPchwWZbV1X7zWN8hYoMhb",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9HvcpT4vGkgDU3TUXuJFtC5DPjMt5jb8MXFFTNTg9Mim",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9jmvcGEGNq83FqzJrRVHoRX6sDc3MFbg8PeKyCGwzKgm",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9jVU1ET9Xxqnrsqjw8FGxmHgcXs6Hbj1HECckWqn2LUD",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9KV7keQVrYdB8fEbnQLNNbx5wbnWNLT1FvRcBVTewYYx",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9mB171rzHzYFJTSoLBEDTX4ZvzzyWW2mtBBJovy1qD2E",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9qxAWvMWzPLcPmPsj2SXnZ5HUWvgFjFVnQCAYLoLtSV5",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9R6U2y1EJShzUj3uRiTjo9ajhJE7jwiF9d6M1M7MR5CZ",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9R8ssXug5aeemHc175Kenn35f8DSEXWPis5G8cpqCMiJ",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9RXDftY5xyhtYyzk4z7U9ddvBF2Z8DMfXmV6P6du9dxS",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_914",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9RykQjmjgDZ64o7zf76uUcbr2ai146wcwku4pUSztyLL",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9sgALTPB3UPRxkikfSb5w3jXcHkZ6M9Mg4SRBqQaR2Si",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9UfKDYAmGoX9GKfmbrQnBK3xkawzWo4AwwU7Ppcnv3Lx",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9UL36jMUb87NLqGhMDTZdEreZQ4gjQMcc5w5p1B4JaNS",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9Wz6CnPPkiu8wDbkfWpTREgEiWRN4QLykjct49DjZYEp",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9xoQZuDuMLT8TLHWcEUx3QAC4Rr2wNkgriN4KFo6FTgS",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9xxDBRFbBabQ3ZDJbpjEymkN7oCMg7jhwjX3f2k8Uix7",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9XZmY7Jm3gqfoJNVXp71J9upHGVwddqDHqnJF8vzXcNt",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9y1fMDRdYaYbCSWEv3sivjns4Sc7eDW8wFQYT1DnCsQa",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_829",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "9ZKug1L5nx4VSkSQ5dC7LZWtpqTiS7kFeKFBaJjWW9Ld",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "A1n6Hur1GxnAd1CGSfwetjY2H99C3Qa8XdYAaCiAMfJv",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "A1taSaBJrLMrqfWsPESYDujnZv5yD7bF35LjXoyNXhzN",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Ac5y3nnaU97CqdsqNBygqxbCd7Hk8NU5PVk61R5qMHqT",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_815",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ADoJoWDcMS7HVW8cMu5GRvy3FBm3RG5bEWQi74YRnwKt",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_860",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AdWoQBvHGj2u2Mb5bi7SppVrcVU4wRu12auVtdNjZpzt",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AdWoQBvHGj2u2Mb5bi7SppVrcVU4wRu12auVtdNjZpzt",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AeHBkLDeWtMHqrM4uwuewwWKtyKd5aBZAygxZJ3MCjRp",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AEtdq4CwtuktCEUWLLpRTNPBZs6tr7BBqxkHJ1DjAttR",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AFPhtNfns7wHz1gJcVGt4SqbKsPt14YShywa75QGTJ97",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AfrkokqBnJSSdK4Eo7AX9iFqhbjY4drAMFf6W814tDei",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AG781KzvU89JSu9W69adSLkaVW11g9L3HNxYyuePrfrk",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AG781KzvU89JSu9W69adSLkaVW11g9L3HNxYyuePrfrk",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AGJmwvFJmJqHsSCu4EPsZ4W5N2hpwWC3FNQJc8ZFJBsy",
+      "source": "legacy",
+      "code": "COMMISSION_RUG_992",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AGsrW2sp9mqNp7g9Nqw6g1A9wMyDYysqTN6d8oaw2W4s",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AhcvnNdppGEcgdpK5gfcaZnAWz4ct8V4n7De5QiLiuzG",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AiseS95iZjWhP8qowrg3efLxcDq5JWuGVVkyr5nG5osj",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AjdEzodq5LpRA63AtQaiHyTLDfjTkr6csrtYWiSDPjaK",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AJTwC1Y3e7DRXPij3ZehavvugoL5hUfW6vhQzeYYu2JC",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AkVoTV14wHZVB7sNiLxGCiE4tS1mXG2CkZSuqLzxHS2V",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AMvyqeuRBxcDuy38MuGtPksvBtpuT3NPyoiVBDbzza6P",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ANCVpxEySGWWLqqkVKw2xWYDE9UP4fmZWMCBr5t96jch",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_834",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ANRnEc3NFWyDFkJNHPnts9XAT1odt931qbgzMsSGdE1z",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_810",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ANTmwMfoBzEk31Rw8e11nLRvDgzWEVEMGUUy1v9fdRxV",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Anv7J9kMdJWr1aU6rQvQyd24zBp5GscP8NeDpRqGKz8e",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Ap17e7aPGdmw8ZBHc9fKDWYPUGpzWY71yphdhRs6HAe2",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_845",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Ap3wiVMh2BJDvvvUPQMWMBCZCPeyxVhf8xjCWASoFWUa",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AQNEbXjfsvR8wSTag5GRTBeBXUNw3oCndjHV4grdwhqV",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AqU2ZDF88mkdc7SRE9a7pQGZricwdsqy61sf4xjJ5Bpy",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ASUga5j73Rd4zDMhKQYdyo2BZQEdU4MFhCLFg1v38We9",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ATAQXMLxTz8rqTKVvuPiyzkPsbFxtwfdhYwGUnzurwGA",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Atom7LRkdXj6MBoWJPgjaetrCMrgB9nnkQBYXTWE8Z3S",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ATRFbtnsDd9ka3eZooTPixm3AjicHxod1BAhNYBMsj8K",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AUTnPgB8m6qsctP9RRAcmnVrLSpZbBYB8nQAzYUN5j8q",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_815",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AvDxkBtVZgauCHTMLMUMFCG2GfnsN9zv2qXbrgAoWUmA",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_822",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Ay5AcULBRJznGEEaGm2mWziRbefETRjdfZ1kwsoXS9u",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_907",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AY8LpVmVTaDMPmUsr41YCxivmy3VVtKtLvZmTNtJ92CC",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AYNvSS5XV23ezdUBUzMjrZoGpmDibADE7P3edS4wNKAv",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "AZoCYB4VgoM9DR9f1ZFcBn8xPSbtbqoxZnKJR7tkvEoX",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Azz9EmNuhtjoYrhWvidWx1Hfd14SNBsYyzXhA9Tnoca8",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "B5a4ywXhokofcZDsdVT7RH64HiqW7WxvG9hMxQYgHzZL",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "B7rcR1Jg4GbRdFBzFhYfzRmb3GozVXwUD7QsYoS6KaSx",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "B8JCqqnJnMJjBGgVv7BDrBtFGDL6bU5Q8J2SxjUdt7Mo",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "b8ThsbsARWyjqWrBdU9JNFhXg8ZAjDaJtaqXXzy1sRS",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BARLL1NvF3jPHQ3zb82q1v5m6uewcpkgRBYVNufQMWjo",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_914",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BBXLiDyJiBxcKywtMxkqCNeruhZVDXA7ZmYYfQ25P2ay",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BCFXNa8HszvyKRb1xETVzAqUyCeVjYW6Ns1gwVvS2Pq6",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BDhdtVWYV1F2Wx3Q174NFJ1dhFypy6mMb24hmDKTCvyx",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BEnXovPGU8DgHTTpaHt4eTeJxmbBcEDxd8fFvR7PDvpY",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BF2gZDHXdtxxzNU18qcme89zexND41yohyaLg5xytdg1",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BfUy6zGqC7vW2SqTrxismVXRgTH5FiMKKPaMxcYDshMq",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BfxZj7ckfRGHxByn7aHgH2puyXhfjAUvULtRjJo4rd8C",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BJu6CLyEP2M5Fvj88DF7ZcJYhs9qb2FYBBrVKwrFYoQk",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Bkucd9XTD2geqNsgcbMcqsSnLhqfHUuDvAUSGCXsJBdK",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BLGrvMvkdMFyo6EjpsTbbmHd6Qa5P4XsQtqYxEG3BNUj",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_815",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BmMVRAVef2qmJ1tJpG3JwRUtnfEiTbvDw9ZeFEi4wE7D",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_854",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BMWeZiBXAzBxnM8NktnCgh4TWMhQ1Trq3NWiCWNmqxXi",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_845",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BNEYUi39wjxeK6p7NuCS6AGiWhcmft1sVNNzfp9yreEd",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Bnqie7FYWudbSuBjyRHzoKQrz7eGFxmY9wFAMQKKQjEe",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BNYVMkawH7ekKdbZ7NHqd7duLVc6QLATHYf5aqMkwjec",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BPX9WVx1MjVpSWY9fo3hGXfE74yKXcreS2XYKjpiyJfZ",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Bs1AYgU6v6MiKivhpNpHnU9VePJAfdeC1yC3FuRaBWNa",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BT8LZUvQVwFHRGw2Dwv7UeqDUq7btfjegLpuz5bwgziD",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BtB9jAbgeE3YsPX67BoyxPDHAy6reTC7iim8C4agARZC",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BTDm19nH5oPtgbSyf4iHft7QP1M5xM4GDr9inGDK2wwk",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BU5CXmHhXwZfSYwFjCjqAqdbu7MTUsiKLUj45RSXiPsE",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_849",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "BVKXAX6FvhuAMLTETgmJx9PEyZqj6hcoZVbh3dwiCQKt",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "C2HZnYeF5BBbtAA96iZYcFPv3vqRUur7ZXXYAAZ1GMfw",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "C2Ky72Dr2V8Jz7Vbp5YJw6kTiH5cn7n8sYWJo8bbjPtR",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "C45RHYsHWCdeaLJ2x1VfsKH6PgFBbuH6XKHywRTgJCtd",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "C7NjhyfZ9Z7MhYkiuyj3EEXZqsiSEr3GwkruULx8QsWe",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "C9nCGHyXXT5zreixJ5TvcyT7XE5U2hoAK5eiXmEZfeK5",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "C9pfCHG1zx5fTtmbsFwLG6yFoztyUVXoCmirUcCe2dt7",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "candyKFNNEGxMteGwNmR4YXim77gucQBP5JzGPdHqsK",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CbjQjEFBiLF4F2UrGVGEpesYemgXRhFzFTZHwAP5PbHm",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CBWhs4dy6wfLyuEZX82CT3WHKKFdcDgRUTPqiq7r36WN",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CbyfiyQAy9pyWKrAv3KViqHgcDPQ9ECmYx3eaQoV5hBw",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Cc7UtVq4G25VbC3w6Ccs2XL2xikjc926q1sHp8zfddoL",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CcadSbg8aSTTfbY99ah5VGSv8S7DL3b6isPLePMVmLdP",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CcHWz3tpDVr1gVXLaSj4xxh915Ksd9ze5i1FFFKFJGRq",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CDnpa7PGGAaJhXEaL6exXW4TfnY5Qd5jyEusYsx282uk",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CdVHBthnsGiEX53cAG2cHrwsfZseUsQNYTm6By6qno4f",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_822",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Cet1ibvmyigEp1vpJNSSL8As3Men9oJqheG1HQ71C4V9",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CHED3EkUPk4jGB3JHhgzDQF1LgU3BfHk3KRDk9umGync",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_838",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CHiaohVV2SQCFhiYP73iQzWT6HxnZqnAZJJqAYTeLAo",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_927",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CHiNAKBTWE2ie6kdSmE18ympQFZnvrhJugspDhdTwvpT",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_842",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Chorus6Kis8tFHA7AowrPMcRJk3LbApHTYpgSNXzY5KE",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CHUF69YeA3gZv484izYuhKk1EjaJYjv1pNoJJ6QeFDQc",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CHZwfXZXMUXaES6LevEs1g9RCykMnRYmn8qHM43Vh5Cx",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CMPxjQDTDyXKh3ZsKP7HLwi3tvgSVpFtLJYMxbeNZE68",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_934",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Cn9bZCGSYN57GsTfJ5YLCy8HMejHZqrBQkv99eusJtEH",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CP99unpGKUeY4TwaMJYkArFwPsDWLTSMKo3pEWxjiWmZ",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Cqg1VwU4pdC8zAYMZZUViJuy1v1G8vxdYeUW3UNCqpfV",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CS8DoKUL3nXeyVbg8arD8TBZTym4U5ijgCf9uZHGqZET",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_833",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CtiiCQbRh13cqorWaEimroRznTL2qTytNhzYz53BCnbq",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CtombV3RrUSMKJEjnhTALqFTxKg4uLmYzRex348LRxSH",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_831",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CtPVrVHadXPy6EJcs4sPSS6EWm8bF7uM9DSuCxf6PP8g",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "cvotehJbE3GoPGWWFGTPLfZev1XAeAUopH7Uh5CzXnS",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CyUEJ2KvRCDZqPM5PZ7RVznyjsto8zKc5or6CJZJDPda",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CZLU7uNs1SNvmV1vodR29hwJFjQ2eVUXsQJwGt2SKVKk",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CzmqDuqEpfnkptuLAcikmJrhCnhFXo8aUBj6Rto1SPAc",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "CZw1sSfjZbCccsk2kTjbFeVSgfzEgV1JxHEsEW69Qce9",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "D5f7o3RH7wCqPRg4RCEiDfoNPFXGw1iJCnZJ1r2aktQB",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "D6AkdRCEAvE8Rjh4AKDSCXZ5BaiKpp79da6XtUJotGq5",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "D71SXconcGZfftDKVJ5ksWD512QALK3hsBvyzvhEMxsb",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "D8aGMETy3q6ymADJs7YS81QY2qTQmptVox3iCfGDgSTA",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DD7NQUKUex26GEsM8jpcx36MoGykbdUHJ3LbcD6Lzrfn",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DDBCYLw8kkN8ZLHsBeT42YvEz5F6eq57zqaLCyLzFQnG",
+      "source": "legacy",
+      "code": "EXITING_CLUSTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DDNbTVcWEFmCGP8yFbGdTWsB8evcF2Hcc2gSN9bFqudn",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DE7zBpQFJtuevgVjTP2DTHWn34rrBkow9si3nCoxs71K",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_841",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DEaLiXYzAMDYEwA9nUEXKndrNs4dkW9VSa5GmKhhfNot",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DEjVjjwKs8DNrttcQCvMTBE6QcJagR4Ykhj9AujEuz4Z",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DEmZmtt9bDeDcBMExjKhpCFnA5yj46XbAkzu61CXPKFh",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "denbgNhoGgvruFNaz1UiH1gc56RooG23TWr4gNSCmah",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DhU3Q2NoCxU5ArXJWm3zxFDRuBiPU4fGrJ8kUasPxMnQ",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_882",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DKnZkpsqtS4kpFP5zWudrg8w9eCUHixJ2QCRtwwxh8Me",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DM3wZyMp3gchARVnypNfJpF2w43Bh93jLf8iT3HSQG1E",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_841",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DM7agS8XHMXqxsT7BXxAPKzJ54JSEDTK59HtrQfEKJGa",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DM7agS8XHMXqxsT7BXxAPKzJ54JSEDTK59HtrQfEKJGa",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DM8eVQwKYpFUq4MAC1XEeZMjV4T34LfvGkK9vca55GaY",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DMPhNJFSvi34NmfcqR4B5rdKgDYY3kZbXpdXJBL4cJ1q",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_903",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Dn2cRSWAfQpb3NyUJ2q33t1scBLxzo8TZBAyKsWhX7zh",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DriFTm3wM9ugxhCA1K3wVQMSdC4Dv4LNmyZMmZiuHRpp",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_927",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DRKca1EpfHrFGkE5orAw7R9H9a6dBRgCCF6ZKyrms1de",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DsT3eKbWAaX9wVZQYBsbkDwpFA9NTDtXfsYc9wXUEWpn",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DTDvrj1mKFv453DMAGRuFwg77DuLjsfVHnbLe5BJPL9D",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Dtwjm5bmZcpXY1YeTQ6cUhuyUXSasSjLUdcYMkY3o8ef",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DUCKsGEPEdNv9QeskPNwoJdWgAXjxUFrkNDEKjAnLWyY",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DUxWarcMsNYD5EKj3mchf7ssT9j6h4Bdw3VFJi7QxDry",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DVD9Q9yZ8n9iWaqCCP7y6tf461aZTCshsaj5zm9aE7WV",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DWCLHn3hzmru2K8Lg2MFhsBABPmEGDkd664V9z77NjCt",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DWCLHn3hzmru2K8Lg2MFhsBABPmEGDkd664V9z77NjCt",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DXv73X82WCjVMsqDszK3z764tTJMU3nPXyCU3UktudBG",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DzPT1ZWDeURdTj38QBSceWnrpYFxZRBLPRXmUgHVDAGR",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DzQHN1oTdN85Sbku2bc9Fu9yEwrgRMiu2XbRcntZ31yb",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "dzufrE42PJjNNRBstdmunAdeDToDA3Cax6WDpFVj36Y",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_902",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "DZVSbEJQfAFftodtveLseuzc1Beqm239usKJhx9TiBRL",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_920",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "E5EEtMMswwfYPEtT1MgNE88op82E62TBnB6UeuQ2LRxc",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Ea2vEgAyt6KWD7GGXhvadxBNrQRfQkLNVqv4WbACotju",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "EArQ62dRx9zo2XUK6iBnGjsR8zjgRbFom47QrD8jnmQk",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ECULsxDc7pqadpQSQxFaNWAsemLW3wQq1vDKXg5P7GjW",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "EidMX3odcboCh5w4sfie7Y6rjPhFfsRinzdqDFVVVhXM",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "EJc4QLsiiX7ap78EqcKBhxZEMUTHZVterxnw9zqaH5rD",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "EjyNztuWsaiVFnEB3M6NSut6p6e8UHsUdE8BkmRLMHWp",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "EmXn9UUNxkXZyKZJHFoVmBK9ETFrfTtFmmEY4U4RfbAH",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "EogKVYgic8LKAuV1kR9nRqJaS5zpwCvSMfqoehzmAMpK",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "EpicsoqLdDP8qRn3wQRKTSKAXbjK9dUgFfNPRQS77MQD",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_906",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ER87FSCghU7CwYpNR2jED6XZQE7T4QfU4591WAjzvi1Y",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ERCKpwRXracenvc4jF9or7STjME9bmiE6iMArCPvxpaF",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ESX5Q9powgfUL8cssZmLMwaJCjfRDn8kYJ5ZVZqPU95P",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "EtGWDbP7342Mo2PnG6MYUP1rL8v69ycn1FRnRTB1BLU3",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "EXYEG9LAhC2AP9FYGGUhjJDTKfCU57S1Mi3Zp28cV6CU",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Ez4heEN9SzxrjgYA7wBWK8FwxAuYXnmwALADGfpB32E6",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "EzdXbsWrH7JcJrZhHBxc1p6ZkFrQAzrkW4JqEGuWhTxa",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_841",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "f4ucVoumj9DJ4Ab5rtpVpwQUS2m4798JZT1HUmEq86q",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "F8WnGTm7wdqGzDWisKjDbZSbznJhQVh9EJDZLHzqQsGV",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "F9aNzPaK4SBWSFf5CfvQmYsPGQ7GWU7Mg4P8mmjkMu7q",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FaNp2GzQyt2ktDFSQvyom45w6t8APvoQiey5SWcKJ87R",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FaNp2GzQyt2ktDFSQvyom45w6t8APvoQiey5SWcKJ87R",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FaxFKPhpVB6xc8FRgBYNhEGXrTw7YqUA9HG5ggdHZ3TB",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FBAHVUMdNozoSDk6MSAUU1nhLMj7mJ8cegFhyDutb4TH",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FBKFWadXZJahGtFitAsBvbqh5968gLY7dMBBJUoUjeNi",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Fe5zMqkmoYbwnXH9RHjFy7YMRnak9so2bzPBroPJ4iiX",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FEjcS4JCTqitjzW4Zj3Va2ioZZKf7MqsCMnrrgGLSvjm",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FEnfQxYvCDTCX6KXssDJaNoS7E1CgCnTUQEGpd6mFVhj",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FFtxperdjsVboFKQdXgsyat8gvuAi87Y8arFTh7f5w33",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Fg6LGnuXn4acNHpmCKqtMNUkALh17NGKx2pfz3suHfgW",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FidrVxdx4bXj4Myse6dtcmeGXDT1iuwG5YCdSV7jkwcp",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Fire6ZGPLaqBBGWXC8PgweVjREVXRhwzgRNkdGs1wfQM",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FjtaPjqtDjQdYJxwC5Jm3TRMeCCaFBFJtLvjFgjoQ4dL",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FNsmGoqQm6wxcAnCtmvuLQNY915WEfh1dZS6tMeP25kd",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FPDzex8iJBMg9APpimUuhNcfaQJnUFWxSSJmdbiyCtZw",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FPjq7vB2V3TiseJJSPsp47UWSfT4AwvKjiU7GEro7bX9",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FpTQXdt7NjYsJWXaE9UgG2yPUshoFiW3nzXbXKz1CjKh",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FQ5Hc8CgnBBFT87QYt72SVVYGEk677fZHDKH1wX2TeQ5",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FQY5UU6THEhRNZRg7YXfYGQhJi45TLXrHg76EsXJmESc",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Frog1Fks1AVN8ywFH3HTFeYojq6LQqoEPzgQFx2Kz5Ch",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FrZFg51tqjvreAsWrzCkhL77cRR2xmhTWCUA4s9T5Kcb",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "fuyugZxM5S4NyV3ZYoc6ebs3fmRTrZ3X27MKCFvHpVD",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_919",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FVhMWs3bbayWpUqDAbWUPH813gzFzJEo8fzhLhhkGstp",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FvtcEKiwhSxXafpcqN6m4C5fiWedhn9NZJtS8Am22YUB",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FWwnxVb7Q59MoMraDN2k8gqkdJJVd2qu9o5iiQsxpoUp",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_941",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FxhKTay63tcYR8WuXwRvWJCmAV239fXizqRXNMMMqhjB",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "FyrSH4VeQidMVPQ9AE2szAbP5xBZBprRG3z1QMMLNi5X",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "G1jYoKytyTZEgGK8PGQQwJ2ti75aMJ2KXfAn1QKgMfwX",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "G3S7AjkVSEX47HzEYfKasjMX1dRueJusKsgg8ceTmtfT",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "G7vraB2xC1yMLp7X451Wof4DyEqsWzSXXtTKdRJb91k6",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "G8hvpQDLe7hGgYtWYt4TJJEbGbgLFCBJYiMi9pMD9Kk2",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_934",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GAoCBDE9ABRYmhWUREDp4po4L8JgCPeQsPS77p1mx3WR",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_864",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Gar9q7Ru2sKfVxFnR5xmV8GieJeUSTp7Uf3ixai9BQKS",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Garx8JMpBAhJhLyci6KySLbqCFCHLuxUNqDXs96Xgw2b",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GATwWi9S9Y9RV7GjUubyxAe4bFjrbmVbUvsg5jnfjWEB",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GBuP6xK2zcUHbQuUWM4gbBjom46AomsG8JzSp1bzJyn8",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GFK84uv9cr1d6KnkPERSEYagTvpLKTuwa8W9adx1qMg6",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_841",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GfS1sYATMCcHzobTvHR16Gd95JEZxGGNZqq31Nn3XWQc",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GFWtwTkSkgc9RcAUkUxs7LyZ124DsBtcSnWGWwbrA113",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GhBWWed6j9tXLEnKiw9CVDHyQCYunAVGnssrbYxbBmFm",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GHCvUqiyiQokj5bfy9CHCWrXAaFo9NNn43s3tNuZH3g7",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GiJj4MFyM4sCQ1aYQRQA9tqwtZFoaBdSxgNitWjHc2o9",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_822",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GioetmC79nLRnN7VDfHaq8coWAEFPJKu9py59uUqdV5U",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GiXx1mwSR44Tz96CaDqoadzAhZgZv7e3yZshqUwiEwwh",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GKNEXXZ7YSfyPmv5T8LoQS3KCMa991yp9Ci7vUGN7hMy",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GKNEXXZ7YSfyPmv5T8LoQS3KCMa991yp9Ci7vUGN7hMy",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GLCrZmxWYcrGMA5uRa8mmNnQurGBL2p9zrKk9DKugSZX",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Gpou8vTzND6nw6PGHkUR5xJXUjRkihx82QgsWTEz8h48",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_845",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GqcuMuWq4gKeCuCrD8iAjXTozCET2EP6qJXmZDFsSTWK",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_920",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "gridZ5cMHjWGktAQt6o36NtF7XSv19nJBrW83zmo7BM",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_909",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GRuqWk1zN7LTTDhxVkEGFu9SYUThyYs7jHksWuVat6VB",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GRWCUtxwiSLtLGERyNyZymr77NJdko2HdDHxpVcJz6E9",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GuPYoGPCQDp1bJ3A6ALzcHik6ziu6CX95ADHeQvbzMfQ",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GUTjLTQTCmeBzTrBgCsWSM7G2JrsLvwXbXdafWvicqbr",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GvihePhu26EfKNsR8BPNthQE5Le9AGDVUoT1Co4EZvpD",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GVnuASWq3WvUiZeffWzydhVDCMKQKJUiuuUUxDFGAtDm",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GVQEm6h2UjDKhSU54kf7kFumJ5NDWddyYUtgy5eLCtBn",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_846",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GVYt3tbokX7mH4i86AA6Nh5hPiHEekercNZyNevviotL",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GW2AzEi3mttnuhnNH2hGqMuUz3FYKqo5Vgspp8Rx44L7",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GWeCYsThGTLzsozCiwDUHoDHPwMoij91Vd5Cn7NDoWjP",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "GZw27T4rCYcmzVG8tYqkQ29Hw2Gg4oQ3Z7PtqoQ5TmoV",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "H13nDMS5zkPB2Dhbk1k47UyBaEFaVaHpA6rDDuEWEhfQ",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "H3GhqPMwvGLdxWg3QJGjXDSkFSJCsFk3Wx9XBTdYZykc",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "H3KvD8QMBqqy7TuWB1jdkPEmvNqrX52yDoq7XxMjsrNz",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "H5oqciP46Ls3mJZu334niaKMcVWjsC7JKULLCZHxT8hr",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_846",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "H7CfFGvmUHWvryBKAaVibVxz85SYmWyoECx3CjLHq3zC",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "H7JJ6aE73ufbUuDCZSQMxguQsj28XHe4VQyMk2hsVGoo",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HAK7iPgQTFwqEzPfVrRDbG5epFdk1dsA9qQexytsDoes",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Haz7b47sZBpxh9SwggGndN3fAyNQ1S949BPdxWXS3ab6",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_849",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Hcdhp5ovmEUEcyBZwv1DAZ5xz727fpZwujFaKCzshrk",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_826",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HCvnhbT3Sn5RsueDisWzzn5FkW8tAqoQK1dr7cvAVzin",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HddLpjZ7afLMkR4VoeDjYqT6hrAJrpqA325mYyYpc1U6",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_845",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HdJ6mGGfz8FXPXUyVMXRMhaQ5vUiFswQUw64for5pyjb",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HdQ1Ap8wm6Mz65FaP8jMNBVfCDv5T9NdS8UTSvHmcotn",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "hDwKSYB3cG1oL68zTPpNZsiAmVe2W6ptCFdeb7z8wFc",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HFLsfstZkJeWDgVEA5fmXeea876Ad9f1VxrbXk386bBY",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HG3siAZ8sSHbejLNGTrCUN3MRHu3Ngn52Tud9wwAbLi5",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HG7a8fgjTkQhGFTPukbTdf5FCwxVVjKzkbo6ToNswTXH",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HHFqy4NJteQJScyoAsjwYjS8wCuV1AjNv4veoeKVACRi",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HhrkPmp8drPTMBrisM91wwoWnFHJXS55VYXGBkE6gP9i",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HjE3Aj5Z72U7k7p22qNqQnBr8VwtBj9hWkefZFFqmGNo",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HjQugFHAUm7XbaZhmjnGioNUccdMUnFmwFTJgepm5q3n",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HjVDuh1kTuWtKrvDjwXjL4Cz2fVXtgBy7bMcUMjtFrcw",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HK5QdwAV4nV3nHuuGvquLJ4ds3hSx8WG2wgfKX3obFU7",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HNeRuSiDf2zazfodgHw1Uaou3eLLZFHZqLKw1caGpBTS",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HnHDn142kXEKCPCdUNYYoz9LU1my9z4a867mswrFZJ2p",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HoZN2oWKh3bxzX1pdW3dPkFgpN7edabKCHSZSqiJnH9B",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HPb7UffwnYV29n6XVz2XuUDfCB7HAW1inmPQSQRfkXau",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HPx7uv5ygHanVpVYsJMQGF2L82JuXDJtbxxuS2bY2qgk",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HRbhBxjcdJKSJ9PA8cxRqRghRAkDZZiNd8W5o6RZsqqq",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HrcY6Tewg1mWUoqCqSctc9i8Qhh53hNUFxMYz6AzGSWi",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HRDjVXVUfqgmPQn45cxaiECU6ZVx9SNxTC9NGPVkMCoj",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HS8DF8wP3A8qSHPnzbE6pSvXub4FeZQ6xMNSJuqArAHS",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HVqbYJgHWR8X5WaAyUebtff8LB3mvToe3CQRQMjbLjJ6",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HVuzQEZtxQycpfJsLNAeykrqT2vLzKtUyKaAnNsnKy1A",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HXj2GeMSxFh7qywqsE3m7CGtxhyZGHjufyM1ZKoAiYjF",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HXw8NdkXEyCQQXFrtLCivhWkk3wGH4252gJ3kRyVNn9e",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_845",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HymVLhdKah8BrZj4FAXJJYH8nhWGqjqvFvPFJM5L5VNa",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_815",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HyV9NJ5oQXtZb4Apk6t7ZqyFQpJNFARRutcbP6NpdU69",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HzHyM1ZCtLjakThcQifoSYersQy2cZTCz2Ah99beXYaL",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "HzNwDXpszprUUVvxPtiQMV44C9Has24HEBpPRoG4gg1T",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "J1XPKDSbMgByUURYLQW65S2z94g6dHJdXDs2F1jhPLG9",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "J75kdoVKTTN8JNv2raUDKhFXGUokFxrZ4yfb3z5iUred",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "JACKAL92c9YbzNqkJR1XUNAC2uZQNNNVFnRbsZMBEwH8",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_822",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "janUonJxHCkhPPvkSozEpummxq2fe45RKvdoL9udUj9",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_840",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "JBjqqaDq5N16VW5J8UGMpYvkxCYNRFixBgdAefeJj6iv",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "JBvqybAVc98GrvhjF7EXVdrgaZAEyy3Gi6D7uT3qsFwr",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "JDMq8hxZnad2smKLGkFbfg8zVMZHKQcMugD4tMR9u2da",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_904",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "KBoNKoxPjdEmR4TrV9wH9wi96x9vSAs9NET94h91SGJ",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "KBoNKQQj7QpVEzKKFbzxASVUjXx8TauASwYb546hCqS",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "kpkkSzKLha44i5ij2eyTf8Aju9eQTEixeR8ktmvtDgT",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_848",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "KRAKENz4CCkB4m8b7BS7adaHREcWTefJ7qvFUAxcnbG",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_848",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ksQuu3JAStVXUeDCHeW6QtVRHNMcdtgPyepUd3Yshrk",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_902",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "LimeNKYH66uR9BwnrPtxPbpqmkambxHVcutGoSaWPiq",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_908",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "LNRmxHyXAzgBkgxDmb4ZefwLAnSv3fdsjPgjmThoa1T",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "LvmTxRZAwJBtPuTSWU25UQBQu9N8TnsJJDemusfDDXB",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_822",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "masvNDXtxVVMrYSV84RMry97JyHXAFcdfTZJ5VzpSYR",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_909",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "MEGAaDS7HoHkqdgxnJvhKoPnSZVHXHR6mS23SCdSPWS",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_842",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "mesh3Px7WMi7Dkxke4ZZBULoKHM6sp37wKtg4DwPqPY",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_904",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "METALLiKrcbEznkzP9UG2vaChLj7HyGRx7Em9MwarnE",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_842",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "MS1kjUoVPfy4AgyJLiJ3eC6Gv34Cwr839MryJgNKdwJ",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_820",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "nateBZg7oHVPLB2samBLkKvfzedU3ALZBexMFPMKjn1",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_923",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "NDhC4NhBhBweYsmMxpSLci49RFpFuz6dD7bXLzY8bSX",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "nVu3zzzLXJJzvoozEaUCyNFnHE2ZTgjzdG251EMW3JW",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "oDDiLXv87uRfbAB8PZthCtQyqof2Jomv7fpTeoBp6AY",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_815",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Pond1QyT1sQtiru3fi9G5LGaLRGeUpJKR1a2gdbq2u4",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "QhyTEHb5JkMBki8Lq1npsaixefUyMXWJtbxK6jNjxnn",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "QodirbUG8AZQBWpHhPJPfjj1xg4AaQUZCVVtwT8YfPi",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_826",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "QUANT7qKUEW4PS4eP9jq4K35rDHpgWkWcgjbW1CwnGJ",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "R4spmF6oFW6wMQHv9L3PCEKumkspN3nveQihWyDAdRy",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_870",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "RaydiumJDX8X6om6Fg44xyqz5eukZ9KC3LX61SttLbH",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_818",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "reyYoUdFgtDLxAWW1hyn5xk2PHstA3j8zUrerQi9Ayq",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "RLMS1xvot6R9RCDbCtZN8toXGm1ceJHXnBSNC1wY3FU",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "RuBYsjLeJYtWXbabcxPbNcbbFXQvMLrJGutpcqVRomz",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_848",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "sBcuGeMJCRkdtMNgskLTX7MePb4CzCqZuyMKDrcPP8v",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_807",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "SmithX2hngQMZXVN36C6TsyjthTU3YnsALAs1MaDghV",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "sT34kbaqmHWbPwjhyeG1GnjoX82KpXawFsnzUkzJpYX",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_932",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "stakeM3cvfUVxmhDsareCrqksos9Jv5tN9BJwrFLv3j",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Ste11vRHQJyQjcTKrDbTWAYsTXkX6PCnoEw3mSH3u2k",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_827",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "SyNdica7qx3njeVKNgXvV7KC1NjPYNS4fyb3NxgevLH",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "THEVb5dS9gHYnr8eu2FHCprjnyp3uqmHNofUXD8MCQp",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_834",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "TomHwzaaYkX3wgXFVU7aaJHs9uxkL9M3Gcp3zZuMWJJ",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "torMTZJKyp4sgjPzGpy3t7Je22g3v87MK7bq2mLfAhs",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_847",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "tra6iWoZRjVxLoBMtafHWX7ZkoXCPRKf5r66fSc2fu5",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_829",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "UZFxLfrRxbB4VnMj1HWMSLfMcA3fNP3AfxnaBGmJpH5",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "VALETGg6o24d4nTZA2iUEEDiMWkabsZZatFoAwZAbpw",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_826",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "VHSeCZeabdqWgMAdfRC1ugoT3P1gBKPgRPH1CgNSrxf",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_842",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "woJhJEATD57sEhxCSQri5FvVAv4qgzobNspqXyfSLBV",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "xenMPWy6UGzSffNmR77roHnrndzjLDf2zedw5pFcSnk",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "xLabsqDpN9WHXEXSJXk1yhqh5H8BgcqiBP1CR6Mkjcb",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_900",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "xnYS1CG3eGK1XinCTRxoLZyCz7NcAmYGjJTPYYk4Bs1",
+      "source": "legacy",
+      "code": "BLACKLIST_COMMISSION_RUG",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Xrh9LuJJSNWfN686vGbj7kYT9gvrchufFo64KHNqxA8",
+      "source": "legacy",
+      "code": "MALICIOUS_MIP_9",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "XzMLju7T6BSSngmsPogeuryd6uswiimkPU87gB2chho",
+      "source": "legacy",
+      "code": "SLOW_SLOTS_917",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "Y5QQUfYcTfJSTbV38jnvSzdGjw4F9yVipknUdAWKwV3",
+      "source": "legacy",
+      "code": "SLOW_VOTER",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "yrfQfUfsZechz1zqQyTRRz43czTZQidcrm4SNVWiDPi",
+      "source": "legacy",
+      "code": "MALICIOUS_SM_808",
+      "auction_epoch": null
+    },
+    {
+      "vote_account": "ySxF6XaSFSwU46iJbgyh2rAW5jagLbYULPtWvZCshrk",
+      "source": "legacy",
+      "code": "MISSING_BLS_1006",
+      "auction_epoch": null
+    }
+  ],
+  "exempt": []
+}
